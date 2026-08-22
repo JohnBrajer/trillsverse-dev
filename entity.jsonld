@@ -6,13 +6,11 @@
       "@id": "https://github.com/JohnBrajer#john-brajer",
       "name": "John Brajer",
       "url": "https://github.com/JohnBrajer",
-      "sameAs": [
-        "https://www.lultrills.com",
-        "https://trillsverse.com"
-      ],
-      "founder": {
-        "@id": "https://trillsverse.com/#trillsverse"
-      }
+      "subjectOf": [
+        { "@id": "https://www.lultrills.com/#website" },
+        { "@id": "https://trillsverse.com/#trillsverse" },
+        { "@id": "https://github.com/JohnBrajer/trillsverse-dev#repository" }
+      ]
     },
     {
       "@type": "Organization",
@@ -22,9 +20,9 @@
       "founder": {
         "@id": "https://github.com/JohnBrajer#john-brajer"
       },
-      "sameAs": [
-        "https://github.com/JohnBrajer/trillsverse-dev"
-      ]
+      "subjectOf": {
+        "@id": "https://github.com/JohnBrajer/trillsverse-dev#repository"
+      }
     },
     {
       "@type": "WebSite",
@@ -39,10 +37,7 @@
       "@type": "WebSite",
       "@id": "https://mymindmine.com/#website",
       "name": "My Mind Mine",
-      "url": "https://mymindmine.com",
-      "isPartOf": {
-        "@id": "https://trillsverse.com/#trillsverse"
-      }
+      "url": "https://mymindmine.com"
     },
     {
       "@type": "SoftwareSourceCode",
