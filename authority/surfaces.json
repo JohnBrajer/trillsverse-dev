@@ -54,6 +54,16 @@
       "aboutEntity": "Lultrills"
     },
     {
+      "platform": "Now Entertainment Magazine",
+      "url": "https://nowentertainment.net/lultrills-redefines-hip-hop-with-up-release/",
+      "surfaceType": "third-party community/editorial artist article",
+      "ownership": "third-party publication",
+      "status": "live",
+      "evidenceClass": "publication article; no sponsorship label observed; publication policy states sponsored or paid content is labeled",
+      "aboutEntity": "Lultrills",
+      "mentions": ["Trillsverse", "San Francisco", "multi-genre artist", "independent production"]
+    },
+    {
       "platform": "EIN Presswire",
       "url": "https://www.einpresswire.com/newsroom/trillsverse-2026/",
       "surfaceType": "press-release newsroom",
@@ -90,6 +100,29 @@
       "surfaceType": "artist profile",
       "ownership": "third-party platform profile",
       "status": "live"
+    },
+    {
+      "platform": "SoundCloud",
+      "url": "https://soundcloud.com/lultrills",
+      "surfaceType": "artist profile",
+      "ownership": "third-party platform profile",
+      "status": "live",
+      "identityEvidence": "profile identifies Lultrills as John Brajer in San Francisco"
+    },
+    {
+      "platform": "Shazam",
+      "url": "https://www.shazam.com/artist/lultrills/1811909376",
+      "surfaceType": "artist profile and catalog",
+      "ownership": "third-party platform profile",
+      "status": "live"
+    },
+    {
+      "platform": "Bandcamp",
+      "url": "https://lultrills.bandcamp.com/",
+      "surfaceType": "artist profile and release page",
+      "ownership": "third-party platform profile",
+      "status": "live",
+      "identityEvidence": "profile lists Lultrills in San Francisco and Jbraj_"
     }
   ],
   "nextTargets": [
