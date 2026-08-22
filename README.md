@@ -42,7 +42,20 @@ See:
 
 - [`entity.jsonld`](./entity.jsonld) — linked-data entity graph
 - [`CITATION.cff`](./CITATION.cff) — citation metadata
+- [`authority/surfaces.json`](./authority/surfaces.json) — owned and third-party authority-surface registry
+- [`authority/SUBMISSION_PACKET.md`](./authority/SUBMISSION_PACKET.md) — canonical copy for identity-gated platforms
+
+## External distribution evidence
+
+The following third-party pages currently carry Trillsverse / SYSTEM BREACH material and link into the public ecosystem:
+
+- **EIN Presswire newsroom:** https://www.einpresswire.com/newsroom/trillsverse-2026/
+- **EIN Presswire release:** https://www.einpresswire.com/article/928899049/lultrills-unveils-the-trillsverse-with-debut-album-system-breach-full-album-and-live-universe
+- **EIN News:** https://www.einnews.com/pr_news/928899049/lultrills-unveils-the-trillsverse-with-debut-album-system-breach-full-album-and-live-universe
+- **National Law Review:** https://natlawreview.com/press-releases/lultrills-unveils-trillsverse-debut-album-system-breach-full-album-and-live
+
+These are **distribution / syndication surfaces**. They are useful external-domain evidence and backlinks, but they are not represented here as independent editorial reviews.
 
 ## Source integrity
 
-This repository should be used as an orientation and citation surface. Claims about live production behavior should be verified against the canonical public domains above.
+This repository should be used as an orientation and citation surface. Claims about live production behavior should be verified against the canonical public domains above. Authority is tracked by source class so owned pages, platform profiles, syndicated press, and genuinely independent coverage are not collapsed into the same evidence category.
