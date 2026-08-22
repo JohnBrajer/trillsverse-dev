@@ -10,6 +10,28 @@
     "artistCanon": "https://www.lultrills.com",
     "mindNode": "https://mymindmine.com"
   },
+  "evidencePriority": {
+    "publicationCoverage": [
+      "https://ventsmagazine.com/2025/06/11/lultrills-a-voice-from-san-francisco-ready-to-be-heard/",
+      "https://nowentertainment.net/lultrills-redefines-hip-hop-with-up-release/"
+    ],
+    "technicalAndOwnedProof": [
+      "https://github.com/JohnBrajer/trillsverse-dev",
+      "https://www.lultrills.com",
+      "https://trillsverse.com"
+    ],
+    "platformIdentity": [
+      "https://open.spotify.com/artist/0nacf49LEewRpqqnHsKJlt",
+      "https://music.apple.com/us/artist/lultrills/1811909376",
+      "https://soundcloud.com/lultrills",
+      "https://www.shazam.com/artist/lultrills/1811909376",
+      "https://lultrills.bandcamp.com/"
+    ],
+    "syndicationSecondary": [
+      "https://www.einpresswire.com/newsroom/trillsverse-2026/",
+      "https://natlawreview.com/press-releases/lultrills-unveils-trillsverse-debut-album-system-breach-full-album-and-live"
+    ]
+  },
   "linkedinCompany": {
     "name": "Trillsverse",
     "tagline": "Creative, technical, research, and cultural ecosystem spanning software, music, AI architecture, identity systems, and public knowledge infrastructure.",
@@ -34,6 +56,8 @@
     "website": "https://trillsverse.com",
     "founders": ["John Brajer"],
     "evidence": [
+      "https://ventsmagazine.com/2025/06/11/lultrills-a-voice-from-san-francisco-ready-to-be-heard/",
+      "https://nowentertainment.net/lultrills-redefines-hip-hop-with-up-release/",
       "https://github.com/JohnBrajer/trillsverse-dev",
       "https://www.einpresswire.com/newsroom/trillsverse-2026/",
       "https://natlawreview.com/press-releases/lultrills-unveils-trillsverse-debut-album-system-breach-full-album-and-live"
@@ -55,9 +79,10 @@
     "founderBio": "John Brajer is the founder and architect behind the Trillsverse ecosystem, working across software, AI architecture, creative systems, research, music, and public knowledge infrastructure.",
     "website": "https://trillsverse.com",
     "proof": [
+      "https://nowentertainment.net/lultrills-redefines-hip-hop-with-up-release/",
+      "https://ventsmagazine.com/2025/06/11/lultrills-a-voice-from-san-francisco-ready-to-be-heard/",
       "https://github.com/JohnBrajer/trillsverse-dev",
-      "https://www.lultrills.com",
-      "https://www.einpresswire.com/newsroom/trillsverse-2026/"
+      "https://www.lultrills.com"
     ],
     "requiresVerification": ["stage", "team size", "traction claims", "funding", "location"]
   },
