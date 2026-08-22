@@ -46,6 +46,16 @@ See:
 - [`authority/SUBMISSION_PACKET.md`](./authority/SUBMISSION_PACKET.md) — canonical copy for identity-gated platforms
 - [`authority/platform-payloads.json`](./authority/platform-payloads.json) — exact field-level payloads for LinkedIn, Crunchbase, Product Hunt, F6S / Wellfound, and ORCID
 
+## Exact Lultrills platform identities
+
+- Spotify: https://open.spotify.com/artist/0nacf49LEewRpqqnHsKJlt
+- Apple Music: https://music.apple.com/us/artist/lultrills/1811909376
+- SoundCloud: https://soundcloud.com/lultrills
+- Shazam: https://www.shazam.com/artist/lultrills/1811909376
+- Bandcamp: https://lultrills.bandcamp.com/
+
+These are identity/profile corroborators. They are not counted as independent media coverage.
+
 ## Third-party profile evidence
 
 - **Vents Magazine — “Lultrills: A Voice From San Francisco Ready to Be Heard” (June 11, 2025):** https://ventsmagazine.com/2025/06/11/lultrills-a-voice-from-san-francisco-ready-to-be-heard/
