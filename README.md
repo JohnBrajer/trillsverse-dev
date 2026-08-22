@@ -44,6 +44,7 @@ See:
 - [`CITATION.cff`](./CITATION.cff) — citation metadata
 - [`authority/surfaces.json`](./authority/surfaces.json) — owned and third-party authority-surface registry
 - [`authority/SUBMISSION_PACKET.md`](./authority/SUBMISSION_PACKET.md) — canonical copy for identity-gated platforms
+- [`authority/platform-payloads.json`](./authority/platform-payloads.json) — exact field-level payloads for LinkedIn, Crunchbase, Product Hunt, F6S / Wellfound, and ORCID
 
 ## External distribution evidence
 
