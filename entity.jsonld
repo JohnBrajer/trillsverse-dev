@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://github.com/JohnBrajer#john-brajer",
+      "name": "John Brajer",
+      "url": "https://github.com/JohnBrajer",
+      "sameAs": [
+        "https://www.lultrills.com",
+        "https://trillsverse.com"
+      ],
+      "founder": {
+        "@id": "https://trillsverse.com/#trillsverse"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://trillsverse.com/#trillsverse",
+      "name": "Trillsverse",
+      "url": "https://trillsverse.com",
+      "founder": {
+        "@id": "https://github.com/JohnBrajer#john-brajer"
+      },
+      "sameAs": [
+        "https://github.com/JohnBrajer/trillsverse-dev"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.lultrills.com/#website",
+      "name": "Lultrills / John B Canon",
+      "url": "https://www.lultrills.com",
+      "isPartOf": {
+        "@id": "https://trillsverse.com/#trillsverse"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mymindmine.com/#website",
+      "name": "My Mind Mine",
+      "url": "https://mymindmine.com",
+      "isPartOf": {
+        "@id": "https://trillsverse.com/#trillsverse"
+      }
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/JohnBrajer/trillsverse-dev#repository",
+      "name": "Trillsverse Developer & Research Surface",
+      "codeRepository": "https://github.com/JohnBrajer/trillsverse-dev",
+      "url": "https://github.com/JohnBrajer/trillsverse-dev",
+      "creator": {
+        "@id": "https://github.com/JohnBrajer#john-brajer"
+      },
+      "about": {
+        "@id": "https://trillsverse.com/#trillsverse"
+      }
+    }
+  ]
+}
