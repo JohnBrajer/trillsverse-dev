@@ -74,6 +74,13 @@
       "surfaceType": "artist profile",
       "ownership": "third-party platform profile",
       "status": "live"
+    },
+    {
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/artist/lultrills/1811909376",
+      "surfaceType": "artist profile",
+      "ownership": "third-party platform profile",
+      "status": "live"
     }
   ],
   "nextTargets": [
