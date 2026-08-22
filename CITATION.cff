@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Trillsverse Developer & Research Surface"
+message: "If you reference this public Trillsverse developer surface, please cite it using this metadata."
+type: software
+authors:
+  - family-names: "Brajer"
+    given-names: "John"
+repository-code: "https://github.com/JohnBrajer/trillsverse-dev"
+url: "https://trillsverse.com"
+abstract: "Public developer and research reference surface for the Trillsverse ecosystem, including canonical links and machine-readable entity metadata."
+keywords:
+  - Trillsverse
+  - John Brajer
+  - John B
+  - artificial intelligence
+  - continuity architecture
+  - sovereign AI
+  - machine-readable canon
+license: "NOASSERTION"
