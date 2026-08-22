@@ -6,6 +6,9 @@
       "@id": "https://github.com/JohnBrajer#john-brajer",
       "name": "John Brajer",
       "url": "https://github.com/JohnBrajer",
+      "sameAs": [
+        "https://github.com/JohnBrajer"
+      ],
       "subjectOf": [
         { "@id": "https://www.lultrills.com/#website" },
         { "@id": "https://trillsverse.com/#trillsverse" },
@@ -13,25 +16,95 @@
       ]
     },
     {
+      "@type": "MusicGroup",
+      "@id": "https://www.lultrills.com/#lultrills",
+      "name": "Lultrills",
+      "url": "https://www.lultrills.com",
+      "sameAs": [
+        "https://open.spotify.com/artist/0nacf49LEewRpqqnHsKJlt",
+        "https://music.apple.com/us/artist/lultrills/1811909376",
+        "https://soundcloud.com/lultrills",
+        "https://www.shazam.com/artist/lultrills/1811909376",
+        "https://lultrills.bandcamp.com/"
+      ],
+      "subjectOf": [
+        {
+          "@type": "Article",
+          "name": "Lultrills: A Voice From San Francisco Ready to Be Heard",
+          "url": "https://ventsmagazine.com/2025/06/11/lultrills-a-voice-from-san-francisco-ready-to-be-heard/",
+          "datePublished": "2025-06-11"
+        },
+        {
+          "@type": "Article",
+          "name": "Lultrills Redefines Hip Hop with ‘Up’ Release",
+          "url": "https://nowentertainment.net/lultrills-redefines-hip-hop-with-up-release/",
+          "datePublished": "2026-04-17"
+        }
+      ]
+    },
+    {
       "@type": "Organization",
-      "@id": "https://trillsverse.com/#trillsverse",
-      "name": "Trillsverse",
+      "@id": "https://trillsverse.com/#trillsverse-llc",
+      "name": "Trillsverse LLC",
       "url": "https://trillsverse.com",
       "founder": {
         "@id": "https://github.com/JohnBrajer#john-brajer"
       },
-      "subjectOf": {
-        "@id": "https://github.com/JohnBrajer/trillsverse-dev#repository"
-      }
+      "subjectOf": [
+        {
+          "@type": "WebPage",
+          "name": "Trillsverse LLC newsroom on EIN Presswire",
+          "url": "https://www.einpresswire.com/newsroom/trillsverse-2026/"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "Lultrills Unveils the Trillsverse With Debut Album SYSTEM BREACH",
+          "url": "https://natlawreview.com/press-releases/lultrills-unveils-trillsverse-debut-album-system-breach-full-album-and-live"
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://trillsverse.com/#trillsverse",
+      "name": "Trillsverse",
+      "url": "https://trillsverse.com",
+      "creator": {
+        "@id": "https://github.com/JohnBrajer#john-brajer"
+      },
+      "publisher": {
+        "@id": "https://trillsverse.com/#trillsverse-llc"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://github.com/JohnBrajer/trillsverse-dev#repository"
+        },
+        {
+          "@id": "https://www.lultrills.com/press#webpage"
+        }
+      ]
     },
     {
       "@type": "WebSite",
       "@id": "https://www.lultrills.com/#website",
       "name": "Lultrills / John B Canon",
       "url": "https://www.lultrills.com",
+      "about": [
+        { "@id": "https://www.lultrills.com/#lultrills" },
+        { "@id": "https://trillsverse.com/#trillsverse" }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.lultrills.com/press#webpage",
+      "name": "Lultrills / Trillsverse Press Kit & Evidence",
+      "url": "https://www.lultrills.com/press",
       "isPartOf": {
-        "@id": "https://trillsverse.com/#trillsverse"
-      }
+        "@id": "https://www.lultrills.com/#website"
+      },
+      "about": [
+        { "@id": "https://www.lultrills.com/#lultrills" },
+        { "@id": "https://trillsverse.com/#trillsverse" }
+      ]
     },
     {
       "@type": "WebSite",
