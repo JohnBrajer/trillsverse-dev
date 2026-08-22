@@ -90,6 +90,29 @@
       "surfaceType": "artist profile",
       "ownership": "third-party platform profile",
       "status": "live"
+    },
+    {
+      "platform": "SoundCloud",
+      "url": "https://soundcloud.com/lultrills",
+      "surfaceType": "artist profile",
+      "ownership": "third-party platform profile",
+      "status": "live",
+      "identityEvidence": "profile identifies Lultrills as John Brajer in San Francisco"
+    },
+    {
+      "platform": "Shazam",
+      "url": "https://www.shazam.com/artist/lultrills/1811909376",
+      "surfaceType": "artist profile and catalog",
+      "ownership": "third-party platform profile",
+      "status": "live"
+    },
+    {
+      "platform": "Bandcamp",
+      "url": "https://lultrills.bandcamp.com/",
+      "surfaceType": "artist profile and release page",
+      "ownership": "third-party platform profile",
+      "status": "live",
+      "identityEvidence": "profile lists Lultrills in San Francisco and Jbraj_"
     }
   ],
   "nextTargets": [
