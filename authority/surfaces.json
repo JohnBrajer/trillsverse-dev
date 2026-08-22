@@ -1,0 +1,87 @@
+{
+  "schema": "trillsverse.authority-surfaces/v1",
+  "updated": "2026-08-21",
+  "entities": [
+    {
+      "name": "John Brajer",
+      "type": "Person",
+      "canonical": "https://github.com/JohnBrajer"
+    },
+    {
+      "name": "Trillsverse",
+      "type": "CreativeWork",
+      "canonical": "https://trillsverse.com"
+    },
+    {
+      "name": "Lultrills",
+      "type": "MusicGroup",
+      "canonical": "https://www.lultrills.com"
+    }
+  ],
+  "surfaces": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/JohnBrajer/trillsverse-dev",
+      "surfaceType": "public developer and research reference",
+      "ownership": "owned",
+      "status": "live",
+      "linksBack": [
+        "https://trillsverse.com",
+        "https://www.lultrills.com",
+        "https://mymindmine.com"
+      ]
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/JohnBrajer/lultrills.com",
+      "surfaceType": "public source repository",
+      "ownership": "owned",
+      "status": "live",
+      "linksBack": [
+        "https://www.lultrills.com",
+        "https://trillsverse.com",
+        "https://mymindmine.com",
+        "https://github.com/JohnBrajer/trillsverse-dev"
+      ]
+    },
+    {
+      "platform": "EIN Presswire",
+      "url": "https://www.einpresswire.com/newsroom/trillsverse-2026/",
+      "surfaceType": "press-release newsroom",
+      "ownership": "third-party distribution platform",
+      "status": "live",
+      "evidenceClass": "syndicated press release, not independent editorial coverage"
+    },
+    {
+      "platform": "EIN News",
+      "url": "https://www.einnews.com/pr_news/928899049/lultrills-unveils-the-trillsverse-with-debut-album-system-breach-full-album-and-live-universe",
+      "surfaceType": "press-release distribution page",
+      "ownership": "third-party distribution platform",
+      "status": "live",
+      "evidenceClass": "syndicated press release, not independent editorial coverage"
+    },
+    {
+      "platform": "National Law Review",
+      "url": "https://natlawreview.com/press-releases/lultrills-unveils-trillsverse-debut-album-system-breach-full-album-and-live",
+      "surfaceType": "syndicated press-release page",
+      "ownership": "third-party domain",
+      "status": "live",
+      "evidenceClass": "press-release syndication, not independent editorial coverage"
+    },
+    {
+      "platform": "Spotify",
+      "url": "https://open.spotify.com/artist/0nacf49LEewRpqqnHsKJlt",
+      "surfaceType": "artist profile",
+      "ownership": "third-party platform profile",
+      "status": "live"
+    }
+  ],
+  "nextTargets": [
+    { "platform": "LinkedIn", "status": "requires account or identity action" },
+    { "platform": "Crunchbase", "status": "requires account or identity action" },
+    { "platform": "Product Hunt", "status": "requires account or identity action" },
+    { "platform": "F6S", "status": "requires account or identity action" },
+    { "platform": "Wellfound", "status": "requires account or identity action" },
+    { "platform": "ORCID", "status": "requires identity registration" }
+  ]
+}
