@@ -1,0 +1,79 @@
+{
+  "schema": "trillsverse.authority-platform-payloads/v1",
+  "updated": "2026-08-21",
+  "canonical": {
+    "founder": "John Brajer",
+    "organization": "Trillsverse LLC",
+    "ecosystem": "Trillsverse",
+    "website": "https://trillsverse.com",
+    "developerSurface": "https://github.com/JohnBrajer/trillsverse-dev",
+    "artistCanon": "https://www.lultrills.com",
+    "mindNode": "https://mymindmine.com"
+  },
+  "linkedinCompany": {
+    "name": "Trillsverse",
+    "tagline": "Creative, technical, research, and cultural ecosystem spanning software, music, AI architecture, identity systems, and public knowledge infrastructure.",
+    "about": "Trillsverse is an independently built ecosystem founded by John Brajer. It connects interactive software, music and media, worldbuilding, identity architecture, AI systems, structured knowledge, and experimental research into a coherent public stack. The primary runtime is Trillsverse Gate at trillsverse.com, with public canon and artist infrastructure at lultrills.com.",
+    "website": "https://trillsverse.com",
+    "specialties": [
+      "AI architecture",
+      "interactive software",
+      "worldbuilding",
+      "identity systems",
+      "machine-readable knowledge",
+      "creative technology",
+      "research systems"
+    ],
+    "requiresVerification": ["industry", "company size", "headquarters", "founded date"]
+  },
+  "crunchbase": {
+    "organizationName": "Trillsverse",
+    "legalName": "Trillsverse LLC",
+    "shortDescription": "Connected creative and technical ecosystem spanning software, AI architecture, music, identity systems, worldbuilding, and structured public knowledge.",
+    "longDescription": "Trillsverse is an independently built ecosystem founded by John Brajer. It combines public software, music and media, worldbuilding, identity systems, AI architecture, structured knowledge, and research experiments into a connected set of public products and knowledge surfaces.",
+    "website": "https://trillsverse.com",
+    "founders": ["John Brajer"],
+    "evidence": [
+      "https://github.com/JohnBrajer/trillsverse-dev",
+      "https://www.einpresswire.com/newsroom/trillsverse-2026/",
+      "https://natlawreview.com/press-releases/lultrills-unveils-trillsverse-debut-album-system-breach-full-album-and-live"
+    ],
+    "requiresVerification": ["headquarters", "founded date", "operating status", "company type", "employee count", "funding"]
+  },
+  "productHuntGate": {
+    "productName": "Trillsverse Gate",
+    "tagline": "An immersive living gateway connecting music, identity, worldbuilding, and AI systems.",
+    "description": "Trillsverse Gate is the interactive runtime of the Trillsverse ecosystem. Visitors move through a living world of rooms, identity pathways, public transmissions, music-linked experiences, and experimental intelligence systems rather than browsing a conventional static website.",
+    "url": "https://trillsverse.com",
+    "maker": "John Brajer",
+    "launchRule": "Submit only when the current public Gate experience is the product being intentionally launched; do not use Product Hunt as a generic company listing."
+  },
+  "f6sWellfound": {
+    "name": "Trillsverse",
+    "oneLiner": "A connected creative-technology ecosystem combining interactive software, AI architecture, identity systems, music, worldbuilding, and structured public knowledge.",
+    "description": "Trillsverse is an independently built ecosystem founded by John Brajer. The stack connects public web software, immersive experiences, music and media, machine-readable canon, identity architecture, and experimental AI / continuity systems. Rather than treating those as disconnected projects, Trillsverse is designed as one interoperable ecosystem with public runtime, research, and cultural layers.",
+    "founderBio": "John Brajer is the founder and architect behind the Trillsverse ecosystem, working across software, AI architecture, creative systems, research, music, and public knowledge infrastructure.",
+    "website": "https://trillsverse.com",
+    "proof": [
+      "https://github.com/JohnBrajer/trillsverse-dev",
+      "https://www.lultrills.com",
+      "https://www.einpresswire.com/newsroom/trillsverse-2026/"
+    ],
+    "requiresVerification": ["stage", "team size", "traction claims", "funding", "location"]
+  },
+  "orcid": {
+    "person": "John Brajer",
+    "biography": "Founder and systems architect working across AI architecture, continuity systems, creative technology, structured public knowledge, identity architecture, and cross-domain research through the Trillsverse ecosystem.",
+    "keywords": [
+      "artificial intelligence",
+      "continuity architecture",
+      "identity architecture",
+      "structured knowledge",
+      "human-computer interaction",
+      "creative technology",
+      "worldbuilding systems"
+    ],
+    "website": "https://github.com/JohnBrajer",
+    "worksRule": "Add only stable public research artifacts, manuscripts, preprints, papers, DOIs, or other defensible scholarly outputs. Do not turn product marketing pages into research works."
+  }
+}
