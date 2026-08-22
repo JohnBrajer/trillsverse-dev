@@ -46,6 +46,12 @@ See:
 - [`authority/SUBMISSION_PACKET.md`](./authority/SUBMISSION_PACKET.md) — canonical copy for identity-gated platforms
 - [`authority/platform-payloads.json`](./authority/platform-payloads.json) — exact field-level payloads for LinkedIn, Crunchbase, Product Hunt, F6S / Wellfound, and ORCID
 
+## Third-party profile evidence
+
+- **Vents Magazine — “Lultrills: A Voice From San Francisco Ready to Be Heard” (June 11, 2025):** https://ventsmagazine.com/2025/06/11/lultrills-a-voice-from-san-francisco-ready-to-be-heard/
+
+The Vents article is tracked separately from press-release syndication because it is a publication-hosted artist profile. Its sponsorship / commissioning status is not assumed unless independently established.
+
 ## External distribution evidence
 
 The following third-party pages currently carry Trillsverse / SYSTEM BREACH material and link into the public ecosystem:
@@ -59,4 +65,4 @@ These are **distribution / syndication surfaces**. They are useful external-doma
 
 ## Source integrity
 
-This repository should be used as an orientation and citation surface. Claims about live production behavior should be verified against the canonical public domains above. Authority is tracked by source class so owned pages, platform profiles, syndicated press, and genuinely independent coverage are not collapsed into the same evidence category.
+This repository should be used as an orientation and citation surface. Claims about live production behavior should be verified against the canonical public domains above. Authority is tracked by source class so owned pages, platform profiles, third-party profiles, syndicated press, and genuinely independent coverage are not collapsed into the same evidence category.
