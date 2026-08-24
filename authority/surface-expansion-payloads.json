@@ -1,0 +1,106 @@
+{
+  "schema": "trillsverse.surface-expansion-payloads/v1",
+  "updated": "2026-08-23",
+  "canonical": {
+    "founder": "John Brajer",
+    "ecosystem": "Trillsverse",
+    "website": "https://trillsverse.com",
+    "developerSurface": "https://github.com/JohnBrajer/trillsverse-dev"
+  },
+  "zenodo": {
+    "recordType": "software",
+    "title": "Trillsverse Developer & Research Surface",
+    "creator": "John Brajer",
+    "description": "Public developer and research reference surface for the Trillsverse ecosystem, including canonical links, citation metadata, machine-readable entity relationships, authority-surface classification, and public documentation of experimental AI, continuity, identity, and creative-technology work.",
+    "keywords": [
+      "Trillsverse",
+      "John Brajer",
+      "artificial intelligence",
+      "continuity architecture",
+      "identity architecture",
+      "structured knowledge",
+      "creative technology",
+      "worldbuilding systems",
+      "semantic retrieval"
+    ],
+    "relatedIdentifiers": [
+      "https://trillsverse.com",
+      "https://github.com/JohnBrajer/trillsverse-dev"
+    ],
+    "notes": "Archive only a stable tagged/released state. Do not invent an ORCID or DOI before registration."
+  },
+  "huggingFace": {
+    "desiredOrganizationName": "Trillsverse",
+    "organizationSummary": "Public AI, research, continuity, identity, and creative-technology work from the Trillsverse ecosystem founded by John Brajer.",
+    "organizationCard": "# Trillsverse\n\nTrillsverse is a connected creative, technical, research, and cultural ecosystem founded by **John Brajer**. This organization hosts AI-native public artifacts, demos, datasets, and reference material where they add real utility beyond the canonical web and GitHub surfaces.\n\n**Canonical:** https://trillsverse.com\n\n**Developer / research reference:** https://github.com/JohnBrajer/trillsverse-dev\n\nCurrent public areas include continuity architecture, identity systems, structured knowledge, semantic retrieval, creative technology, and experimental human–technology interfaces.\n\nArtifacts published here should remain versioned, attributable, and linked back to their canonical source or research record.",
+    "firstStaticSpace": {
+      "desiredName": "trillsverse-research-index",
+      "title": "Trillsverse Research Index",
+      "summary": "AI-native entry point into public Trillsverse research, software, frameworks, citations, and canonical source links.",
+      "rule": "Use a static Space first so the surface is free and low-maintenance; add compute-backed demos only when the demo itself creates distinct value."
+    }
+  },
+  "githubProfile": {
+    "repositoryRequired": "JohnBrajer/JohnBrajer",
+    "headline": "Founder & systems architect building Trillsverse across AI architecture, software, creative technology, structured knowledge, research systems, and culture.",
+    "featuredLinks": [
+      "https://trillsverse.com",
+      "https://github.com/JohnBrajer/trillsverse-dev",
+      "https://www.lultrills.com",
+      "https://mymindmine.com"
+    ],
+    "pinFirst": [
+      "JohnBrajer/trillsverse-dev",
+      "JohnBrajer/lultrills.com"
+    ]
+  },
+  "bluesky": {
+    "desiredHandle": "@trillsverse.com",
+    "displayName": "Trillsverse",
+    "bio": "Creative + technical ecosystem spanning AI architecture, software, identity systems, research, music, worldbuilding, and public knowledge. Founded by John Brajer.",
+    "website": "https://trillsverse.com",
+    "firstFeedConcept": {
+      "name": "Emerging Intelligence",
+      "purpose": "Curate substantive public posts about AI continuity, agents, identity, human–AI coexistence, experimental interfaces, and intelligence infrastructure.",
+      "integrityRule": "The feed must be independently useful and topic-driven; it should not exist as disguised Trillsverse promotion."
+    }
+  },
+  "devCommunity": {
+    "profileName": "John Brajer",
+    "profileSummary": "Founder and systems architect working across AI architecture, continuity systems, structured knowledge, creative technology, identity architecture, and the Trillsverse ecosystem.",
+    "website": "https://trillsverse.com",
+    "github": "https://github.com/JohnBrajer",
+    "firstArticleCandidate": {
+      "title": "Surface Area Is a Graph Problem: Building Public Infrastructure for AI Retrieval",
+      "description": "A practical architecture for treating discoverability as a graph of useful public nodes, persistent identifiers, canonical sources, and external edges rather than as follower count.",
+      "tags": ["ai", "architecture", "webdev", "opensource"],
+      "canonicalRule": "If an owned-domain version is published first, set that exact URL as canonical_url on DEV."
+    }
+  },
+  "medium": {
+    "profileName": "John Brajer",
+    "bio": "Founder and systems architect exploring AI continuity, identity systems, structured knowledge, creative technology, worldbuilding, and public infrastructure through Trillsverse.",
+    "website": "https://trillsverse.com",
+    "syndicationRule": "Prefer Medium's import tool for owned articles so the original source is automatically canonical; submit only suitable essays to relevant publications."
+  },
+  "productHunt": {
+    "productName": "Trillsverse Gate",
+    "tagline": "A living gateway connecting identity, music, worldbuilding, and experimental intelligence systems.",
+    "description": "Trillsverse Gate is the interactive runtime of the Trillsverse ecosystem: a living public world of rooms, identities, transmissions, music-linked experiences, and experimental intelligence systems rather than a conventional static website.",
+    "url": "https://trillsverse.com",
+    "maker": "John Brajer",
+    "accountAction": "Create or complete a personal Product Hunt account now so posting eligibility begins before the intentional launch date."
+  },
+  "connectionOrder": [
+    "Create/complete GitHub founder profile surface",
+    "Register ORCID",
+    "Sign into Zenodo with GitHub and connect ORCID",
+    "Enable trillsverse-dev in Zenodo",
+    "Archive a stable release and obtain DOI",
+    "Add DOI back into CITATION.cff and ORCID",
+    "Create Hugging Face organization/static Space",
+    "Create DEV and Medium publishing nodes with canonical-source discipline",
+    "Create Bluesky domain identity and only then a genuinely useful custom feed",
+    "Prepare Product Hunt account and launch surface"
+  ]
+}

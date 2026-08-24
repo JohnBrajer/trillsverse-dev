@@ -45,6 +45,9 @@ See:
 - [`authority/surfaces.json`](./authority/surfaces.json) — owned and third-party authority-surface registry
 - [`authority/SUBMISSION_PACKET.md`](./authority/SUBMISSION_PACKET.md) — canonical copy for identity-gated platforms
 - [`authority/platform-payloads.json`](./authority/platform-payloads.json) — exact field-level payloads for LinkedIn, Crunchbase, Product Hunt, F6S / Wellfound, and ORCID
+- [`authority/SURFACE_EXPANSION_EXECUTION.md`](./authority/SURFACE_EXPANSION_EXECUTION.md) — public surface-area doctrine and lifecycle
+- [`authority/surface-expansion-queue.json`](./authority/surface-expansion-queue.json) — ranked machine-readable execution queue across research, AI, developer, publishing, protocol, professional, and product graphs
+- [`authority/surface-expansion-payloads.json`](./authority/surface-expansion-payloads.json) — ready-to-submit payloads for Zenodo, Hugging Face, GitHub profile, Bluesky, DEV, Medium, and Product Hunt
 
 ## Exact Lultrills platform identities
 
