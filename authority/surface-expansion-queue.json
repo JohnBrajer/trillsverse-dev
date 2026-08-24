@@ -1,0 +1,132 @@
+{
+  "schema": "trillsverse.surface-expansion-queue/v1",
+  "updated": "2026-08-23",
+  "objective": "Increase legitimate public retrieval coordinates for Trillsverse, John Brajer, and related work across search, AI, research, developer, product, publishing, and protocol graphs.",
+  "principles": [
+    "Surface area is not page count; each surface must add a distinct retrieval path, audience, function, or evidence class.",
+    "Preserve canonical sources when syndicating duplicate material.",
+    "Do not represent owned, paid, syndicated, or affiliated surfaces as independent editorial validation.",
+    "Prefer nodes that create downstream paths: citation, indexing, collaboration, search discovery, institutional eligibility, or distribution.",
+    "Use account acquisition only after create, publish, syndicate, contribute, and collaborate routes are evaluated."
+  ],
+  "priorityModel": {
+    "dimensions": ["graphDistance", "bridgingPower", "persistence", "authorityDiversity", "machineDiscoverability", "pathExpansion", "cost", "maintenance", "platformRisk"],
+    "rule": "Prioritize high path-expansion and high-persistence surfaces with low cash cost before paid acquisition."
+  },
+  "queue": [
+    {
+      "priority": 1,
+      "platform": "Zenodo",
+      "cluster": "research-archive",
+      "cost": "$0",
+      "status": "ready-for-manual-auth",
+      "surfaceType": "persistent research/software record + DOI",
+      "action": "Sign in with GitHub, connect JohnBrajer/trillsverse-dev, enable the repository, then archive a stable release.",
+      "canonicalObject": "JohnBrajer/trillsverse-dev",
+      "pathExpansion": ["DOI", "DataCite metadata", "ORCID work", "citation surface", "research discovery", "grant/fellowship evidence"],
+      "officialReference": "https://help.zenodo.org/docs/github/enable-repository/"
+    },
+    {
+      "priority": 2,
+      "platform": "ORCID",
+      "cluster": "research-identity",
+      "cost": "$0",
+      "status": "ready-for-manual-registration",
+      "surfaceType": "persistent researcher/contributor identity",
+      "action": "Register John Brajer, then connect the resulting ORCID iD to Zenodo and add only defensible public research outputs.",
+      "payloadSource": "authority/platform-payloads.json#orcid",
+      "pathExpansion": ["persistent researcher identity", "repository linkage", "publisher/funder workflows", "cross-discipline disambiguation"],
+      "officialReference": "https://info.orcid.org/researchers/"
+    },
+    {
+      "priority": 3,
+      "platform": "Hugging Face",
+      "cluster": "ai-developer",
+      "cost": "$0 for organization/public repositories/static Spaces",
+      "status": "ready-for-manual-account-action",
+      "surfaceType": "AI organization + repositories + static interactive/public reference Space",
+      "action": "Create a Trillsverse organization if the namespace is available; add an organization card; publish a static Space for a real public framework/demo rather than a generic mirror.",
+      "pathExpansion": ["AI-native search", "models/datasets/Spaces graph", "developer discovery", "embeddable demo", "future paper linkage"],
+      "officialReference": "https://huggingface.co/docs/hub/en/organizations"
+    },
+    {
+      "priority": 4,
+      "platform": "GitHub Profile README",
+      "cluster": "developer-identity",
+      "cost": "$0",
+      "status": "blocked-by-missing-profile-repository",
+      "surfaceType": "public founder/developer identity landing surface",
+      "action": "Create a public repository named JohnBrajer and add README.md; pin trillsverse-dev and other strongest public proof surfaces.",
+      "pathExpansion": ["founder identity", "repo discovery", "search result surface", "technical credibility", "outbound canonical links"],
+      "officialReference": "https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme"
+    },
+    {
+      "priority": 5,
+      "platform": "DEV Community",
+      "cluster": "developer-publishing",
+      "cost": "$0",
+      "status": "ready-for-manual-account-action",
+      "surfaceType": "developer article/profile/distribution node",
+      "action": "Publish or cross-post genuinely technical Trillsverse/Choseverse articles; use canonical_url when the original lives on an owned domain.",
+      "pathExpansion": ["developer audience", "search index", "profile surface", "community comments", "RSS syndication"],
+      "officialReference": "https://dev.to/help/writing-editing-scheduling"
+    },
+    {
+      "priority": 6,
+      "platform": "Medium",
+      "cluster": "publishing-discourse",
+      "cost": "$0 for basic publishing",
+      "status": "ready-for-manual-account-action",
+      "surfaceType": "article/profile/publication distribution node",
+      "action": "Import selected owned essays using Medium's import tool so the original URL remains canonical; pursue relevant publication submissions selectively.",
+      "pathExpansion": ["search surface", "publication distribution", "new reader graph", "author profile", "external publication adjacency"],
+      "officialReference": "https://help.medium.com/hc/en-us/articles/214550207-Importing-a-post-to-Medium"
+    },
+    {
+      "priority": 7,
+      "platform": "Bluesky",
+      "cluster": "open-social-protocol",
+      "cost": "$0 excluding domains already owned",
+      "status": "ready-for-manual-account-action",
+      "surfaceType": "domain-verified social identity + programmable feed node",
+      "action": "Create the relevant account, set an owned domain as the handle, then build a useful custom feed only where Trillsverse can credibly curate a real topic/community.",
+      "pathExpansion": ["protocol identity", "social graph", "custom feed distribution", "developer ecosystem", "domain verification"],
+      "officialReference": "https://bsky.social/about/blog/3-6-2023-domain-names-as-handles-in-bluesky"
+    },
+    {
+      "priority": 8,
+      "platform": "Product Hunt",
+      "cluster": "startup-product",
+      "cost": "$0 for normal launch",
+      "status": "ready-for-manual-account-action",
+      "surfaceType": "persistent product/maker launch surface",
+      "action": "Create/complete a personal maker account now so the account-age gate starts; draft Trillsverse Gate only when the live experience is ready to be intentionally launched as a product.",
+      "payloadSource": "authority/platform-payloads.json#productHuntGate",
+      "pathExpansion": ["maker profile", "product page", "product feedback", "startup graph", "launch discovery"],
+      "officialReference": "https://help.producthunt.com/en/articles/479557-how-to-post-a-product"
+    },
+    {
+      "priority": 9,
+      "platform": "LinkedIn",
+      "cluster": "professional-company",
+      "cost": "$0",
+      "status": "identity-action-required",
+      "surfaceType": "founder + company professional graph",
+      "action": "Create or complete the Trillsverse company page using the verified payload; link John Brajer as founder only with accurate dates/claims.",
+      "payloadSource": "authority/platform-payloads.json#linkedinCompany",
+      "pathExpansion": ["professional graph", "company identity", "investor/collaborator discovery", "employment/credential surface"]
+    },
+    {
+      "priority": 10,
+      "platform": "Crunchbase",
+      "cluster": "company-investor-data",
+      "cost": "verify current account/edit limits before submission",
+      "status": "identity-action-required",
+      "surfaceType": "structured company/startup data surface",
+      "action": "Submit only verified company facts from the prepared payload; leave funding, employee count, and other unverified fields blank.",
+      "payloadSource": "authority/platform-payloads.json#crunchbase",
+      "pathExpansion": ["company graph", "investor discovery", "structured entity data", "third-party search surface"]
+    }
+  ],
+  "nextExecutableArtifact": "Publish one stable, independently useful Trillsverse research/software object; archive it through Zenodo; connect its DOI to ORCID; then express the same object natively on one AI surface and one publishing surface."
+}
