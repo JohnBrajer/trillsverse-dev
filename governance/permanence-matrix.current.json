@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1",
-  "observedAt": "2026-08-25T03:18:00Z",
+  "observedAt": "2026-08-25T03:22:00Z",
   "domains": [
     {
       "domain": "trillsverse.com",
@@ -24,9 +24,9 @@
     {
       "domain": "lultrills.com",
       "role": "Public canon/artist/authority surface",
-      "canonicalSource": {"status":"known","repository":"JohnBrajer/lultrills.com","branch":"John"},
+      "canonicalSource": {"status":"known","repository":"JohnBrajer/lultrills.com","branch":"John","currentSourceCandidate":"36eacdb7ffe4bf5472040b98a97ffe4970839f21"},
       "build": {"status":"known","value":"Next.js next build"},
-      "deploymentTarget": {"status":"unknown-current-canonical-target"},
+      "deploymentTarget": {"status":"known","value":"self-managed DigitalOcean","evidence":"current public infrastructure record + README reconciliation PR #10"},
       "exactShaDeploy": {"status":"unknown"},
       "currentLiveSha": {"status":"unknown"},
       "healthVerification": {"status":"unknown-formal-contract"},
@@ -36,7 +36,7 @@
       "backup": {"status":"not-applicable-unless-data-bearing-service-added"},
       "restoreTested": {"status":"not-applicable-unless-data-bearing-service-added"},
       "identityBoundary": {"status":"public-surface"},
-      "nextEvidence":"Issue #73"
+      "nextEvidence":"Issue #73: exact-SHA deployment path + health receipt + rollback proof"
     },
     {
       "domain": "mymindmine.com",
