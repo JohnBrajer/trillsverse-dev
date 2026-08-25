@@ -1,11 +1,11 @@
 {
   "schemaVersion": "0.1",
-  "observedAt": "2026-08-25T03:08:00Z",
+  "observedAt": "2026-08-25T03:18:00Z",
   "domains": [
     {
       "domain": "trillsverse.com",
       "role": "Gate/runtime/citizenship",
-      "canonicalSource": {"status":"known","branch":"main"},
+      "canonicalSource": {"status":"known","branch":"main","currentSourceCandidate":"adb8c507290331a4ed22850cabc3db4f578e6ded"},
       "build": {"status":"known"},
       "deploymentTarget": {"status":"known","value":"DigitalOcean"},
       "exactShaDeploy": {"status":"known","evidence":"PR #50 deploy bridge"},
@@ -41,8 +41,8 @@
     {
       "domain": "mymindmine.com",
       "role": "Public sanctuary/cognitive OS node",
-      "canonicalSource": {"status":"known","branch":"main"},
-      "build": {"status":"known","value":"Next.js build"},
+      "canonicalSource": {"status":"known","branch":"main","currentSourceCandidate":"af0425a64e612a9edf2c87ef08c3043761981ad3"},
+      "build": {"status":"known","value":"Next.js build","latestCi":"success"},
       "deploymentTarget": {"status":"known-by-repo-docs","value":"DigitalOcean / Docker / Caddy / port 3100"},
       "exactShaDeploy": {"status":"unknown"},
       "currentLiveSha": {"status":"unknown-after-latest-source-changes"},
@@ -51,11 +51,16 @@
       "rollback": {"status":"unknown"},
       "dataState": {"status":"known-partial","value":"browser-local notes + allowlisted telemetry receipts in persistent Docker volume"},
       "sharedGateCanonPostgres": {"status":"not-evidenced"},
-      "telemetryBackup": {"status":"unknown"},
-      "telemetryRestore": {"status":"unknown"},
-      "restoreTested": {"status":"unknown"},
+      "telemetryBackup": {"status":"known-mechanism","evidence":"PR #2 backup + SHA-256 manifest"},
+      "telemetryExport": {"status":"known-mechanism","evidence":"PR #2 exact-session export"},
+      "telemetryActiveDeletion": {"status":"known-mechanism","evidence":"PR #2 explicit atomic active-store deletion"},
+      "telemetryRestore": {"status":"known-mechanism","evidence":"PR #2 manifest-verified restore"},
+      "lifecycleSelfTest": {"status":"passed","workflowRun":32804189001},
+      "productionOffHostBackup": {"status":"unknown"},
+      "productionRestoreTested": {"status":"unknown"},
+      "backupRetentionErasurePolicy": {"status":"unknown"},
       "identityBoundary": {"status":"known","evidence":"MyMindMine Constitutional Boundary v0.1"},
-      "nextEvidence":"Issue #73"
+      "nextEvidence":"Issue #73: off-host production backup + restore drill + retention/erasure policy + current live SHA"
     }
   ]
 }
