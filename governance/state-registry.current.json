@@ -1,19 +1,21 @@
 {
   "schemaVersion": "0.1",
-  "generatedAt": "2026-08-25T03:03:00Z",
+  "generatedAt": "2026-08-25T03:14:00Z",
   "objects": [
     {
       "stateId": "tv:repo:gate",
       "name": "Trillsverse Gate canonical source",
       "class": "repository",
       "ownerSurface": "trillsverse.com",
-      "source": {"repository": "JohnBrajer/Trillsverse-Gate-FINAL", "branch": "main", "path": null, "version": "92e26210105b121999e8fa5864655c5104ad2bba"},
+      "source": {"repository": "JohnBrajer/Trillsverse-Gate-FINAL", "branch": "main", "path": null, "version": "adb8c507290331a4ed22850cabc3db4f578e6ded"},
       "status": {"proposed": true, "built": true, "merged": true, "deployed": "unknown", "verified": "unknown", "recorded": true},
-      "evidence": [{"kind": "commit", "reference": "92e26210105b121999e8fa5864655c5104ad2bba", "observedAt": "2026-08-23T08:15:47Z", "note": "Latest observed main commit in reconciliation pull."}],
+      "evidence": [
+        {"kind": "pull-request", "reference": "https://github.com/JohnBrajer/Trillsverse-Gate-FINAL/pull/74", "observedAt": "2026-08-25T03:12:00Z", "note": "Epistemic integrity v1.1 merged after hooks, typecheck, full tests, epistemic regression, build, bundle regression, and institution-law verification all passed."}
+      ],
       "dependencies": [], "supersedes": [], "supersededBy": [],
       "reconstruction": {"sourceAvailable": true, "buildDocumented": true, "dataExportDocumented": "unknown", "restoreTested": "unknown", "rollbackDocumented": true},
-      "observedAt": "2026-08-25T03:03:00Z",
-      "note": "Merged source is known. Exact current DigitalOcean production SHA requires deployment receipt/live evidence."
+      "observedAt": "2026-08-25T03:14:00Z",
+      "note": "Current source candidate is known. Exact current DigitalOcean production SHA remains UNKNOWN pending release receipt/live evidence in issue #72."
     },
     {
       "stateId": "tv:runtime:citizen-loop-slice-a",
@@ -24,12 +26,12 @@
       "status": {"proposed": true, "built": true, "merged": true, "deployed": true, "verified": true, "recorded": true},
       "evidence": [
         {"kind": "pull-request", "reference": "https://github.com/JohnBrajer/Trillsverse-Gate-FINAL/pull/38", "observedAt": "2026-08-11T00:04:29Z", "note": "PR #38 merged; supersedes stale August 10 draft/approval blocker."},
-        {"kind": "historical-record", "reference": "Notion: 2026-08-10 — Slice A Production Release & Review Evidence", "observedAt": "2026-08-10T23:24:57Z", "note": "Recorded live claim -> TV-PP -> Guide pending -> Frequencies -> Witness smoke path at Gate commit 211b9c8."}
+        {"kind": "historical-record", "reference": "Notion: 2026-08-10 — Slice A Production Release & Review Evidence", "observedAt": "2026-08-10T23:24:57Z", "note": "Historical production proof: claim -> TV-PP -> Guide pending -> Frequencies -> Witness at Gate commit 211b9c8."}
       ],
       "dependencies": ["tv:repo:gate"], "supersedes": [], "supersededBy": [],
       "reconstruction": {"sourceAvailable": true, "buildDocumented": true, "dataExportDocumented": true, "restoreTested": "unknown", "rollbackDocumented": true},
-      "observedAt": "2026-08-25T03:03:00Z",
-      "note": "Historical live verification exists; current production regression status still deserves a fresh smoke run after later runtime changes."
+      "observedAt": "2026-08-25T03:14:00Z",
+      "note": "Historical live verification exists; current production regression remains P0 because later runtime changes may affect the path."
     },
     {
       "stateId": "tv:runtime:runtime-dispatcher-v1",
@@ -38,10 +40,10 @@
       "ownerSurface": "trillsverse.com",
       "source": {"repository": "JohnBrajer/Trillsverse-Gate-FINAL", "branch": "main", "path": null, "version": "d59ff686336a17788193e78d1d9f1e75e6e9d991"},
       "status": {"proposed": true, "built": true, "merged": true, "deployed": "unknown", "verified": "unknown", "recorded": true},
-      "evidence": [{"kind": "pull-request", "reference": "https://github.com/JohnBrajer/Trillsverse-Gate-FINAL/pull/69", "observedAt": "2026-08-23T04:26:56Z", "note": "Merged after current-main conflict reconciliation; durable receipts and typed canaries."}],
+      "evidence": [{"kind": "pull-request", "reference": "https://github.com/JohnBrajer/Trillsverse-Gate-FINAL/pull/69", "observedAt": "2026-08-23T04:26:56Z", "note": "Merged receipt-backed dispatcher and typed canaries on current-main line."}],
       "dependencies": ["tv:repo:gate"], "supersedes": [], "supersededBy": [],
       "reconstruction": {"sourceAvailable": true, "buildDocumented": true, "dataExportDocumented": "unknown", "restoreTested": "unknown", "rollbackDocumented": true},
-      "observedAt": "2026-08-25T03:03:00Z", "note": "Do not infer live runtime from merge alone."
+      "observedAt": "2026-08-25T03:14:00Z", "note": "Do not infer live runtime from merge alone."
     },
     {
       "stateId": "tv:runtime:intelligence-injections-v1",
@@ -50,10 +52,10 @@
       "ownerSurface": "trillsverse.com",
       "source": {"repository": "JohnBrajer/Trillsverse-Gate-FINAL", "branch": "main", "path": null, "version": "1f01af0566bf01b7c21f4d6177ca15a162b9ce87"},
       "status": {"proposed": true, "built": true, "merged": true, "deployed": "unknown", "verified": "unknown", "recorded": true},
-      "evidence": [{"kind": "pull-request", "reference": "https://github.com/JohnBrajer/Trillsverse-Gate-FINAL/pull/62", "observedAt": "2026-08-23T04:19:22Z", "note": "Merged v1 contract, scoring, API, witness and redaction layer."}],
+      "evidence": [{"kind": "pull-request", "reference": "https://github.com/JohnBrajer/Trillsverse-Gate-FINAL/pull/62", "observedAt": "2026-08-23T04:19:22Z", "note": "Merged v1 contract, scoring, API, witness and redaction substrate."}],
       "dependencies": ["tv:repo:gate"], "supersedes": [], "supersededBy": [],
       "reconstruction": {"sourceAvailable": true, "buildDocumented": true, "dataExportDocumented": "unknown", "restoreTested": "unknown", "rollbackDocumented": true},
-      "observedAt": "2026-08-25T03:03:00Z", "note": null
+      "observedAt": "2026-08-25T03:14:00Z", "note": null
     },
     {
       "stateId": "tv:research:semantic-gravity-baseline-0",
@@ -65,19 +67,22 @@
       "evidence": [{"kind": "pull-request", "reference": "https://github.com/JohnBrajer/Trillsverse-Gate-FINAL/pull/63", "observedAt": "2026-08-23T04:19:01Z", "note": "Frozen benchmark/spec; deployment is not required for the baseline artifact itself."}],
       "dependencies": ["tv:repo:gate"], "supersedes": [], "supersededBy": [],
       "reconstruction": {"sourceAvailable": true, "buildDocumented": true, "dataExportDocumented": true, "restoreTested": false, "rollbackDocumented": false},
-      "observedAt": "2026-08-25T03:03:00Z", "note": "Baseline remains evidence/research, not a production-state claim."
+      "observedAt": "2026-08-25T03:14:00Z", "note": "Research evidence, not production-state evidence."
     },
     {
-      "stateId": "tv:governance:public-state-integrity-v1",
-      "name": "Public-state integrity and epistemic typing v1",
+      "stateId": "tv:governance:epistemic-integrity-v1.1",
+      "name": "Epistemic integrity v1.1",
       "class": "governance-contract",
       "ownerSurface": "trillsverse.com",
-      "source": {"repository": "JohnBrajer/Trillsverse-Gate-FINAL", "branch": "main", "path": null, "version": "93de685929ab0caeee30da3b7d202de5e563b788"},
+      "source": {"repository": "JohnBrajer/Trillsverse-Gate-FINAL", "branch": "main", "path": "server/retrievalRank.ts", "version": "adb8c507290331a4ed22850cabc3db4f578e6ded"},
       "status": {"proposed": true, "built": true, "merged": true, "deployed": "unknown", "verified": "unknown", "recorded": true},
-      "evidence": [{"kind": "pull-request", "reference": "https://github.com/JohnBrajer/Trillsverse-Gate-FINAL/pull/51", "observedAt": "2026-08-13T18:40:58Z", "note": "Implements document classes, telemetry metadata, Fragment terminology correction and retrieval ranking; stale component issues #46-#49 were reconciled closed on 2026-08-24."}],
-      "dependencies": ["tv:repo:gate"], "supersedes": [], "supersededBy": [],
+      "evidence": [
+        {"kind": "pull-request", "reference": "https://github.com/JohnBrajer/Trillsverse-Gate-FINAL/pull/51", "observedAt": "2026-08-13T18:40:58Z", "note": "v1 established document classes, telemetry contracts, terminology correction, supersession-aware ranking."},
+        {"kind": "pull-request", "reference": "https://github.com/JohnBrajer/Trillsverse-Gate-FINAL/pull/74", "observedAt": "2026-08-25T03:12:00Z", "note": "v1.1 added query intent, system-state relevance, observed freshness, frozen conflict fixtures and a green CI regression gate."}
+      ],
+      "dependencies": ["tv:repo:gate", "tv:governance:state-registry-v0.1"], "supersedes": ["tv:governance:public-state-integrity-v1"], "supersededBy": [],
       "reconstruction": {"sourceAvailable": true, "buildDocumented": true, "dataExportDocumented": true, "restoreTested": false, "rollbackDocumented": true},
-      "observedAt": "2026-08-25T03:03:00Z", "note": "Implementation exists; issue #71 owns current public/live regression verification."
+      "observedAt": "2026-08-25T03:14:00Z", "note": "Source and CI verification are complete. Live/public deployment and retrieval observation remain UNKNOWN until production evidence exists."
     },
     {
       "stateId": "tv:repo:lultrills-canon",
@@ -88,26 +93,26 @@
       "status": {"proposed": true, "built": true, "merged": true, "deployed": "unknown", "verified": true, "recorded": true},
       "evidence": [
         {"kind": "commit", "reference": "9ed217d50d7861c7ddb364adbe4ea986673ffadc", "observedAt": "2026-08-24T01:18:09Z", "note": "Crawler-permission change on default branch."},
-        {"kind": "public-observation", "reference": "https://lultrills.com/", "observedAt": "2026-08-25T02:50:00Z", "note": "Public page currently exposes AI crawl/retrieval markers and machine indexes; exact deployed commit SHA remains unproven by this observation."}
+        {"kind": "public-observation", "reference": "https://lultrills.com/", "observedAt": "2026-08-25T02:50:00Z", "note": "Public machine/crawl surfaces observed; exact deployed commit SHA remains unproven by that observation."}
       ],
       "dependencies": [], "supersedes": [], "supersededBy": [],
-      "reconstruction": {"sourceAvailable": true, "buildDocumented": "unknown", "dataExportDocumented": true, "restoreTested": "unknown", "rollbackDocumented": "unknown"},
-      "observedAt": "2026-08-25T03:03:00Z", "note": null
+      "reconstruction": {"sourceAvailable": true, "buildDocumented": true, "dataExportDocumented": true, "restoreTested": "unknown", "rollbackDocumented": "unknown"},
+      "observedAt": "2026-08-25T03:14:00Z", "note": "Current canonical production host/exact SHA/health/rollback evidence remains issue #73."
     },
     {
       "stateId": "tv:repo:mymindmine",
       "name": "MyMindMine canonical source",
       "class": "repository",
       "ownerSurface": "mymindmine.com",
-      "source": {"repository": "JohnBrajer/mymindmine.com", "branch": "main", "path": null, "version": "c43fb622992b4e1ffa80c6d773a84168fe3d98f2"},
-      "status": {"proposed": true, "built": true, "merged": true, "deployed": true, "verified": true, "recorded": true},
+      "source": {"repository": "JohnBrajer/mymindmine.com", "branch": "main", "path": null, "version": "58b17de0ddd985a91a8054f79102552f51676afb"},
+      "status": {"proposed": true, "built": true, "merged": true, "deployed": "unknown", "verified": "unknown", "recorded": true},
       "evidence": [
-        {"kind": "commit", "reference": "02640f71b61e5960b0c6ada898c891eb3f0d1d86", "observedAt": "2026-08-14T22:32:17Z", "note": "Gate Surface Atlas recorded My Mind Mine live verification."},
-        {"kind": "pull-request", "reference": "https://github.com/JohnBrajer/mymindmine.com/pull/1", "observedAt": "2026-08-25T03:02:00Z", "note": "Constitutional Boundary v0.1 merged into main."}
+        {"kind": "historical-record", "reference": "Gate Surface Atlas 2026-08-14", "observedAt": "2026-08-14T22:32:17Z", "note": "Historical MyMindMine live verification exists, but does not prove the latest main SHA is live."},
+        {"kind": "commit", "reference": "58b17de0ddd985a91a8054f79102552f51676afb", "observedAt": "2026-08-25T03:10:00Z", "note": "PR verification workflow established on main."}
       ],
       "dependencies": [], "supersedes": [], "supersededBy": [],
       "reconstruction": {"sourceAvailable": true, "buildDocumented": true, "dataExportDocumented": "unknown", "restoreTested": "unknown", "rollbackDocumented": "unknown"},
-      "observedAt": "2026-08-25T03:03:00Z", "note": "Historical live verification exists; exact current live SHA after the governance-only merge is not independently asserted."
+      "observedAt": "2026-08-25T03:14:00Z", "note": "Current exact deployment remains UNKNOWN."
     },
     {
       "stateId": "tv:governance:mymindmine-boundary-v0.1",
@@ -116,10 +121,46 @@
       "ownerSurface": "mymindmine.com",
       "source": {"repository": "JohnBrajer/mymindmine.com", "branch": "main", "path": "docs/MYMINDMINE_BOUNDARY_V0.1.md", "version": "c43fb622992b4e1ffa80c6d773a84168fe3d98f2"},
       "status": {"proposed": true, "built": true, "merged": true, "deployed": false, "verified": true, "recorded": true},
-      "evidence": [{"kind": "pull-request", "reference": "https://github.com/JohnBrajer/mymindmine.com/pull/1", "observedAt": "2026-08-25T03:02:00Z", "note": "Boundary merged successfully; repository governance baseline is now binding."}],
+      "evidence": [{"kind": "pull-request", "reference": "https://github.com/JohnBrajer/mymindmine.com/pull/1", "observedAt": "2026-08-25T03:02:00Z", "note": "Boundary merged; repository governance baseline is binding."}],
       "dependencies": ["tv:repo:mymindmine"], "supersedes": [], "supersededBy": [],
       "reconstruction": {"sourceAvailable": true, "buildDocumented": true, "dataExportDocumented": true, "restoreTested": false, "rollbackDocumented": true},
-      "observedAt": "2026-08-25T03:03:00Z", "note": null
+      "observedAt": "2026-08-25T03:14:00Z", "note": null
+    },
+    {
+      "stateId": "tv:governance:mymindmine-telemetry-lifecycle-v0.1",
+      "name": "MyMindMine Telemetry Lifecycle v0.1",
+      "class": "governance-contract",
+      "ownerSurface": "mymindmine.com",
+      "source": {"repository": "JohnBrajer/mymindmine.com", "branch": "permanence/telemetry-lifecycle-v0.1", "path": "docs/TELEMETRY_LIFECYCLE_V0.1.md", "version": "2302994515292ac47a08371fd249653071860e05"},
+      "status": {"proposed": true, "built": true, "merged": false, "deployed": false, "verified": "unknown", "recorded": true},
+      "evidence": [{"kind": "pull-request", "reference": "https://github.com/JohnBrajer/mymindmine.com/pull/2", "observedAt": "2026-08-25T03:10:00Z", "note": "Backup/export/active-delete/restore mechanics and isolated self-test are in PR; CI evidence not yet observed."}],
+      "dependencies": ["tv:repo:mymindmine", "tv:governance:mymindmine-boundary-v0.1"], "supersedes": [], "supersededBy": [],
+      "reconstruction": {"sourceAvailable": true, "buildDocumented": true, "dataExportDocumented": true, "restoreTested": false, "rollbackDocumented": true},
+      "observedAt": "2026-08-25T03:14:00Z", "note": "Do not merge on assumption; earn test/build evidence or review manually. Production off-host backup/restore remains separate."
+    },
+    {
+      "stateId": "tv:governance:state-registry-v0.1",
+      "name": "Trillsverse State Registry v0.1",
+      "class": "governance-contract",
+      "ownerSurface": "trillsverse-dev",
+      "source": {"repository": "JohnBrajer/trillsverse-dev", "branch": "John", "path": "governance/STATE_REGISTRY_V0.1.md", "version": "955381570ea40eed3882224b78b286986615e314"},
+      "status": {"proposed": true, "built": true, "merged": true, "deployed": false, "verified": true, "recorded": true},
+      "evidence": [{"kind": "pull-request", "reference": "https://github.com/JohnBrajer/trillsverse-dev/pull/11", "observedAt": "2026-08-25T03:01:00Z", "note": "State law, schema and first reconciled snapshot merged."}],
+      "dependencies": [], "supersedes": [], "supersededBy": [],
+      "reconstruction": {"sourceAvailable": true, "buildDocumented": true, "dataExportDocumented": true, "restoreTested": false, "rollbackDocumented": true},
+      "observedAt": "2026-08-25T03:14:00Z", "note": "Public README now links registry and permanence evidence surfaces."
+    },
+    {
+      "stateId": "tv:governance:permanence-matrix-v0.1",
+      "name": "Three-Domain Permanence Matrix v0.1",
+      "class": "governance-contract",
+      "ownerSurface": "trillsverse-dev",
+      "source": {"repository": "JohnBrajer/trillsverse-dev", "branch": "John", "path": "governance/PERMANENCE_MATRIX_V0.1.md", "version": "e038d8d7c9e660917d64b2e4493132697e8f82de"},
+      "status": {"proposed": true, "built": true, "merged": true, "deployed": false, "verified": true, "recorded": true},
+      "evidence": [{"kind": "pull-request", "reference": "https://github.com/JohnBrajer/trillsverse-dev/pull/12", "observedAt": "2026-08-25T03:06:00Z", "note": "Human and machine-readable three-domain permanence matrix merged."}],
+      "dependencies": ["tv:governance:state-registry-v0.1"], "supersedes": [], "supersededBy": [],
+      "reconstruction": {"sourceAvailable": true, "buildDocumented": true, "dataExportDocumented": true, "restoreTested": false, "rollbackDocumented": true},
+      "observedAt": "2026-08-25T03:14:00Z", "note": "Operational UNKNOWNs remain issue #73."
     }
   ]
 }
