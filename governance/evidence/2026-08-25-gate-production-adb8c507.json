@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "0.1",
+  "evidenceId": "tv:evidence:gate-production:adb8c507:2026-08-25",
+  "observedAt": "2026-08-25T03:38:38.280Z",
+  "surface": "trillsverse.com",
+  "repository": "JohnBrajer/Trillsverse-Gate-FINAL",
+  "sourceCommit": "adb8c507290331a4ed22850cabc3db4f578e6ded",
+  "production": {
+    "deployed": true,
+    "healthVerified": true,
+    "dockerImage": "sha256:8192896a03edc9cf4094ccc6c2cd29fc8fad62a3568383460c3fac54941a64e5",
+    "healthEndpoint": "/api/health",
+    "healthStatus": 200,
+    "healthReportedExactCommit": true,
+    "requiredPublicRoutesStatus": 200,
+    "routesObserved": [
+      "/trillionaires",
+      "/claim",
+      "/passport",
+      "/frequencies",
+      "/convert",
+      "/api/convert"
+    ]
+  },
+  "database": {
+    "postgresVersion": "16.15",
+    "duplicateLinkedCitizenProfileRows": 0,
+    "uniqueCitizenProfileIndexPresent": true,
+    "healthy": true
+  },
+  "containers": {
+    "app": "healthy",
+    "postgres": "healthy",
+    "omip": "healthy"
+  },
+  "verification": {
+    "testsPassed": 339,
+    "apiTestsPassed": 15,
+    "build": "passed",
+    "lawCheck": "passed",
+    "bundleCheck": "passed",
+    "epistemicCheck": "passed"
+  },
+  "citizenLoop": {
+    "behaviorallyVerifiedOnThisRelease": "unknown",
+    "reason": "Full Claim -> Passport -> Frequencies -> durable message -> Witness -> reconnect smoke would create durable production identity/data and requires an operator-approved controlled test identity or equivalent non-mutating proof."
+  },
+  "deploymentTransport": {
+    "effectiveReleasePath": "direct-docker",
+    "githubActionsRun": 32804214665,
+    "githubActionsResult": "failed-before-deploy",
+    "githubActionsFailureBoundary": "Configure SSH / ssh-keyscan",
+    "automatedReceiptProduced": false,
+    "repairIssue": "https://github.com/JohnBrajer/Trillsverse-Gate-FINAL/issues/75",
+    "repairPullRequest": "https://github.com/JohnBrajer/Trillsverse-Gate-FINAL/pull/76"
+  },
+  "evidenceClass": "observed-production-release",
+  "claimBoundary": "This record proves the exact deployed release identity and public/DB health evidence listed above. It does not claim the full state-mutating Citizen Loop has been behaviorally re-verified on this release."
+}
