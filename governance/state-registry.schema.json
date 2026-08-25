@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JohnBrajer/trillsverse-dev/governance/state-registry.schema.json",
+  "title": "Trillsverse State Registry v0.1",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "objects"],
+  "properties": {
+    "schemaVersion": {"const": "0.1"},
+    "generatedAt": {"type": "string", "format": "date-time"},
+    "objects": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/stateObject"}
+    }
+  },
+  "$defs": {
+    "triState": {
+      "oneOf": [
+        {"type": "boolean"},
+        {"type": "string", "enum": ["unknown"]}
+      ]
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["kind", "reference"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "specification", "commit", "pull-request", "branch", "deployment-receipt",
+            "backup-receipt", "migration-check", "health-check", "smoke-test",
+            "public-observation", "governance-record", "historical-record", "other"
+          ]
+        },
+        "reference": {"type": "string"},
+        "observedAt": {"type": ["string", "null"], "format": "date-time"},
+        "note": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "stateObject": {
+      "type": "object",
+      "required": ["stateId", "name", "class", "ownerSurface", "status", "evidence", "observedAt"],
+      "properties": {
+        "stateId": {"type": "string", "pattern": "^tv:"},
+        "name": {"type": "string"},
+        "class": {
+          "type": "string",
+          "enum": [
+            "domain", "repository", "runtime-component", "public-surface", "private-surface",
+            "database-schema", "migration", "deployment", "telemetry-contract", "canon-document",
+            "doctrine-document", "historical-record", "research-artifact", "agent-methodology",
+            "identity-contract", "governance-contract", "external-authority-surface"
+          ]
+        },
+        "ownerSurface": {"type": "string"},
+        "source": {
+          "type": ["object", "null"],
+          "properties": {
+            "repository": {"type": ["string", "null"]},
+            "branch": {"type": ["string", "null"]},
+            "path": {"type": ["string", "null"]},
+            "version": {"type": ["string", "null"]}
+          },
+          "additionalProperties": false
+        },
+        "status": {
+          "type": "object",
+          "required": ["proposed", "built", "merged", "deployed", "verified", "recorded"],
+          "properties": {
+            "proposed": {"$ref": "#/$defs/triState"},
+            "built": {"$ref": "#/$defs/triState"},
+            "merged": {"$ref": "#/$defs/triState"},
+            "deployed": {"$ref": "#/$defs/triState"},
+            "verified": {"$ref": "#/$defs/triState"},
+            "recorded": {"$ref": "#/$defs/triState"}
+          },
+          "additionalProperties": false
+        },
+        "evidence": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/evidence"}
+        },
+        "dependencies": {"type": "array", "items": {"type": "string"}},
+        "supersedes": {"type": "array", "items": {"type": "string"}},
+        "supersededBy": {"type": "array", "items": {"type": "string"}},
+        "reconstruction": {
+          "type": ["object", "null"],
+          "properties": {
+            "sourceAvailable": {"$ref": "#/$defs/triState"},
+            "buildDocumented": {"$ref": "#/$defs/triState"},
+            "dataExportDocumented": {"$ref": "#/$defs/triState"},
+            "restoreTested": {"$ref": "#/$defs/triState"},
+            "rollbackDocumented": {"$ref": "#/$defs/triState"}
+          },
+          "additionalProperties": false
+        },
+        "observedAt": {"type": "string", "format": "date-time"},
+        "effectiveAt": {"type": ["string", "null"], "format": "date-time"},
+        "note": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
