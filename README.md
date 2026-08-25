@@ -36,6 +36,22 @@ Publicly documented Trillsverse work includes:
 
 **My Mind Mine** — cognitive-sovereignty / internal-state node
 
+## Governance and evidence surfaces
+
+These files distinguish source existence from production truth and make cross-domain durability auditable:
+
+- [`governance/STATE_REGISTRY_V0.1.md`](./governance/STATE_REGISTRY_V0.1.md) — evidence ladder, state law, supersession, dependency and reconstruction model
+- [`governance/state-registry.schema.json`](./governance/state-registry.schema.json) — machine-readable State Registry schema
+- [`governance/state-registry.current.json`](./governance/state-registry.current.json) — reconciled current-state snapshot with explicit UNKNOWN states
+- [`governance/PERMANENCE_MATRIX_V0.1.md`](./governance/PERMANENCE_MATRIX_V0.1.md) — three-domain source/build/deploy/backup/restore/rollback/identity matrix
+- [`governance/permanence-matrix.current.json`](./governance/permanence-matrix.current.json) — machine-readable permanence snapshot
+
+Core evidence law:
+
+`PROPOSED -> BUILT -> MERGED -> DEPLOYED -> VERIFIED -> RECORDED`
+
+A merged commit is not automatically a live deployment. `UNKNOWN` means the required evidence has not yet been attached; it does not mean absent.
+
 ## Machine-readable metadata
 
 See:
