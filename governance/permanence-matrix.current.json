@@ -1,66 +1,138 @@
 {
   "schemaVersion": "0.1",
-  "observedAt": "2026-08-25T03:22:00Z",
+  "observedAt": "2026-09-11T05:26:00Z",
   "domains": [
     {
       "domain": "trillsverse.com",
       "role": "Gate/runtime/citizenship",
-      "canonicalSource": {"status":"known","branch":"main","currentSourceCandidate":"adb8c507290331a4ed22850cabc3db4f578e6ded"},
-      "build": {"status":"known"},
-      "deploymentTarget": {"status":"known","value":"DigitalOcean"},
-      "exactShaDeploy": {"status":"known","evidence":"PR #50 deploy bridge"},
-      "currentLiveSha": {"status":"unknown"},
-      "healthVerification": {"status":"known","evidence":"HEALTH_URL required before receipt"},
-      "releaseReceipt": {"status":"known-mechanism","evidence":"SHA-256 artifact after healthy deploy"},
-      "rollback": {"status":"partial"},
-      "schemaMigrations": {"status":"known"},
-      "backup": {"status":"known-mechanism"},
-      "offHostBackup": {"status":"unknown-current-proof"},
-      "restoreProcedure": {"status":"unknown"},
-      "restoreTested": {"status":"unknown"},
-      "identityBoundary": {"status":"partial"},
-      "nextEvidence":"Issue #72 then #73"
+      "canonicalSource": {
+        "status": "known",
+        "branch": "main",
+        "currentSourceCandidate": "c8dbcba8d4ab301af0e6a281b8f6e59c6e7b80ad",
+        "note": "Source has advanced beyond the currently proven production release; do not infer deployment from source head."
+      },
+      "build": {"status": "known"},
+      "deploymentTarget": {"status": "known", "value": "DigitalOcean"},
+      "exactShaDeploy": {
+        "status": "known-observed",
+        "value": "57837b9d08c0c9c89ad386e8a7351d0d269b49af",
+        "evidence": "Deploy production run 34493006357 / production-deployment-34493006357"
+      },
+      "currentLiveSha": {
+        "status": "known-observed",
+        "value": "57837b9d08c0c9c89ad386e8a7351d0d269b49af",
+        "deployedAt": "2026-09-10T15:09:07Z",
+        "evidence": "JohnBrajer/Trillsverse-Gate-FINAL#72 and #80"
+      },
+      "healthVerification": {
+        "status": "known-observed",
+        "evidence": "CI health plus independent /api/health observation matched exact SHA"
+      },
+      "releaseReceipt": {
+        "status": "known-observed",
+        "evidence": "production-deployment-34493006357",
+        "sha256": "02bf54c06f7c84ea04e50e64ccbc053d4195bf25b9aa47a612b1cf37fbba5034"
+      },
+      "citizenLoopBehavior": {
+        "status": "passed",
+        "liveSmokeRun": "34544446358",
+        "receiptRunId": "6968f764-d44a-4884-bfea-d7c9ae9a2d89",
+        "failureGuardRun": "34546187796",
+        "evidence": "JohnBrajer/Trillsverse-Gate-FINAL#72"
+      },
+      "rollback": {
+        "status": "tested",
+        "knownGoodRelease": "8717e1bdea356c9badefae1781705b5bc5da5dac",
+        "forwardRecoveryTested": true,
+        "evidence": "Gate recovery drill run 34545231055"
+      },
+      "schemaMigrations": {"status": "known"},
+      "backup": {
+        "status": "tested-production-backup",
+        "dumpSha256": "b310e31f6c684d45a5b7370a0d49ed74e1250806fa5aef6bccec39cba12ac58d",
+        "evidence": "JohnBrajer/Trillsverse-Gate-FINAL#80"
+      },
+      "offHostBackup": {
+        "status": "known-observed",
+        "artifact": "gate-postgres-backup-34545231055",
+        "retentionDays": 14,
+        "evidence": "JohnBrajer/Trillsverse-Gate-FINAL#80"
+      },
+      "restoreProcedure": {
+        "status": "known-tested",
+        "evidence": "gate-recovery-drill.v3 / run 34545231055"
+      },
+      "restoreTested": {
+        "status": "passed",
+        "evidence": "isolated restore + exact-current reconstruction + rollback + forward recovery"
+      },
+      "identityBoundary": {"status": "partial"},
+      "nextEvidence": "Source/deployed convergence for post-57837b9d changes; preserve exact live identity until a later deployment receipt supersedes it."
     },
     {
       "domain": "lultrills.com",
       "role": "Public canon/artist/authority surface",
-      "canonicalSource": {"status":"known","repository":"JohnBrajer/lultrills.com","branch":"John","currentSourceCandidate":"36eacdb7ffe4bf5472040b98a97ffe4970839f21"},
-      "build": {"status":"known","value":"Next.js next build"},
-      "deploymentTarget": {"status":"known","value":"self-managed DigitalOcean","evidence":"current public infrastructure record + README reconciliation PR #10"},
-      "exactShaDeploy": {"status":"unknown"},
-      "currentLiveSha": {"status":"unknown"},
-      "healthVerification": {"status":"unknown-formal-contract"},
-      "releaseReceipt": {"status":"unknown"},
-      "rollback": {"status":"unknown"},
-      "durablePrivateDatabase": {"status":"not-evidenced"},
-      "backup": {"status":"not-applicable-unless-data-bearing-service-added"},
-      "restoreTested": {"status":"not-applicable-unless-data-bearing-service-added"},
-      "identityBoundary": {"status":"public-surface"},
-      "nextEvidence":"Issue #73: exact-SHA deployment path + health receipt + rollback proof"
+      "canonicalSource": {
+        "status": "known",
+        "repository": "JohnBrajer/lultrills.com",
+        "branch": "John",
+        "currentSourceCandidate": "9958bfc6e1052fc4921797180ddbd811f7dca85b"
+      },
+      "build": {"status": "known", "value": "Next.js next build"},
+      "deploymentTarget": {
+        "status": "known",
+        "value": "self-managed DigitalOcean",
+        "evidence": "current public infrastructure record + README reconciliation"
+      },
+      "exactShaDeploy": {"status": "unknown"},
+      "currentLiveSha": {"status": "unknown"},
+      "healthVerification": {
+        "status": "partial",
+        "evidence": "root 200 observed; /api/health 404 observed on 2026-09-10"
+      },
+      "releaseReceipt": {"status": "unknown"},
+      "rollback": {"status": "unknown"},
+      "durablePrivateDatabase": {"status": "not-evidenced"},
+      "backup": {"status": "not-applicable-unless-data-bearing-service-added"},
+      "restoreTested": {"status": "not-applicable-unless-data-bearing-service-added"},
+      "identityBoundary": {"status": "public-surface"},
+      "nextEvidence": "JohnBrajer/lultrills.com#11: release identity surface + known-good release + rollback proof."
     },
     {
       "domain": "mymindmine.com",
       "role": "Public sanctuary/cognitive OS node",
-      "canonicalSource": {"status":"known","branch":"main","currentSourceCandidate":"af0425a64e612a9edf2c87ef08c3043761981ad3"},
-      "build": {"status":"known","value":"Next.js build","latestCi":"success"},
-      "deploymentTarget": {"status":"known-by-repo-docs","value":"DigitalOcean / Docker / Caddy / port 3100"},
-      "exactShaDeploy": {"status":"unknown"},
-      "currentLiveSha": {"status":"unknown-after-latest-source-changes"},
-      "healthVerification": {"status":"unknown-formal-contract"},
-      "releaseReceipt": {"status":"unknown"},
-      "rollback": {"status":"unknown"},
-      "dataState": {"status":"known-partial","value":"browser-local notes + allowlisted telemetry receipts in persistent Docker volume"},
-      "sharedGateCanonPostgres": {"status":"not-evidenced"},
-      "telemetryBackup": {"status":"known-mechanism","evidence":"PR #2 backup + SHA-256 manifest"},
-      "telemetryExport": {"status":"known-mechanism","evidence":"PR #2 exact-session export"},
-      "telemetryActiveDeletion": {"status":"known-mechanism","evidence":"PR #2 explicit atomic active-store deletion"},
-      "telemetryRestore": {"status":"known-mechanism","evidence":"PR #2 manifest-verified restore"},
-      "lifecycleSelfTest": {"status":"passed","workflowRun":32804189001},
-      "productionOffHostBackup": {"status":"unknown"},
-      "productionRestoreTested": {"status":"unknown"},
-      "backupRetentionErasurePolicy": {"status":"unknown"},
-      "identityBoundary": {"status":"known","evidence":"MyMindMine Constitutional Boundary v0.1"},
-      "nextEvidence":"Issue #73: off-host production backup + restore drill + retention/erasure policy + current live SHA"
+      "canonicalSource": {
+        "status": "known",
+        "branch": "main",
+        "currentSourceCandidate": "24491a51622b9dc65a9674c58768f06bc26391d4"
+      },
+      "build": {"status": "known", "value": "Next.js build"},
+      "deploymentTarget": {"status": "known-by-repo-docs", "value": "DigitalOcean / Docker / Caddy / port 3100"},
+      "exactShaDeploy": {
+        "status": "known-observed",
+        "value": "24491a51622b9dc65a9674c58768f06bc26391d4",
+        "evidence": "production health identity observed 2026-09-10T12:50:16Z"
+      },
+      "currentLiveSha": {
+        "status": "known-observed",
+        "value": "24491a51622b9dc65a9674c58768f06bc26391d4",
+        "observedAt": "2026-09-10T12:50:16Z"
+      },
+      "healthVerification": {"status": "known-observed", "evidence": "production health reports exact SHA"},
+      "releaseReceipt": {"status": "unknown"},
+      "rollback": {"status": "unknown"},
+      "dataState": {"status": "known-partial", "value": "browser-local notes + allowlisted telemetry receipts in persistent Docker volume"},
+      "sharedGateCanonPostgres": {"status": "not-evidenced"},
+      "telemetryBackup": {"status": "known-mechanism", "evidence": "PR #2 backup + SHA-256 manifest"},
+      "telemetryExport": {"status": "known-mechanism", "evidence": "PR #2 exact-session export"},
+      "telemetryActiveDeletion": {"status": "known-mechanism", "evidence": "PR #2 explicit atomic active-store deletion"},
+      "telemetryRestore": {"status": "known-mechanism", "evidence": "PR #2 manifest-verified restore"},
+      "lifecycleSelfTest": {"status": "passed", "workflowRun": 32804189001},
+      "productionOffHostBackup": {"status": "unknown"},
+      "productionRestoreTested": {"status": "unknown"},
+      "backupRetentionErasurePolicy": {"status": "unknown"},
+      "identityBoundary": {"status": "known", "evidence": "MyMindMine Constitutional Boundary v0.1"},
+      "nextEvidence": "JohnBrajer/mymindmine.com#3: production backup + off-host copy + isolated restore + retention/erasure policy + rollback proof."
     }
   ]
 }
