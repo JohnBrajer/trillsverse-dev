@@ -198,6 +198,23 @@ The August 2026 reconciliation demonstrates the need for this registry:
 
 That divergence is the first formal State Registry use case.
 
+## 2026-09-11 reconciliation consequence
+
+The September recovery + behavior receipts demonstrate the second use case: **source can advance while a different immutable release remains the strongest observed production authority**.
+
+Current evidence requires the registry to hold all of these facts simultaneously:
+
+- Gate `main` has advanced beyond the currently proven production release;
+- Gate production is explicitly observed at `57837b9d08c0c9c89ad386e8a7351d0d269b49af` until a later deployment receipt supersedes it;
+- deploy run `34493006357` plus independent health observation proves that exact release was deployed and healthy;
+- recovery run `34545231055` proves a real production PostgreSQL backup, protected off-host copy, isolated restore, exact-release reconstruction, rollback to `8717e1bdea356c9badefae1781705b5bc5da5dac`, and forward recovery without a live-only patch;
+- Citizen Loop live smoke run `34544446358` proves current success-path behavior and idempotency;
+- isolated failure-guard run `34546187796` proves failed persistence does not falsely advance Witness or First Transmission state;
+- MyMindMine production health identifies exact live SHA `24491a51622b9dc65a9674c58768f06bc26391d4`, while production telemetry restore remains `UNKNOWN` because issue #3 has not produced that receipt;
+- Lultrills root reachability is observed while `/api/health` remains 404, so its exact live SHA remains `UNKNOWN` even though canonical source has advanced.
+
+The public-safe evidence projection is recorded in `governance/evidence/2026-09-11-gate-recovery-citizen-loop.json` and reflected in both current machine snapshots. Historical evidence remains referenced rather than overwritten.
+
 ## v0.1 implementation path
 
 1. Keep the schema machine-readable in `governance/state-registry.schema.json`.
