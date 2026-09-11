@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "0.1",
+  "recordedAt": "2026-09-11T05:26:00Z",
+  "scope": "public-safe permanence and behavioral evidence projection",
+  "gate": {
+    "currentLiveRelease": {
+      "sha": "57837b9d08c0c9c89ad386e8a7351d0d269b49af",
+      "deployedAt": "2026-09-10T15:09:07Z",
+      "deployRun": "34493006357",
+      "deploymentArtifact": "production-deployment-34493006357",
+      "deploymentArtifactSha256": "02bf54c06f7c84ea04e50e64ccbc053d4195bf25b9aa47a612b1cf37fbba5034",
+      "health": "PASS",
+      "provenance": "JohnBrajer/Trillsverse-Gate-FINAL#72 and #80"
+    },
+    "recovery": {
+      "result": "PASS",
+      "run": "34545231055",
+      "job": "103096290209",
+      "receiptSchema": "gate-recovery-drill.v3",
+      "receiptSha256": "10b61da31245b747552ea79fac15535e36cd030af61c2f447e05847fa044aeaf",
+      "evidenceArtifact": "gate-recovery-evidence-34545231055",
+      "evidenceArtifactSha256": "01e67f34ae4438613c88d46067bf61e78e7e604d9994d8030ce10a01a1382a8d",
+      "backup": {
+        "format": "PostgreSQL custom",
+        "dumpReadable": true,
+        "dumpSha256": "b310e31f6c684d45a5b7370a0d49ed74e1250806fa5aef6bccec39cba12ac58d",
+        "protectedOffHostCopy": true,
+        "artifact": "gate-postgres-backup-34545231055",
+        "artifactSha256": "78f94ebaaa291dcab3b569a0ed0727712d01c83fe91ad0df030b8857ac7f901c",
+        "retentionDays": 14
+      },
+      "isolatedRestore": {
+        "tested": true,
+        "schemaAndDataInvariants": "PASS",
+        "unexpectedDuplicateCitizenProfileLinks": 0,
+        "orphanCitizenProfileLinks": 0,
+        "idxCitizensProfileUniquePresent": true
+      },
+      "exactReleaseReconstruction": {
+        "release": "57837b9d08c0c9c89ad386e8a7351d0d269b49af",
+        "gateAndOmipRebuilt": true,
+        "health": "PASS",
+        "liveOnlyPatchRequired": false
+      },
+      "rollback": {
+        "tested": true,
+        "knownGoodRelease": "8717e1bdea356c9badefae1781705b5bc5da5dac",
+        "forwardRecoveryToCurrentTested": true
+      },
+      "observedAt": "2026-09-11T00:11:21Z",
+      "provenance": "JohnBrajer/Trillsverse-Gate-FINAL#80"
+    },
+    "citizenLoop": {
+      "liveSmoke": {
+        "result": "PASS",
+        "run": "34544446358",
+        "job": "103093927413",
+        "receiptRunId": "6968f764-d44a-4884-bfea-d7c9ae9a2d89",
+        "artifact": "citizen-loop-smoke-57837b9d",
+        "startedAt": "2026-09-10T23:58:40.494Z",
+        "finishedAt": "2026-09-10T23:58:41.384Z",
+        "claimIdempotent": true,
+        "passport": true,
+        "guideTruthfulResponseObserved": true,
+        "frequenciesCorridor": true,
+        "firstSendPersisted": true,
+        "firstTransmissionWitnessBehavior": true,
+        "reconnectReload": true,
+        "secondSendIdempotent": true
+      },
+      "failurePathGuard": {
+        "result": "PASS",
+        "run": "34546187796",
+        "job": "103099207325",
+        "artifact": "citizen-loop-failure-guard-v4-34546187796",
+        "artifactSha256GitHubReported": "db42da945d39d68bb65664c5f5970d97cf6c913107e42bf9faf1ac5347e0ebc9",
+        "completedAt": "2026-09-11T00:22:40Z",
+        "persistenceFailureReturned500": true,
+        "frequencyCountUnchanged": true,
+        "witnessCountUnchanged": true,
+        "firstTransmissionRiteUnchanged": true,
+        "targetWasIsolatedRestoredProductionDatabase": true
+      },
+      "acceptance": "FULL_BEHAVIORAL_PASS",
+      "provenance": "JohnBrajer/Trillsverse-Gate-FINAL#72"
+    }
+  },
+  "mymindmine": {
+    "sourceAndLiveSha": "24491a51622b9dc65a9674c58768f06bc26391d4",
+    "healthObservedAt": "2026-09-10T12:50:16Z",
+    "productionRecovery": "UNKNOWN",
+    "reason": "Issue JohnBrajer/mymindmine.com#3 remains open; no production off-host backup plus isolated restore receipt is attached."
+  },
+  "lultrills": {
+    "currentSourceCandidate": "9958bfc6e1052fc4921797180ddbd811f7dca85b",
+    "rootReachability": "200-observed",
+    "apiHealth": "404-observed",
+    "currentLiveSha": "UNKNOWN",
+    "productionRecovery": "UNKNOWN",
+    "reason": "Issue JohnBrajer/lultrills.com#11 remains open; exact live identity and rollback evidence are not yet proven."
+  },
+  "rulesApplied": [
+    "UNKNOWN is preserved when evidence is absent.",
+    "Historical receipts are referenced, not overwritten.",
+    "Source state and deployed/live state remain separate.",
+    "No secrets, raw private payloads, private host paths, or sensitive operational metadata are projected."
+  ]
+}
