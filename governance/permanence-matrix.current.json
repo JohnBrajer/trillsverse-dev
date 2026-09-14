@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1",
-  "observedAt": "2026-09-11T05:26:00Z",
+  "observedAt": "2026-09-14T02:29:28Z",
   "domains": [
     {
       "domain": "trillsverse.com",
@@ -71,32 +71,72 @@
     },
     {
       "domain": "lultrills.com",
-      "role": "Public canon/artist/authority surface",
+      "role": "Public canon/artist/authority surface with private inquiry state",
       "canonicalSource": {
         "status": "known",
         "repository": "JohnBrajer/lultrills.com",
         "branch": "John",
-        "currentSourceCandidate": "9958bfc6e1052fc4921797180ddbd811f7dca85b"
+        "currentSourceCandidate": "3381895eab608d57e53685c3107e0e0c9af26b38"
       },
-      "build": {"status": "known", "value": "Next.js next build"},
+      "build": {"status": "known-tested", "value": "Next.js production build"},
       "deploymentTarget": {
         "status": "known",
         "value": "self-managed DigitalOcean",
-        "evidence": "current public infrastructure record + README reconciliation"
+        "evidence": "JohnBrajer/lultrills.com#11"
       },
-      "exactShaDeploy": {"status": "unknown"},
-      "currentLiveSha": {"status": "unknown"},
+      "exactShaDeploy": {
+        "status": "known-observed",
+        "value": "3381895eab608d57e53685c3107e0e0c9af26b38",
+        "evidence": "JohnBrajer/lultrills.com#29 recovery run 34789259182; re-verified by permanence drill 34798401752"
+      },
+      "currentLiveSha": {
+        "status": "known-observed",
+        "value": "3381895eab608d57e53685c3107e0e0c9af26b38",
+        "evidence": "forward-recovery public acceptance contract passed in run 34798401752"
+      },
       "healthVerification": {
-        "status": "partial",
-        "evidence": "root 200 observed; /api/health 404 observed on 2026-09-10"
+        "status": "known-observed",
+        "evidence": "root, /api/health, robots, llms, and corpus verified on current release; rollback and forward-recovery public contracts passed in run 34798401752"
       },
-      "releaseReceipt": {"status": "unknown"},
-      "rollback": {"status": "unknown"},
-      "durablePrivateDatabase": {"status": "not-evidenced"},
-      "backup": {"status": "not-applicable-unless-data-bearing-service-added"},
-      "restoreTested": {"status": "not-applicable-unless-data-bearing-service-added"},
-      "identityBoundary": {"status": "public-surface"},
-      "nextEvidence": "JohnBrajer/lultrills.com#11: release identity surface + known-good release + rollback proof."
+      "releaseReceipt": {
+        "status": "known-observed",
+        "evidence": "lultrills-permanence-11-34798401752",
+        "artifactId": 10330766772,
+        "sha256": "02403abb5e04768133100789758bbcbd1b9496bb67caaf907e07a3f8b6903de8"
+      },
+      "rollback": {
+        "status": "tested",
+        "knownGoodRelease": "305c526d51bb142defa8ab3ccc0d70ecaef5efb7",
+        "forwardRecoveryTested": true,
+        "evidence": "Lultrills permanence drill run 34798401752"
+      },
+      "durablePrivateDatabase": {"status": "not-applicable"},
+      "productionOnlyMutableState": {
+        "status": "known",
+        "value": "private inquiry state in production named volume",
+        "evidence": "JohnBrajer/lultrills.com#11"
+      },
+      "backup": {
+        "status": "tested-production-backup",
+        "evidence": "Lultrills permanence drill run 34798401752"
+      },
+      "offHostBackup": {
+        "status": "known-observed",
+        "artifact": "lultrills-inquiries-backup-34798401752",
+        "artifactId": 10330663531,
+        "retentionDays": 7,
+        "sha256": "a8dc48efc2f61270cae372d712901a75c49adffd1336b30f402fc3cd42eb951a"
+      },
+      "restoreProcedure": {
+        "status": "known-tested",
+        "evidence": "isolated off-host backup restore + integrity verification in run 34798401752"
+      },
+      "restoreTested": {
+        "status": "passed",
+        "evidence": "off-host inquiry backup restored into isolated path and integrity verified in run 34798401752"
+      },
+      "identityBoundary": {"status": "public-surface-with-private-inquiry-state"},
+      "nextEvidence": "No remaining #11 permanence gap. Supersede this evidence only when a later exact deployment or recovery receipt changes the production authority."
     },
     {
       "domain": "mymindmine.com",
