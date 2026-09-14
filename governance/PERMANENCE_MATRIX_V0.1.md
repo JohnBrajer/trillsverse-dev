@@ -1,7 +1,7 @@
 # Three-Domain Permanence Matrix v0.1
 
 Status: **CURRENT EVIDENCE MATRIX**  
-Reconciled: **2026-09-11**  
+Reconciled: **2026-09-14**  
 Scope: Trillsverse.com, Lultrills.com, MyMindMine.com
 
 ## Rule
@@ -14,25 +14,45 @@ Permanence is not “the site is online.” It is the ability to identify canoni
 
 | Capability | Trillsverse.com / Gate | Lultrills.com | MyMindMine.com |
 |---|---|---|---|
-| Canonical source | **KNOWN** — `JohnBrajer/Trillsverse-Gate-FINAL`, `main`; source has advanced beyond the proven production release | **KNOWN** — `JohnBrajer/lultrills.com`, branch `John`; current source candidate `9958bfc6…` | **KNOWN** — `JohnBrajer/mymindmine.com`, `main`, currently `24491a51…` |
-| Reproducible build | **KNOWN** — build exercised in CI and again during isolated recovery | **KNOWN** — Next.js `next build` | **KNOWN** — Next.js build |
+| Canonical source | **KNOWN** — `JohnBrajer/Trillsverse-Gate-FINAL`, `main`; source has advanced beyond the proven production release | **KNOWN** — `JohnBrajer/lultrills.com`, branch `John`; production authority verified at `3381895e…` | **KNOWN** — `JohnBrajer/mymindmine.com`, `main`, currently `24491a51…` |
+| Reproducible build | **KNOWN** — build exercised in CI and again during isolated recovery | **KNOWN / TESTED** — production Next.js build | **KNOWN** — Next.js build |
 | Deployment target | **KNOWN** — DigitalOcean | **KNOWN** — self-managed DigitalOcean | **KNOWN** — DigitalOcean + Docker + Caddy, port 3100 |
-| Exact-SHA deployment | **KNOWN / OBSERVED** — `57837b9d08c0c9c89ad386e8a7351d0d269b49af`, deploy run `34493006357` | **UNKNOWN** | **KNOWN / OBSERVED** — health identifies `24491a51622b9dc65a9674c58768f06bc26391d4` |
-| Current live SHA | **KNOWN / OBSERVED** — `57837b9d…`, deployedAt `2026-09-10T15:09:07Z` | **UNKNOWN** — root 200, `/api/health` 404 | **KNOWN / OBSERVED** — `24491a51…` @ `2026-09-10T12:50:16Z` |
-| Public health verification | **KNOWN / OBSERVED** — CI + independent `/api/health` matched exact SHA | **PARTIAL** — root reachability observed; no release-identity health surface | **KNOWN / OBSERVED** — exact SHA reported by production health |
-| Release receipt | **KNOWN / OBSERVED** — `production-deployment-34493006357`, SHA-256 recorded | **UNKNOWN** | **UNKNOWN** |
+| Exact-SHA deployment | **KNOWN / OBSERVED** — `57837b9d08c0c9c89ad386e8a7351d0d269b49af`, deploy run `34493006357` | **KNOWN / OBSERVED** — `3381895eab608d57e53685c3107e0e0c9af26b38`; re-verified by run `34798401752` | **KNOWN / OBSERVED** — health identifies `24491a51622b9dc65a9674c58768f06bc26391d4` |
+| Current live SHA | **KNOWN / OBSERVED** — `57837b9d…`, deployedAt `2026-09-10T15:09:07Z` | **KNOWN / OBSERVED** — `3381895e…` after forward recovery | **KNOWN / OBSERVED** — `24491a51…` @ `2026-09-10T12:50:16Z` |
+| Public health verification | **KNOWN / OBSERVED** — CI + independent `/api/health` matched exact SHA | **KNOWN / OBSERVED** — root, `/api/health`, robots, llms, corpus verified on current release; rollback and forward-recovery public contracts passed | **KNOWN / OBSERVED** — exact SHA reported by production health |
+| Release receipt | **KNOWN / OBSERVED** — `production-deployment-34493006357`, SHA-256 recorded | **KNOWN / OBSERVED** — `lultrills-permanence-11-34798401752`, SHA-256 `02403abb5e04768133100789758bbcbd1b9496bb67caaf907e07a3f8b6903de8` | **UNKNOWN** |
 | Citizen Loop behavioral contract | **PASS** — live smoke + isolated persistence-failure guard both passed | N/A | N/A |
-| Rollback procedure | **TESTED** — historical `8717e1bdea…` booted successfully against isolated restored data; forward recovery to `57837b9d…` also passed | **UNKNOWN** | **UNKNOWN** |
+| Rollback procedure | **TESTED** — historical `8717e1bdea…` booted successfully against isolated restored data; forward recovery to `57837b9d…` also passed | **TESTED** — rollback to `305c526d51bb142defa8ab3ccc0d70ecaef5efb7`, public verification, then forward recovery to `3381895e…` all passed | **UNKNOWN** |
 | Schema / migrations | **KNOWN** — PostgreSQL/Drizzle migration state reconstructed and checked | **N/A / no durable private app database evidenced** | **No shared Gate/Canon Postgres evidenced**; telemetry persistence exists separately |
-| Backup procedure | **TESTED ON PRODUCTION DATA** — PostgreSQL custom dump created, readable, hashed | **N/A unless a data-bearing service is added** | **KNOWN mechanism only** — production execution still open |
-| Off-host backup | **KNOWN / OBSERVED** — protected Actions artifact produced; 14-day retention recorded | **N/A unless data-bearing service exists** | **UNKNOWN production proof** |
-| Restore procedure | **KNOWN / TESTED** — isolated restore completed from production backup | **N/A unless data-bearing service exists** | **KNOWN mechanism; production drill UNKNOWN** |
-| Restore tested | **PASS** — isolated restore, invariants, exact-current reconstruction, rollback, forward recovery | **N/A unless data-bearing service exists** | **UNKNOWN production proof** |
-| Public/private identity boundary | **PARTIAL / explicit core rules exist** | **Public artist/canon surface** | **KNOWN v0.1** — Constitutional Boundary v0.1 |
-| Private-data export/delete contract | **PARTIAL / data-service-by-service closure still applies** | **N/A for current public content surface unless private data is introduced** | **BOUNDARY + mechanics defined; production lifecycle proof remains open** |
+| Backup procedure | **TESTED ON PRODUCTION DATA** — PostgreSQL custom dump created, readable, hashed | **TESTED ON PRODUCTION STATE** — private inquiry volume backed up during run `34798401752` | **KNOWN mechanism only** — production execution still open |
+| Off-host backup | **KNOWN / OBSERVED** — protected Actions artifact produced; 14-day retention recorded | **KNOWN / OBSERVED** — protected `lultrills-inquiries-backup-34798401752`, 7-day retention, SHA-256 recorded | **UNKNOWN production proof** |
+| Restore procedure | **KNOWN / TESTED** — isolated restore completed from production backup | **KNOWN / TESTED** — off-host inquiry backup restored into isolated path and integrity verified | **KNOWN mechanism; production drill UNKNOWN** |
+| Restore tested | **PASS** — isolated restore, invariants, exact-current reconstruction, rollback, forward recovery | **PASS** — isolated restore/integrity proof in run `34798401752` | **UNKNOWN production proof** |
+| Public/private identity boundary | **PARTIAL / explicit core rules exist** | **Public canon/artist surface + private inquiry state boundary now explicit** | **KNOWN v0.1** — Constitutional Boundary v0.1 |
+| Private-data export/delete contract | **PARTIAL / data-service-by-service closure still applies** | **PARTIAL** — inquiry backup/recovery proven; broader retention/deletion semantics remain a separate policy surface | **BOUNDARY + mechanics defined; production lifecycle proof remains open** |
 | Telemetry provenance/freshness | **IMPLEMENTED; observer-path method preservation now merged in source** | **Machine/authority surfaces public; formal telemetry contract not established as a core data product** | **PARTIAL** — allowlisted receipts + observed summaries documented |
 | Canon / metadata / sitemap | **KNOWN in source** | **KNOWN in source/public surface** | **KNOWN in repo structure** |
-| Ownership/dependency inventory | **PARTIAL** | **PARTIAL** | **PARTIAL** |
+| Ownership/dependency inventory | **PARTIAL** | **KNOWN for #11 recovery path / broader inventory can still evolve** | **PARTIAL** |
+
+## 2026-09-14 Lultrills permanence projection
+
+`JohnBrajer/lultrills.com#11` reached its actual recovery acceptance boundary.
+
+**Current proven production authority:** `3381895eab608d57e53685c3107e0e0c9af26b38`.
+
+Terminal recovery evidence from `Lultrills permanence drill` run `34798401752`:
+
+- starting public release identity was verified before mutation;
+- the production inquiry state was copied off-host without publishing inquiry payloads;
+- protected backup artifact `lultrills-inquiries-backup-34798401752` was created with 7-day retention, artifact ID `10330663531`, SHA-256 `a8dc48efc2f61270cae372d712901a75c49adffd1336b30f402fc3cd42eb951a`;
+- that off-host backup was restored into an isolated path and integrity verification passed;
+- production was rolled back to previously public-verified `305c526d51bb142defa8ab3ccc0d70ecaef5efb7`;
+- the rollback public acceptance contract passed;
+- production was forward-recovered to exact `3381895eab608d57e53685c3107e0e0c9af26b38`;
+- the forward-recovery public acceptance contract passed;
+- sanitized 90-day evidence artifact `lultrills-permanence-11-34798401752` was preserved, artifact ID `10330766772`, SHA-256 `02403abb5e04768133100789758bbcbd1b9496bb67caaf907e07a3f8b6903de8`.
+
+This supersedes the September 11 Lultrills permanence state below. The old `UNKNOWN` release identity and `N/A` backup/restore assumptions are historical and must not be used as current authority. Lultrills does have production-only mutable private inquiry state; its protected backup and isolated restore are now observed, and rollback/forward recovery are tested.
 
 ## 2026-09-11 evidence projection
 
@@ -68,13 +88,9 @@ Citizen Loop evidence from `JohnBrajer/Trillsverse-Gate-FINAL#72`:
 
 The important remaining distinction is **source vs deployed state**. `main` has advanced after `57837b9d…`; newer source must remain non-live until a later exact deployment receipt and observation supersede the current production authority.
 
-### Lultrills.com
+### Lultrills.com — historical September 11 state
 
-Canonical source and current source head are known. Public root reachability is observed, but `/api/health` returned 404 in the September 10 cross-domain check. Therefore the exact live SHA remains **UNKNOWN**. Do not equate the branch head with production.
-
-Issue `JohnBrajer/lultrills.com#11` remains the active permanence slice: establish a release-identity/health surface, name a known-good release, prove rollback, and then project that evidence here.
-
-No durable private application database is currently evidenced. Backup/restore remains N/A unless a data-bearing service or production-only content state is introduced.
+At the September 11 projection, canonical source was known but exact production identity and recovery were still unverified. That state has now been superseded by the September 14 terminal recovery evidence above. Preserve this paragraph as historical provenance only.
 
 ### MyMindMine.com
 
@@ -95,9 +111,9 @@ Accordingly:
 
 1. **Public-state propagation:** keep State Registry and this matrix synchronized whenever a new deployment/recovery/behavior receipt lands.
 2. **Gate:** only re-open recovery or Citizen Loop uncertainty if later evidence invalidates an invariant; otherwise treat `57837b9d…` as the proven baseline until superseded.
-3. **MyMindMine #3:** execute production telemetry backup → protected off-host copy → isolated restore → retention/erasure freeze → rollback proof.
-4. **Lultrills #11:** add exact release identity + health evidence and prove rollback/reconstruction.
-5. **All three:** finish dependency/ownership inventories without leaking secrets or private host metadata.
+3. **Lultrills #11:** terminal permanence evidence is complete; preserve/supersede it only from later exact observations.
+4. **MyMindMine #3:** execute production telemetry backup → protected off-host copy → isolated restore → retention/erasure freeze → rollback proof.
+5. **All three:** finish any remaining dependency/ownership inventories without leaking secrets or private host metadata.
 
 ## Permanence completion test
 
