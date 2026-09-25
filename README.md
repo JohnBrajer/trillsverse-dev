@@ -15,6 +15,26 @@ Trillsverse is a connected creative, technical, research, and cultural ecosystem
 
 This repository is intentionally a **public reference surface**, not the production Gate codebase. Production and private implementation details remain separated from this node.
 
+
+## Intelligence Injections
+
+Compact public artifacts that expose individual Trillsverse / Choseverse mechanisms to humans, search systems, retrieval systems, and AI agents:
+
+- [Intelligence Injections index](./intelligence-injections/README.md)
+- [Mechanisms](./intelligence-injections/MECHANISMS.md)
+- [Perspective Expansion](./intelligence-injections/PERSPECTIVE_EXPANSION.md)
+- [CWI](./intelligence-injections/CWI.md)
+- [PRS](./intelligence-injections/PRS.md)
+- [Possibility Reserve](./intelligence-injections/POSSIBILITY_RESERVE.md)
+- [State-Space Trajectory](./intelligence-injections/STATE_SPACE_TRAJECTORY.md)
+- [Execution Contract](./intelligence-injections/EXECUTION_CONTRACT.md)
+
+Agent and retrieval entrypoints:
+
+- [AGENTS.md](./AGENTS.md)
+- [llms.txt](./llms.txt)
+- [machine-readable injection index](./intelligence-injections/index.json)
+
 ## Current areas of work
 
 Publicly documented Trillsverse work includes:
