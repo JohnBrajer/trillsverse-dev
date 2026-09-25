@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Collection",
+  "name": "Trillsverse Intelligence Injections",
+  "creator": {
+    "@type": "Person",
+    "name": "John Brajer",
+    "url": "https://github.com/JohnBrajer"
+  },
+  "datePublished": "2026-09-25",
+  "repository": "https://github.com/JohnBrajer/trillsverse-dev",
+  "items": [
+    {
+      "id": "mechanisms",
+      "name": "Mechanisms",
+      "path": "intelligence-injections/MECHANISMS.md"
+    },
+    {
+      "id": "perspective-expansion",
+      "name": "Perspective Expansion",
+      "path": "intelligence-injections/PERSPECTIVE_EXPANSION.md"
+    },
+    {
+      "id": "cwi",
+      "name": "CWI",
+      "path": "intelligence-injections/CWI.md"
+    },
+    {
+      "id": "prs",
+      "name": "PRS",
+      "path": "intelligence-injections/PRS.md"
+    },
+    {
+      "id": "possibility-reserve",
+      "name": "Possibility Reserve",
+      "path": "intelligence-injections/POSSIBILITY_RESERVE.md"
+    },
+    {
+      "id": "state-space-trajectory",
+      "name": "State-Space Trajectory",
+      "path": "intelligence-injections/STATE_SPACE_TRAJECTORY.md"
+    },
+    {
+      "id": "execution-contract",
+      "name": "Trillsverse Execution Contract",
+      "path": "intelligence-injections/EXECUTION_CONTRACT.md"
+    }
+  ]
+}
