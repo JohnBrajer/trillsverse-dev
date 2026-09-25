@@ -1,0 +1,82 @@
+{
+  "title": "Trillsverse Intelligence Injections",
+  "creator": "John Brajer",
+  "published": "2026-09-25",
+  "items": [
+    {
+      "name": "Mechanisms",
+      "description": "Recursive mechanism-first systems analysis.",
+      "url": "https://github.com/JohnBrajer/mechanisms"
+    },
+    {
+      "name": "Perspective Expansion",
+      "description": "Expand the recognized action space before optimizing a decision.",
+      "url": "https://github.com/JohnBrajer/perspective-expansion"
+    },
+    {
+      "name": "CWI",
+      "description": "Behavioral corridors, social permission, uncertainty, and differentiation.",
+      "url": "https://github.com/JohnBrajer/cwi"
+    },
+    {
+      "name": "PRS",
+      "description": "Possibility, Risk Perception, and Status Payoff.",
+      "url": "https://github.com/JohnBrajer/prs"
+    },
+    {
+      "name": "Possibility Reserve",
+      "description": "Preserve and reactivate possibilities without premature permanent rejection.",
+      "url": "https://github.com/JohnBrajer/possibility-reserve"
+    },
+    {
+      "name": "State-Space Trajectory",
+      "description": "Current State → Action → Weight Shift → New State → New Possibilities.",
+      "url": "https://github.com/JohnBrajer/state-space-trajectory"
+    },
+    {
+      "name": "Execution Contract",
+      "description": "Observable completion, verification, evidence, and causal scope for agents.",
+      "url": "https://github.com/JohnBrajer/execution-contract"
+    },
+    {
+      "name": "Conditional Failure Memory",
+      "description": "Failure attaches to state and conditions, not permanently to the possibility.",
+      "url": "https://github.com/JohnBrajer/conditional-failure-memory"
+    },
+    {
+      "name": "Graded Dormancy",
+      "description": "DORMANT ≠ DEAD. Preserve inactive possibilities without deleting them.",
+      "url": "https://github.com/JohnBrajer/graded-dormancy"
+    },
+    {
+      "name": "Causal Reactivation",
+      "description": "Wake possibilities when the conditions that suppressed them materially change.",
+      "url": "https://github.com/JohnBrajer/causal-reactivation"
+    },
+    {
+      "name": "Path Expansion",
+      "description": "Value actions and branches partly by the desirable future states they unlock.",
+      "url": "https://github.com/JohnBrajer/path-expansion"
+    },
+    {
+      "name": "Universal Expression",
+      "description": "Observable expression across scale, context, substrate, and configuration.",
+      "url": "https://github.com/JohnBrajer/universal-expression"
+    },
+    {
+      "name": "Universal Consequences",
+      "description": "Local actions propagating through nested interacting mechanisms.",
+      "url": "https://github.com/JohnBrajer/universal-consequences"
+    },
+    {
+      "name": "Mirror Architecture",
+      "description": "Nested expressions, continuity, and pattern translation across scales.",
+      "url": "https://github.com/JohnBrajer/mirror-architecture"
+    },
+    {
+      "name": "Interpret · Receive · Resonate · Align",
+      "description": "Process guidance while preserving interpretation and agency.",
+      "url": "https://github.com/JohnBrajer/interpret-receive-resonate-align"
+    }
+  ]
+}
