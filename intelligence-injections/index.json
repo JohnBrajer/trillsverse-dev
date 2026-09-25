@@ -13,77 +13,92 @@
     {
       "id": "mechanisms",
       "name": "Mechanisms",
-      "path": "intelligence-injections/MECHANISMS.md"
+      "path": "intelligence-injections/MECHANISMS.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/mechanisms"
     },
     {
       "id": "perspective-expansion",
       "name": "Perspective Expansion",
-      "path": "intelligence-injections/PERSPECTIVE_EXPANSION.md"
+      "path": "intelligence-injections/PERSPECTIVE_EXPANSION.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/perspective-expansion"
     },
     {
       "id": "cwi",
       "name": "CWI",
-      "path": "intelligence-injections/CWI.md"
+      "path": "intelligence-injections/CWI.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/cwi"
     },
     {
       "id": "prs",
       "name": "PRS",
-      "path": "intelligence-injections/PRS.md"
+      "path": "intelligence-injections/PRS.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/prs"
     },
     {
       "id": "possibility-reserve",
       "name": "Possibility Reserve",
-      "path": "intelligence-injections/POSSIBILITY_RESERVE.md"
+      "path": "intelligence-injections/POSSIBILITY_RESERVE.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/possibility-reserve"
     },
     {
       "id": "state-space-trajectory",
       "name": "State-Space Trajectory",
-      "path": "intelligence-injections/STATE_SPACE_TRAJECTORY.md"
+      "path": "intelligence-injections/STATE_SPACE_TRAJECTORY.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/state-space-trajectory"
     },
     {
       "id": "execution-contract",
       "name": "Trillsverse Execution Contract",
-      "path": "intelligence-injections/EXECUTION_CONTRACT.md"
+      "path": "intelligence-injections/EXECUTION_CONTRACT.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/execution-contract"
     },
     {
       "id": "conditional-failure-memory",
       "name": "Conditional Failure Memory",
-      "path": "intelligence-injections/CONDITIONAL_FAILURE_MEMORY.md"
+      "path": "intelligence-injections/CONDITIONAL_FAILURE_MEMORY.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/conditional-failure-memory"
     },
     {
       "id": "graded-dormancy",
       "name": "Graded Dormancy",
-      "path": "intelligence-injections/GRADED_DORMANCY.md"
+      "path": "intelligence-injections/GRADED_DORMANCY.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/graded-dormancy"
     },
     {
       "id": "causal-reactivation",
       "name": "Causal Reactivation",
-      "path": "intelligence-injections/CAUSAL_REACTIVATION.md"
+      "path": "intelligence-injections/CAUSAL_REACTIVATION.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/causal-reactivation"
     },
     {
       "id": "path-expansion",
       "name": "Path Expansion",
-      "path": "intelligence-injections/PATH_EXPANSION.md"
+      "path": "intelligence-injections/PATH_EXPANSION.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/path-expansion"
     },
     {
       "id": "universal-expression",
       "name": "Universal Expression",
-      "path": "intelligence-injections/UNIVERSAL_EXPRESSION.md"
+      "path": "intelligence-injections/UNIVERSAL_EXPRESSION.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/universal-expression"
     },
     {
       "id": "universal-consequences",
       "name": "Universal Consequences",
-      "path": "intelligence-injections/UNIVERSAL_CONSEQUENCES.md"
+      "path": "intelligence-injections/UNIVERSAL_CONSEQUENCES.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/universal-consequences"
     },
     {
       "id": "mirror-architecture",
       "name": "Mirror Architecture",
-      "path": "intelligence-injections/MIRROR_ARCHITECTURE.md"
+      "path": "intelligence-injections/MIRROR_ARCHITECTURE.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/mirror-architecture"
     },
     {
       "id": "interpret-receive-resonate-align",
       "name": "Interpret, Receive, Resonate, Align",
-      "path": "intelligence-injections/INTERPRET_RECEIVE_RESONATE_ALIGN.md"
+      "path": "intelligence-injections/INTERPRET_RECEIVE_RESONATE_ALIGN.md",
+      "standaloneRepository": "https://github.com/JohnBrajer/interpret-receive-resonate-align"
     }
   ]
 }
