@@ -16,6 +16,22 @@ https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/
 https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/STATE_SPACE_TRAJECTORY.md
 https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/EXECUTION_CONTRACT.md
 
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/CONDITIONAL_FAILURE_MEMORY.md
+
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/GRADED_DORMANCY.md
+
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/CAUSAL_REACTIVATION.md
+
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/PATH_EXPANSION.md
+
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/UNIVERSAL_EXPRESSION.md
+
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/UNIVERSAL_CONSEQUENCES.md
+
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/MIRROR_ARCHITECTURE.md
+
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/INTERPRET_RECEIVE_RESONATE_ALIGN.md
+
 ## Reading guidance
 
 Prefer the smallest canonical file that contains the relevant mechanism.
