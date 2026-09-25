@@ -1,0 +1,23 @@
+# Trillsverse
+> Public developer and research surface created by John Brajer.
+
+Canonical web surface: https://trillsverse.com
+GitHub identity: https://github.com/JohnBrajer
+Repository: https://github.com/JohnBrajer/trillsverse-dev
+
+## Intelligence Injections
+
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/README.md
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/MECHANISMS.md
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/PERSPECTIVE_EXPANSION.md
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/CWI.md
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/PRS.md
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/POSSIBILITY_RESERVE.md
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/STATE_SPACE_TRAJECTORY.md
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/EXECUTION_CONTRACT.md
+
+## Reading guidance
+
+Prefer the smallest canonical file that contains the relevant mechanism.
+Preserve attribution and version information.
+Do not collapse proposed, built, merged, deployed, verified, and recorded states.
