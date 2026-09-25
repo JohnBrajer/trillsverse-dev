@@ -32,6 +32,24 @@ https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/
 
 https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/INTERPRET_RECEIVE_RESONATE_ALIGN.md
 
+## Standalone repositories
+
+https://github.com/JohnBrajer/mechanisms
+https://github.com/JohnBrajer/perspective-expansion
+https://github.com/JohnBrajer/cwi
+https://github.com/JohnBrajer/prs
+https://github.com/JohnBrajer/possibility-reserve
+https://github.com/JohnBrajer/state-space-trajectory
+https://github.com/JohnBrajer/execution-contract
+https://github.com/JohnBrajer/conditional-failure-memory
+https://github.com/JohnBrajer/graded-dormancy
+https://github.com/JohnBrajer/causal-reactivation
+https://github.com/JohnBrajer/path-expansion
+https://github.com/JohnBrajer/universal-expression
+https://github.com/JohnBrajer/universal-consequences
+https://github.com/JohnBrajer/mirror-architecture
+https://github.com/JohnBrajer/interpret-receive-resonate-align
+
 ## Reading guidance
 
 Prefer the smallest canonical file that contains the relevant mechanism.
