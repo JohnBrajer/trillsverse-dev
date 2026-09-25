@@ -44,6 +44,46 @@
       "id": "execution-contract",
       "name": "Trillsverse Execution Contract",
       "path": "intelligence-injections/EXECUTION_CONTRACT.md"
+    },
+    {
+      "id": "conditional-failure-memory",
+      "name": "Conditional Failure Memory",
+      "path": "intelligence-injections/CONDITIONAL_FAILURE_MEMORY.md"
+    },
+    {
+      "id": "graded-dormancy",
+      "name": "Graded Dormancy",
+      "path": "intelligence-injections/GRADED_DORMANCY.md"
+    },
+    {
+      "id": "causal-reactivation",
+      "name": "Causal Reactivation",
+      "path": "intelligence-injections/CAUSAL_REACTIVATION.md"
+    },
+    {
+      "id": "path-expansion",
+      "name": "Path Expansion",
+      "path": "intelligence-injections/PATH_EXPANSION.md"
+    },
+    {
+      "id": "universal-expression",
+      "name": "Universal Expression",
+      "path": "intelligence-injections/UNIVERSAL_EXPRESSION.md"
+    },
+    {
+      "id": "universal-consequences",
+      "name": "Universal Consequences",
+      "path": "intelligence-injections/UNIVERSAL_CONSEQUENCES.md"
+    },
+    {
+      "id": "mirror-architecture",
+      "name": "Mirror Architecture",
+      "path": "intelligence-injections/MIRROR_ARCHITECTURE.md"
+    },
+    {
+      "id": "interpret-receive-resonate-align",
+      "name": "Interpret, Receive, Resonate, Align",
+      "path": "intelligence-injections/INTERPRET_RECEIVE_RESONATE_ALIGN.md"
     }
   ]
 }
