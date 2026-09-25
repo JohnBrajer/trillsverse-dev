@@ -21,6 +21,14 @@ The goal is not to create a giant undifferentiated corpus. Each injection should
 - [Possibility Reserve](./POSSIBILITY_RESERVE.md)
 - [State-Space Trajectory](./STATE_SPACE_TRAJECTORY.md)
 - [Execution Contract](./EXECUTION_CONTRACT.md)
+- [Conditional Failure Memory](./CONDITIONAL_FAILURE_MEMORY.md)
+- [Graded Dormancy](./GRADED_DORMANCY.md)
+- [Causal Reactivation](./CAUSAL_REACTIVATION.md)
+- [Path Expansion](./PATH_EXPANSION.md)
+- [Universal Expression](./UNIVERSAL_EXPRESSION.md)
+- [Universal Consequences](./UNIVERSAL_CONSEQUENCES.md)
+- [Mirror Architecture](./MIRROR_ARCHITECTURE.md)
+- [Interpret, Receive, Resonate, Align](./INTERPRET_RECEIVE_RESONATE_ALIGN.md)
 
 ## Design rule
 
