@@ -30,6 +30,24 @@ The goal is not to create a giant undifferentiated corpus. Each injection should
 - [Mirror Architecture](./MIRROR_ARCHITECTURE.md)
 - [Interpret, Receive, Resonate, Align](./INTERPRET_RECEIVE_RESONATE_ALIGN.md)
 
+## Standalone repositories
+
+- [Mechanisms](https://github.com/JohnBrajer/mechanisms) — standalone public reference repository
+- [Perspective Expansion](https://github.com/JohnBrajer/perspective-expansion) — standalone public reference repository
+- [CWI](https://github.com/JohnBrajer/cwi) — standalone public reference repository
+- [PRS](https://github.com/JohnBrajer/prs) — standalone public reference repository
+- [Possibility Reserve](https://github.com/JohnBrajer/possibility-reserve) — standalone public reference repository
+- [State-Space Trajectory](https://github.com/JohnBrajer/state-space-trajectory) — standalone public reference repository
+- [Trillsverse Execution Contract](https://github.com/JohnBrajer/execution-contract) — standalone public reference repository
+- [Conditional Failure Memory](https://github.com/JohnBrajer/conditional-failure-memory) — standalone public reference repository
+- [Graded Dormancy](https://github.com/JohnBrajer/graded-dormancy) — standalone public reference repository
+- [Causal Reactivation](https://github.com/JohnBrajer/causal-reactivation) — standalone public reference repository
+- [Path Expansion](https://github.com/JohnBrajer/path-expansion) — standalone public reference repository
+- [Universal Expression](https://github.com/JohnBrajer/universal-expression) — standalone public reference repository
+- [Universal Consequences](https://github.com/JohnBrajer/universal-consequences) — standalone public reference repository
+- [Mirror Architecture](https://github.com/JohnBrajer/mirror-architecture) — standalone public reference repository
+- [Interpret, Receive, Resonate, Align](https://github.com/JohnBrajer/interpret-receive-resonate-align) — standalone public reference repository
+
 ## Design rule
 
 The preferred unit is the **smallest public artifact that preserves the mechanism without flattening it**.
