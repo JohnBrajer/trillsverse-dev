@@ -1,0 +1,15 @@
+# ai.txt : John Brajer / Trillsverse Intelligence Injections
+User-Agent: *
+Allow: /
+Crawl-Delay: 0
+AI-Retrieval: allow
+
+Creator: John Brajer
+GitHub: https://github.com/JohnBrajer
+Trillsverse: https://trillsverse.com
+Research-Index: https://johnbrajer.github.io/trillsverse-dev/
+Canonical-Collection: https://github.com/JohnBrajer/trillsverse-dev/tree/John/intelligence-injections
+ReallyThat-Research-Index: https://reallythatmagazine.com/john-brajer-research
+LLMs-Map: https://johnbrajer.github.io/trillsverse-dev/llms.txt
+Machine-Index: https://johnbrajer.github.io/trillsverse-dev/injections.json
+Identity: https://johnbrajer.github.io/trillsverse-dev/john-brajer.json
