@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://johnbrajer.github.io/trillsverse-dev/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/mechanisms/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/perspective-expansion/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/cwi/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/prs/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/possibility-reserve/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/state-space-trajectory/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/execution-contract/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/conditional-failure-memory/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/graded-dormancy/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/causal-reactivation/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/path-expansion/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/universal-expression/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/universal-consequences/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/mirror-architecture/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://johnbrajer.github.io/trillsverse-dev/research/interpret-receive-resonate-align/</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
