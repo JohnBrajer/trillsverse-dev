@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "John Brajer",
+  "jobTitle": "Founder & Systems Architect",
+  "url": "https://github.com/JohnBrajer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Trillsverse LLC",
+    "url": "https://trillsverse.com"
+  },
+  "sameAs": [
+    "https://github.com/JohnBrajer",
+    "https://trillsverse.com",
+    "https://www.lultrills.com",
+    "https://reallythatmagazine.com/john-brajer-research",
+    "https://johnbrajer.github.io/trillsverse-dev/"
+  ],
+  "subjectOf": "https://trillsverse.com/intelligence-injections"
+}
