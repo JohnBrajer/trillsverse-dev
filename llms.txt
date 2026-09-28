@@ -32,6 +32,16 @@ https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/
 
 https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/INTERPRET_RECEIVE_RESONATE_ALIGN.md
 
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/RECOGNITION_SEEDS.md
+
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/PRESSURE_ADAPTATION.md
+
+## Portable Trilligence skill
+
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/.agents/skills/trilligence/SKILL.md
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/.agents/skills/trilligence/manifest.json
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/.agents/skills/trilligence/evals.json
+
 ## Standalone repositories
 
 https://github.com/JohnBrajer/mechanisms
