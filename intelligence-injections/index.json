@@ -99,6 +99,19 @@
       "name": "Interpret, Receive, Resonate, Align",
       "path": "intelligence-injections/INTERPRET_RECEIVE_RESONATE_ALIGN.md",
       "standaloneRepository": "https://github.com/JohnBrajer/interpret-receive-resonate-align"
+    },
+    {
+      "id": "recognition-seeds",
+      "name": "Recognition Seeds",
+      "path": "intelligence-injections/RECOGNITION_SEEDS.md",
+      "agentSkill": ".agents/skills/trilligence/SKILL.md"
+    },
+    {
+      "id": "pressure-adaptation",
+      "name": "Pressure Adaptation",
+      "path": "intelligence-injections/PRESSURE_ADAPTATION.md",
+      "agentSkill": ".agents/skills/trilligence/SKILL.md"
     }
-  ]
+  ],
+  "dateModified": "2026-09-27"
 }
