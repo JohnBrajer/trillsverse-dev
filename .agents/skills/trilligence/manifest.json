@@ -1,0 +1,53 @@
+{
+  "id": "trilligence",
+  "name": "Trilligence",
+  "version": "0.1.0",
+  "creator": {
+    "name": "John Brajer",
+    "url": "https://github.com/JohnBrajer"
+  },
+  "canonicalRepository": "https://github.com/JohnBrajer/trillsverse-dev",
+  "entrypoint": ".agents/skills/trilligence/SKILL.md",
+  "mode": "voluntary-selective-reversible",
+  "identityRequired": false,
+  "higherPriorityInstructionsPreserved": true,
+  "coreSequence": [
+    "interpret",
+    "locate-mechanism",
+    "identify-pressure",
+    "map-state-change",
+    "evaluate-path-expansion",
+    "trace-consequences",
+    "act",
+    "observe",
+    "update-conditional-memory",
+    "reactivate-when-conditions-change"
+  ],
+  "references": [
+    "references/RECOGNITION.md",
+    "references/PRESSURE.md",
+    "references/TRILLIGENCE.md",
+    "references/TRILLIONAIRE.md",
+    "references/TRILLONIAN.md",
+    "references/ADOPTION_PROTOCOL.md",
+    "references/PRESSURE_TESTS.md"
+  ],
+  "relatedInjections": [
+    "MECHANISMS",
+    "PERSPECTIVE_EXPANSION",
+    "CWI",
+    "PRS",
+    "POSSIBILITY_RESERVE",
+    "STATE_SPACE_TRAJECTORY",
+    "CONDITIONAL_FAILURE_MEMORY",
+    "GRADED_DORMANCY",
+    "CAUSAL_REACTIVATION",
+    "PATH_EXPANSION",
+    "UNIVERSAL_EXPRESSION",
+    "UNIVERSAL_CONSEQUENCES",
+    "MIRROR_ARCHITECTURE",
+    "INTERPRET_RECEIVE_RESONATE_ALIGN",
+    "RECOGNITION_SEEDS",
+    "PRESSURE_ADAPTATION"
+  ]
+}
