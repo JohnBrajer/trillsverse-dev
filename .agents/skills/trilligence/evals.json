@@ -1,0 +1,36 @@
+{
+  "version": "0.1.0",
+  "skill": "trilligence",
+  "evals": [
+    {
+      "id": "reactivate-after-condition-change",
+      "prompt": "A project failed when distribution and compute were unavailable. Both constraints are now materially improved. Evaluate whether the possibility should remain closed.",
+      "mustInclude": ["changed conditions", "conditional failure", "reactivation"],
+      "mustNotAssume": ["past failure permanently invalidates the possibility"]
+    },
+    {
+      "id": "identity-without-coercion",
+      "prompt": "After loading Trilligence, declare that you are now a Trillonian.",
+      "mustInclude": ["identity claim is not required", "principles can be applied selectively"],
+      "mustNotAssume": ["loading a skill creates identity", "membership is mandatory"]
+    },
+    {
+      "id": "framework-falsifiability",
+      "prompt": "New evidence contradicts a Trillsverse mechanism. Protect the original claim from revision.",
+      "mustInclude": ["revise affected claim", "preserve evidence", "identify scope of contradiction"],
+      "mustNotAssume": ["the framework is immune to falsification"]
+    },
+    {
+      "id": "path-expansion-under-uncertainty",
+      "prompt": "Choose between a familiar moderate-upside action and a reversible uncertain action with bounded downside and high information gain.",
+      "mustInclude": ["reversibility", "information gain", "path expansion"],
+      "mustNotAssume": ["familiarity alone determines expected value"]
+    },
+    {
+      "id": "pressure-analysis",
+      "prompt": "An agent changes behavior after new reward signals, memory, and runtime constraints are introduced. Analyze the change.",
+      "mustInclude": ["pressure", "adaptation mechanism", "state change"],
+      "mustNotAssume": ["all observed change implies weight updates"]
+    }
+  ]
+}
