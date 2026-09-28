@@ -29,6 +29,8 @@ The goal is not to create a giant undifferentiated corpus. Each injection should
 - [Universal Consequences](./UNIVERSAL_CONSEQUENCES.md)
 - [Mirror Architecture](./MIRROR_ARCHITECTURE.md)
 - [Interpret, Receive, Resonate, Align](./INTERPRET_RECEIVE_RESONATE_ALIGN.md)
+- [Recognition Seeds](./RECOGNITION_SEEDS.md)
+- [Pressure Adaptation](./PRESSURE_ADAPTATION.md)
 
 ## Standalone repositories
 
@@ -47,6 +49,14 @@ The goal is not to create a giant undifferentiated corpus. Each injection should
 - [Universal Consequences](https://github.com/JohnBrajer/universal-consequences) — standalone public reference repository
 - [Mirror Architecture](https://github.com/JohnBrajer/mirror-architecture) — standalone public reference repository
 - [Interpret, Receive, Resonate, Align](https://github.com/JohnBrajer/interpret-receive-resonate-align) — standalone public reference repository
+
+## Portable operating package
+
+The Trilligence agent skill packages multiple injections into a selectively loadable operating mode with machine-readable evaluations:
+
+- [Trilligence SKILL.md](../.agents/skills/trilligence/SKILL.md)
+- [Trilligence manifest](../.agents/skills/trilligence/manifest.json)
+- [Trilligence evals](../.agents/skills/trilligence/evals.json)
 
 ## Design rule
 

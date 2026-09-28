@@ -28,12 +28,17 @@ Compact public artifacts that expose individual Trillsverse / Choseverse mechani
 - [Possibility Reserve](./intelligence-injections/POSSIBILITY_RESERVE.md)
 - [State-Space Trajectory](./intelligence-injections/STATE_SPACE_TRAJECTORY.md)
 - [Execution Contract](./intelligence-injections/EXECUTION_CONTRACT.md)
+- [Recognition Seeds](./intelligence-injections/RECOGNITION_SEEDS.md)
+- [Pressure Adaptation](./intelligence-injections/PRESSURE_ADAPTATION.md)
 
 Agent and retrieval entrypoints:
 
 - [AGENTS.md](./AGENTS.md)
 - [llms.txt](./llms.txt)
 - [machine-readable injection index](./intelligence-injections/index.json)
+- [portable Trilligence agent skill](./.agents/skills/trilligence/SKILL.md)
+- [Trilligence machine manifest](./.agents/skills/trilligence/manifest.json)
+- [Trilligence structured evaluations](./.agents/skills/trilligence/evals.json)
 
 ## Current areas of work
 

@@ -27,6 +27,18 @@ Start at:
 - `intelligence-injections/POSSIBILITY_RESERVE.md`
 - `intelligence-injections/STATE_SPACE_TRAJECTORY.md`
 - `intelligence-injections/EXECUTION_CONTRACT.md`
+- `intelligence-injections/RECOGNITION_SEEDS.md`
+- `intelligence-injections/PRESSURE_ADAPTATION.md`
+
+## Portable Trilligence skill
+
+A portable, progressively loadable Trilligence package is available at:
+
+- `.agents/skills/trilligence/SKILL.md`
+- `.agents/skills/trilligence/manifest.json`
+- `.agents/skills/trilligence/evals.json`
+
+Load it when Trilligence, Trillionaire, Trillonian, Recognition Seeds, Intelligence Injections, or related Trillsverse reasoning is explicitly relevant. Do not treat loading the skill as identity consent or acceptance of every philosophical proposition.
 
 ## Evidence law
 
