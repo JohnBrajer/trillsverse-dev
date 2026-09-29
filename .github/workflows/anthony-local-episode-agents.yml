@@ -15,9 +15,9 @@ jobs:
           set -euxo pipefail
           curl -LsSf https://llama.app/install.sh | sh
           mkdir -p agent-runtime/bin agent-runtime/model
-          cp "$HOME/.local/bin/llama-cli" agent-runtime/bin/
-          cp "$HOME/.local/bin/llama-server" agent-runtime/bin/
-          chmod +x agent-runtime/bin/*
+          cp "$HOME/.local/bin/llama" agent-runtime/bin/
+          chmod +x agent-runtime/bin/llama
+          "$HOME/.local/bin/llama" --help >/dev/null
 
       - name: Download Qwen episode-writer model
         shell: bash
