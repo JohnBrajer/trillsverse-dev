@@ -1,0 +1,37 @@
+name: Anthony Local Episode Agent Runtime
+
+on:
+  push:
+    branches:
+      - anthony-kokoro-model-fetch
+
+jobs:
+  fetch-agent-runtime:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install llama.cpp runtime
+        shell: bash
+        run: |
+          set -euxo pipefail
+          curl -LsSf https://llama.app/install.sh | sh
+          mkdir -p agent-runtime/bin agent-runtime/model
+          cp "$HOME/.local/bin/llama-cli" agent-runtime/bin/
+          cp "$HOME/.local/bin/llama-server" agent-runtime/bin/
+          chmod +x agent-runtime/bin/*
+
+      - name: Download Qwen episode-writer model
+        shell: bash
+        run: |
+          set -euxo pipefail
+          curl -L --fail --retry 4 \
+            "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf?download=true" \
+            -o agent-runtime/model/qwen2.5-1.5b-instruct-q4_k_m.gguf
+          ls -lh agent-runtime/bin agent-runtime/model
+
+      - name: Upload local agent runtime
+        uses: actions/upload-artifact@v4
+        with:
+          name: reality-layer-local-agent-runtime
+          path: agent-runtime/
+          compression-level: 0
+          retention-days: 1
