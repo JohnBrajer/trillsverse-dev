@@ -15,8 +15,8 @@ jobs:
           set -euxo pipefail
           mkdir -p kokoro-assets
           curl -L --fail --retry 3 \
-            https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/kokoro-v1.1-zh.int8.onnx \
-            -o kokoro-assets/kokoro-v1.1-zh.int8.onnx
+            https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/kokoro-v1.1-zh.onnx \
+            -o kokoro-assets/kokoro-v1.1-zh.onnx
           curl -L --fail --retry 3 \
             https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/voices-v1.1-zh.bin \
             -o kokoro-assets/voices-v1.1-zh.bin
@@ -25,7 +25,7 @@ jobs:
       - name: Upload model artifact
         uses: actions/upload-artifact@v4
         with:
-          name: kokoro-neural-model-assets
+          name: kokoro-neural-model-assets-fp32
           path: kokoro-assets/
           compression-level: 0
           retention-days: 1
