@@ -1,0 +1,31 @@
+name: Anthony Kokoro Model Fetch
+
+on:
+  push:
+    branches:
+      - anthony-kokoro-model-fetch
+
+jobs:
+  fetch-kokoro-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Kokoro neural TTS assets
+        shell: bash
+        run: |
+          set -euxo pipefail
+          mkdir -p kokoro-assets
+          curl -L --fail --retry 3 \
+            https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/kokoro-v1.1-zh.int8.onnx \
+            -o kokoro-assets/kokoro-v1.1-zh.int8.onnx
+          curl -L --fail --retry 3 \
+            https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/voices-v1.1-zh.bin \
+            -o kokoro-assets/voices-v1.1-zh.bin
+          ls -lh kokoro-assets
+
+      - name: Upload model artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kokoro-neural-model-assets
+          path: kokoro-assets/
+          compression-level: 0
+          retention-days: 1
