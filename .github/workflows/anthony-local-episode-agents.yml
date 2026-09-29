@@ -26,12 +26,47 @@ jobs:
           curl -L --fail --retry 4 \
             "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf?download=true" \
             -o agent-runtime/model/qwen2.5-1.5b-instruct-q4_k_m.gguf
-          ls -lh agent-runtime/bin agent-runtime/model
+          cd agent-runtime/model
+          split -b 400M -d -a 2 qwen2.5-1.5b-instruct-q4_k_m.gguf qwen.part.
+          sha256sum qwen2.5-1.5b-instruct-q4_k_m.gguf > qwen.sha256
+          ls -lh qwen.part.* qwen.sha256
 
-      - name: Upload local agent runtime
+      - name: Upload llama runtime
         uses: actions/upload-artifact@v4
         with:
-          name: reality-layer-local-agent-runtime
-          path: agent-runtime/
+          name: reality-layer-agent-bin
+          path: agent-runtime/bin/
+          compression-level: 0
+          retention-days: 1
+
+      - name: Upload Qwen part 00
+        uses: actions/upload-artifact@v4
+        with:
+          name: reality-layer-qwen-part-00
+          path: agent-runtime/model/qwen.part.00
+          compression-level: 0
+          retention-days: 1
+
+      - name: Upload Qwen part 01
+        uses: actions/upload-artifact@v4
+        with:
+          name: reality-layer-qwen-part-01
+          path: agent-runtime/model/qwen.part.01
+          compression-level: 0
+          retention-days: 1
+
+      - name: Upload Qwen part 02
+        uses: actions/upload-artifact@v4
+        with:
+          name: reality-layer-qwen-part-02
+          path: agent-runtime/model/qwen.part.02
+          compression-level: 0
+          retention-days: 1
+
+      - name: Upload Qwen checksum
+        uses: actions/upload-artifact@v4
+        with:
+          name: reality-layer-qwen-checksum
+          path: agent-runtime/model/qwen.sha256
           compression-level: 0
           retention-days: 1
