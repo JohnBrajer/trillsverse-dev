@@ -6,25 +6,57 @@ on:
       - anthony-kokoro-model-fetch
 
 jobs:
-  fetch-agent-model:
+  fetch-agent-runtime:
     runs-on: ubuntu-latest
     steps:
-      - name: Download Qwen 3B episode-writer model
+      - name: Install llama.cpp runtime
         shell: bash
         run: |
           set -euxo pipefail
-          mkdir -p agent-model
-          curl -L --fail --retry 4 \
-            "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/main/qwen2.5-3b-instruct-q4_k_m.gguf?download=true" \
-            -o agent-model/qwen2.5-3b-instruct-q4_k_m.gguf
-          cd agent-model
-          split -b 400M -d -a 2 qwen2.5-3b-instruct-q4_k_m.gguf qwen3b.part.
-          sha256sum qwen2.5-3b-instruct-q4_k_m.gguf > qwen3b.sha256
-          ls -lh qwen3b.part.* qwen3b.sha256
+          curl -LsSf https://llama.app/install.sh | sh
+          mkdir -p agent-runtime/bin agent-runtime/model
+          cp "$HOME/.local/bin/llama" agent-runtime/bin/
+          chmod +x agent-runtime/bin/llama
+          "$HOME/.local/bin/llama" --help >/dev/null
 
-      - name: Upload missing part 05
+      - name: Download and split Qwen episode-writer model
+        shell: bash
+        run: |
+          set -euxo pipefail
+          curl -L --fail --retry 4 \
+            "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf?download=true" \
+            -o qwen.gguf
+          split -b 400M -d -a 2 qwen.gguf agent-runtime/model/qwen.part.
+          ls -lh agent-runtime/bin agent-runtime/model
+
+      - name: Upload llama runtime
         uses: actions/upload-artifact@v4
-        with: {name: rl-qwen3b-05, path: agent-model/qwen3b.part.05, compression-level: 0, retention-days: 1}
-      - name: Upload checksum
+        with:
+          name: reality-layer-agent-runtime-bin
+          path: agent-runtime/bin/
+          compression-level: 0
+          retention-days: 1
+
+      - name: Upload model part 00
         uses: actions/upload-artifact@v4
-        with: {name: rl-qwen3b-checksum-tail, path: agent-model/qwen3b.sha256, compression-level: 0, retention-days: 1}
+        with:
+          name: reality-layer-agent-model-00
+          path: agent-runtime/model/qwen.part.00
+          compression-level: 0
+          retention-days: 1
+
+      - name: Upload model part 01
+        uses: actions/upload-artifact@v4
+        with:
+          name: reality-layer-agent-model-01
+          path: agent-runtime/model/qwen.part.01
+          compression-level: 0
+          retention-days: 1
+
+      - name: Upload model part 02
+        uses: actions/upload-artifact@v4
+        with:
+          name: reality-layer-agent-model-02
+          path: agent-runtime/model/qwen.part.02
+          compression-level: 0
+          retention-days: 1
