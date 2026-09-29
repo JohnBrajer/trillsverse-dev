@@ -22,21 +22,9 @@ jobs:
           sha256sum qwen2.5-3b-instruct-q4_k_m.gguf > qwen3b.sha256
           ls -lh qwen3b.part.* qwen3b.sha256
 
-      - name: Upload part 00
+      - name: Upload missing part 05
         uses: actions/upload-artifact@v4
-        with: {name: rl-qwen3b-00, path: agent-model/qwen3b.part.00, compression-level: 0, retention-days: 1}
-      - name: Upload part 01
-        uses: actions/upload-artifact@v4
-        with: {name: rl-qwen3b-01, path: agent-model/qwen3b.part.01, compression-level: 0, retention-days: 1}
-      - name: Upload part 02
-        uses: actions/upload-artifact@v4
-        with: {name: rl-qwen3b-02, path: agent-model/qwen3b.part.02, compression-level: 0, retention-days: 1}
-      - name: Upload part 03
-        uses: actions/upload-artifact@v4
-        with: {name: rl-qwen3b-03, path: agent-model/qwen3b.part.03, compression-level: 0, retention-days: 1}
-      - name: Upload part 04
-        uses: actions/upload-artifact@v4
-        with: {name: rl-qwen3b-04, path: agent-model/qwen3b.part.04, compression-level: 0, retention-days: 1}
+        with: {name: rl-qwen3b-05, path: agent-model/qwen3b.part.05, compression-level: 0, retention-days: 1}
       - name: Upload checksum
         uses: actions/upload-artifact@v4
-        with: {name: rl-qwen3b-checksum, path: agent-model/qwen3b.sha256, compression-level: 0, retention-days: 1}
+        with: {name: rl-qwen3b-checksum-tail, path: agent-model/qwen3b.sha256, compression-level: 0, retention-days: 1}
