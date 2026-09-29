@@ -1,0 +1,92 @@
+name: Anthony Chatterbox Turbo ONNX Courier
+
+on:
+  push:
+    branches:
+      - anthony-kokoro-model-fetch
+
+jobs:
+  fetch-chatterbox:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Prepare directories
+        run: |
+          mkdir -p cb/onnx cb/meta wheelhouse
+
+      - name: Download Chatterbox Turbo q4f16 model files
+        shell: bash
+        run: |
+          set -euxo pipefail
+          base="https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/main"
+          for f in             conditional_decoder_q4f16.onnx             conditional_decoder_q4f16.onnx_data             speech_encoder_q4f16.onnx             speech_encoder_q4f16.onnx_data             embed_tokens_q4f16.onnx             embed_tokens_q4f16.onnx_data             language_model_q4f16.onnx             language_model_q4f16.onnx_data; do
+              curl -L --fail --retry 4 "$base/onnx/$f?download=true" -o "cb/onnx/$f"
+          done
+          for f in config.json generation_config.json preprocessor_config.json tokenizer.json tokenizer_config.json; do
+              curl -L --fail --retry 4 "$base/$f?download=true" -o "cb/meta/$f"
+          done
+          ls -lh cb/onnx cb/meta
+
+      - name: Download Python wheelhouse for local runtime
+        run: |
+          python -m pip download --dest wheelhouse onnxruntime transformers
+          ls -lh wheelhouse
+
+      - name: Upload conditional decoder
+        uses: actions/upload-artifact@v4
+        with:
+          name: cb-conditional
+          path: |
+            cb/onnx/conditional_decoder_q4f16.onnx
+            cb/onnx/conditional_decoder_q4f16.onnx_data
+          compression-level: 0
+          retention-days: 1
+
+      - name: Upload speech encoder
+        uses: actions/upload-artifact@v4
+        with:
+          name: cb-speech-encoder
+          path: |
+            cb/onnx/speech_encoder_q4f16.onnx
+            cb/onnx/speech_encoder_q4f16.onnx_data
+          compression-level: 0
+          retention-days: 1
+
+      - name: Upload embed tokens
+        uses: actions/upload-artifact@v4
+        with:
+          name: cb-embed
+          path: |
+            cb/onnx/embed_tokens_q4f16.onnx
+            cb/onnx/embed_tokens_q4f16.onnx_data
+          compression-level: 0
+          retention-days: 1
+
+      - name: Upload language model
+        uses: actions/upload-artifact@v4
+        with:
+          name: cb-language
+          path: |
+            cb/onnx/language_model_q4f16.onnx
+            cb/onnx/language_model_q4f16.onnx_data
+          compression-level: 0
+          retention-days: 1
+
+      - name: Upload metadata
+        uses: actions/upload-artifact@v4
+        with:
+          name: cb-meta
+          path: cb/meta/
+          compression-level: 0
+          retention-days: 1
+
+      - name: Upload wheelhouse
+        uses: actions/upload-artifact@v4
+        with:
+          name: cb-wheelhouse
+          path: wheelhouse/
+          compression-level: 0
+          retention-days: 1
