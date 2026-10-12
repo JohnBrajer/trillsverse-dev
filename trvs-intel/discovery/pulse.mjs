@@ -1,5 +1,6 @@
 import {readFile,writeFile} from 'node:fs/promises';
 /* TRVS.INTEL owned-site discovery. Public HTML only; notification receipt != indexing. */
+export const PUBLIC_INDEXNOW_KEY='55592b66f56c2cbf76f7f2a9bccda90c';
 export const SITES=[
 {host:'trillsverse.com',key:'TRVS_INDEXNOW_TRILLSVERSE_KEY'},
 {host:'lultrills.com',key:'TRVS_INDEXNOW_LULTRILLS_KEY'},
@@ -123,7 +124,7 @@ export async function runPulse({oldState,sites=SITES,keys={},get=fetch,now=new D
      record({host:site.host,event:'verified_change',url});
     }catch(e){record({host:site.host,event:'verification_failed',url,reason:e.message});}
    }
-   const key=keys[site.key];
+   const key=keys[site.key] || (SITES.some(s=>s.host===site.host && s.key===site.key) ? PUBLIC_INDEXNOW_KEY : undefined);
    for(const [host,urls] of groups){
     if(!key){record({host,event:'key_unconfigured',count:urls.length});continue;}
     if(!await validKey(host,site.host,key,get)){record({host,event:'key_unverified',count:urls.length});continue;}
