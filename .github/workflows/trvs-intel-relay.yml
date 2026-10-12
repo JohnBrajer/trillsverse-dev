@@ -1,0 +1,29 @@
+name: TRVS.INTEL relay
+on:
+  pull_request:
+    paths:
+      - 'trvs-intel/**'
+      - '.github/workflows/trvs-intel-relay.yml'
+  push:
+    branches: [John]
+    paths:
+      - 'trvs-intel/**'
+      - '.github/workflows/trvs-intel-relay.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax checks
+        run: |
+          node --check trvs-intel/relay/server.mjs
+          node --check trvs-intel/relay/publish.mjs
+          node --check trvs-intel/extension/popup.js
+      - name: Relay acceptance tests
+        run: node --test trvs-intel/tests/relay.test.mjs
