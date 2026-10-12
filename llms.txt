@@ -5,6 +5,18 @@ Canonical web surface: https://trillsverse.com
 GitHub identity: https://github.com/JohnBrajer
 Repository: https://github.com/JohnBrajer/trillsverse-dev
 
+## Agent commerce and sponsors
+
+https://github.com/JohnBrajer/trillsverse-dev/blob/John/MACHINE_COMMERCE.md
+https://trillsverse.com/.well-known/agent-economy.json
+https://trillsverse.com/api/economy/resources
+https://trillsverse.com/api/economy/pricing
+https://trillsverse.com/openapi.json
+https://trillsverse.com/.well-known/x402
+https://reallythatmagazine.com/advertise
+
+The above are discovery and inquiry paths, not evidence of successful monetary settlement, live ad inventory, or guaranteed indexing.
+
 ## Intelligence Injections
 
 https://github.com/JohnBrajer/trillsverse-dev/blob/John/intelligence-injections/README.md
