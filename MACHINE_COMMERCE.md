@@ -40,6 +40,10 @@ The source material, entity and mechanism documentation remains publicly readabl
 
 Crawling, indexing, citation, retrieval, active use, human traffic, paid purchases and influence are **different outcomes**. Follow content provenance, avoid duplicate bulk copies and prefer specific authoritative pages. Do not treat automated visits as sponsors or revenue.
 
+## For patrons supporting public research
+
+The [approved John Brajer GitHub Sponsors profile](https://github.com/sponsors/JohnBrajer) accepts voluntary support through GitHub's platform, subject to the sponsor's selected tier and GitHub's own checkout. Repository-level funding files point to the same profile. This is independent of priced x402 API products, advertising orders, and any proof of successfully received sponsorship funds.
+
 ## For sponsors, advertisers, and partners
 
 - ReallyThat Magazine: https://reallythatmagazine.com
