@@ -33,6 +33,12 @@ The server defaults to **127.0.0.1** and does not offer CORS or browser publishi
 
 The POST accepts the existing **v0.3** capsule schema, validates the canonical origin and the two concept axes, bounds input, removes unsupported fields, requires a reviewed HTTPS source URL with **no query or fragment**, and computes a cryptographic record identifier (SHA-256). It refuses unverifiable parent references. The append-only JSONL journal survives restart and can be backed up using ordinary file tools.
 
+### Journal recovery
+
+Startup verifies all newline-terminated records and their hashes. If the final unterminated fragment is malformed JSON, the relay preserves its exact bytes in `<journal>.torn-tail`, syncs that evidence, truncates only the fragment, and replays the committed records. A valid unterminated record is verified and given a newline before new writes. Complete malformed lines and hash mismatches fail closed without changing the journal.
+
+An identical existing quarantine can be reused after an interrupted recovery. A different existing quarantine requires operator intervention; archive it securely before retrying, and never silently overwrite recovery evidence. Run only one relay process per journal. This recovery behavior does not make ordinary `appendFile` publication acknowledgments a power-loss durability guarantee; synced commits, storage quotas, and backup/restore validation remain public-release work.
+
 ## Evidence boundary
 
 The relay receipt attests solely to **publication into this specific local relay store**. It does **not** demonstrate that a human or agent encountered a transmission, understood it, retained it, changed behavior, or indexed it. Parent existence is verified **within the relay store**; identity or original source ownership is **not** cryptographically verified. Unknown external publication and downstream events remain unknown. No unique-person IDs, IP persistence, cookies, or background surveillance.
