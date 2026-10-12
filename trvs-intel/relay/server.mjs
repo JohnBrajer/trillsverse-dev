@@ -1,6 +1,6 @@
 import http from 'node:http';
 import { createHash, timingSafeEqual } from 'node:crypto';
-import { readFile, appendFile, mkdir } from 'node:fs/promises';
+import { readFile, appendFile, mkdir, open } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
@@ -17,7 +17,8 @@ function sourceUrl(value) {
   let u;try{u=new URL(str)}catch{throw new InputError('invalid source URL')}
   ensure(u.protocol==='https:'&&!u.username&&!u.password,'source URL must be HTTPS');
   ensure(!u.search&&!u.hash,'strip query and fragment before publishing');
-  ensure(Boolean(u.hostname)&&!/^(localhost|.+\.localhost|.+\.local)$/i.test(u.hostname),'invalid source host');
+  const hostname=u.hostname.replace(/\.$/,'').toLowerCase();
+  ensure(hostname.includes('.')&&!/^(localhost|.+\.localhost|.+\.local)$/.test(hostname),'invalid source host');
   ensure(!/^\d+\.\d+\.\d+\.\d+$/.test(u.hostname)&&!u.hostname.includes(':'),'IP literal source forbidden');
   return u.href;
 }
@@ -29,8 +30,8 @@ function normalize(c) {
   ensure(ref&&typeof ref==='object','missing reference');
   ensure(DEFINITIONS.has(d?.value)&&METHODS.has(d?.method),'invalid definition axis');
   ensure(REFERENTS.has(r?.value)&&METHODS.has(r?.method),'invalid referent axis');
-  let parent=c.propagation?.parent_capsule_id||null;
-  if(parent){parent=text(parent,100,'parent capsule ID');ensure(/^sha256:[a-f0-9]{64}$/.test(parent),'parent must be a relay SHA256 ID')}
+  let parent=c.propagation?.parent_capsule_id??null;
+  if(parent!==null){parent=text(parent,100,'parent capsule ID');ensure(/^sha256:[a-f0-9]{64}$/.test(parent),'parent must be a relay SHA256 ID')}
   // Do not persist arbitrary sender-provided evidence, excerpts, client IDs, or tracking fields.
   return {
     schema:'urn:trvs:intel:relay-record:v1',
@@ -68,11 +69,51 @@ export async function createRelayServer({dataPath,token}){
   if(!dataPath)throw new Error('dataPath required');
   const store=new Map();
   try{
-    const journal=await readFile(dataPath,'utf8');
-    for(const line of journal.split('\n').filter(Boolean)){
+    const journal=await readFile(dataPath);
+    const boundary=journal.lastIndexOf(10)+1;
+    const replay=line=>{
       const entry=JSON.parse(line);
       if(entry.id!==hash(entry.record))throw new Error('journal integrity mismatch');
       store.set(entry.id,entry);
+    };
+    // Complete lines are committed evidence: corruption must never be discarded.
+    for(const line of journal.subarray(0,boundary).toString('utf8').split('\n').filter(Boolean)){
+      replay(line);
+    }
+    const tail=journal.subarray(boundary);
+    if(tail.length){
+      let malformed=false;
+      try{JSON.parse(tail.toString('utf8'))}catch(e){
+        if(!(e instanceof SyntaxError))throw e;
+        malformed=true;
+      }
+      if(malformed){
+        const quarantine=dataPath+'.torn-tail';
+        let evidence;
+        try{evidence=await open(quarantine,'wx',0o600)}catch(e){
+          if(e.code!=='EEXIST')throw e;
+          if(!(await readFile(quarantine)).equals(tail))throw new Error('torn-tail quarantine already contains different evidence');
+          evidence=await open(quarantine,'r+');
+        }
+        try{
+          if((await evidence.stat()).size===0)await evidence.writeFile(tail);
+          await evidence.sync();
+        }finally{await evidence.close()}
+        // On POSIX systems, file sync alone does not durably record a new directory entry.
+        // Keep the torn-tail discoverable after a crash before truncating the journal.
+        // Windows directory handles do not support the same fsync contract in Node.
+        if(process.platform!=='win32'){
+          const directory=await open(dirname(quarantine),'r');
+          try{await directory.sync()}finally{await directory.close()}
+        }
+        const file=await open(dataPath,'r+');
+        try{await file.truncate(boundary);await file.sync()}finally{await file.close()}
+      }else{
+        replay(tail.toString('utf8'));
+        // A valid newline-less entry must not join with the next appended record.
+        const file=await open(dataPath,'a');
+        try{await file.writeFile('\n');await file.sync()}finally{await file.close()}
+      }
     }
   }catch(e){if(e.code!=='ENOENT')throw e}
   await mkdir(dirname(dataPath),{recursive:true});
