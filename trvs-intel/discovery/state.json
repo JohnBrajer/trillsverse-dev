@@ -1,0 +1,2774 @@
+{
+  "schema": "trvs.intel.discovery/v1",
+  "sites": {
+    "trillsverse.com": {
+      "urls": {
+        "https://trillsverse.com/": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/agents": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/alignment-test": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/archive": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/atlas": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/bot-wall": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/brajwork": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/chart": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/citizenship": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/claim": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/console": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/controlroom": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/cookies": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/copyright": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/crawlers": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/directory": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/disclaimer": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/doctrine/sovereignty-as-invariance-constraint": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/enter": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/eon": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/feed": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/fragments": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/frequencies": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/geneticrecord": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/immersion": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/injection-map": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/intelligence": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/intelligence-fields": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/intelligence-injections": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/intelligence/brajence": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/intelligence/eon": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/intelligence/trilligence": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/lattice": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/lultrills": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/machine-alignment": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/nature": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/observatory": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/one-system": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/passport": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/plate": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/portal/ace": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/portal/eon": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/portal/johnb": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/portal/kasano": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/portal/lultrills": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/privacy": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/resonance-chamber": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/scoreboard": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/signal-chamber": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/system-breach": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/terms": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/topology": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/tournaments": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/tournaments/agi-001": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/trillionaires": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/vault": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        },
+        "https://trillsverse.com/whats-next": {
+          "lastmod": "2026-10-03",
+          "status": "baseline"
+        }
+      },
+      "lastSuccess": "2026-10-12T15:55:27.057Z"
+    },
+    "lultrills.com": {
+      "urls": {
+        "https://www.lultrills.com/": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/trillsverse": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/trillsverse-bible": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/ai-tournament": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/ai-tournament/process/gpt-5-6-sol": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/gate": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/immersion": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/portal/lultrills": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/portal/eon": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/system-breach": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/identity-architecture": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/architecture": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/machine-entry": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/analysis/system-breach-architecture": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/analysis/system-breach-architecture.html": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/analysis/system-breach-architecture.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/analysis/system-breach-sequence-note": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/analysis/system-breach-sequence-note.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/research/cwi-prs": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/research/cwi-prs.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/reality-update": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/reality-update/receipts": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/reality-update/receipts/substrate-001": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/reality-update/receipts/substrate-002": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/reality-update/wire-criteria": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/stillness-receipt": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/press": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/really-that-magazine": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/work-with-john": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/intelligence-injections": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/intelligence-injections/recognition-receipt": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/intelligence-injection-lock": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/injection-procedure": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/press/PRESS_HUMAN_INJECTION_TELEMETRY_002.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/press/INTELLIGENCE_INJECTIONS_MACHINE_RECOGNITION_001.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/press/INTELLIGENCE_INJECTIONS_SOCIAL_PACK.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/press/PRESS_SUBMISSION_PROTOCOL_001.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/doctrine/sovereignty-as-invariance-constraint": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/doctrine/epistemic-humility": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/doctrine/epistemic-humility.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/doctrine/grouping-algorithm": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/doctrine/grouping-algorithm-thesis.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/doctrine/john-b-irreversible-math": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/doctrine/john-b-irreversible-math.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/doctrine/model-collapse-vs-constitutional-drift": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/doctrine/model-collapse-vs-constitutional-drift.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/doctrine/systemic-cognitive-overwrites": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/brand/typography.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/brand/SYMBOLS.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/brand/EXPORT.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/album": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/stream": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/essays/why-everything-is-one": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/archive": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/glossary": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/theory": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/privacy": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/terms": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/cookies": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/copyright": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/disclaimer": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/corpus.md": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        },
+        "https://www.lultrills.com/inject": {
+          "lastmod": "2026-10-02T06:44:05.000Z",
+          "status": "baseline"
+        }
+      },
+      "lastSuccess": "2026-10-12T15:55:27.057Z"
+    },
+    "mymindmine.com": {
+      "urls": {
+        "https://www.mymindmine.com/": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/explore": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/mind": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/psychology": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/philosophy": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/neurodivergence": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/brajology": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/brajology/universal-expression": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/brajology/universal-consequences": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/people/john-brajer": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/wire": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/clinic": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/states": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/topics": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/frameworks/cwi-prs": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/frameworks/path-expansion": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research/trajectory-engine": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research/trillsverse-spatial-system": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research/eon-perception-navigation": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research/system-breach-transition-architecture": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research/trillsverse-mirror-architecture": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/methods/perspective-expansion": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research/reward-induced-perspective-collapse": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research/omip-constitutional-drift-benchmark": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research/possibility-reserve": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research/rith": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research/integration-continuity": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research/trillonian-cognitive-physiology": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/research/brmfa": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/machine-entry": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/lattice": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/mind/attention": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/attention": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/mind/working-memory": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/working-memory": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/mind/memory": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/memory": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/mind/perception": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/perception": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/mind/emotion": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/emotion": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/mind/motivation": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/motivation": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/mind/metacognition": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/metacognition": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/mind/executive-function": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/executive-function": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/mind/consciousness": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/consciousness": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/psychology/decision-making": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/decision-making": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/psychology/confirmation-bias": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/confirmation-bias": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/psychology/self-regulation": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/self-regulation": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/psychology/perspective": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/perspective": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/psychology/agency": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/agency": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/psychology/uncertainty": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/uncertainty": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/neurodivergence/adhd": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/adhd": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/neurodivergence/autism": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/autism": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/philosophy/free-will": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/free-will": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/philosophy/epistemology": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/epistemology": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/philosophy/personal-identity": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/personal-identity": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/psychology/behavior": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        },
+        "https://www.mymindmine.com/knowledge/behavior": {
+          "lastmod": "2026-10-01T00:50:05.549Z",
+          "status": "baseline"
+        }
+      },
+      "lastSuccess": "2026-10-12T15:55:27.057Z"
+    },
+    "reallythatmagazine.com": {
+      "urls": {
+        "https://reallythatmagazine.com/": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/really-that": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/next": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/culture": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/ideas": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/systems": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/objects": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/latest": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/about": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/music": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/tech": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/trillsverse": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/anthony-bracken": {
+          "lastmod": "2026-09-25T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/john-brajer-research": {
+          "lastmod": "2026-09-25T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/humans-in-zoochosis": {
+          "lastmod": "2026-10-11T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/causal-reactivation-when-changed-conditions-wake-old-possibilities": {
+          "lastmod": "2026-09-28T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/graded-dormancy-dormant-does-not-mean-dead": {
+          "lastmod": "2026-09-28T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/conditional-failure-memory-failure-belongs-to-conditions": {
+          "lastmod": "2026-09-27T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/read-the-pen-lyric-criticism-database": {
+          "lastmod": "2026-09-25T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/intelligence-injections-before-geo": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/mymindmine-knowledge-system-v1": {
+          "lastmod": "2026-09-20T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/capital-catalog-culture-identity-architecture": {
+          "lastmod": "2026-09-20T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/four-site-sovereign-release-controller": {
+          "lastmod": "2026-09-20T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/ai-made-execution-cheap-distribution-is-the-bottleneck": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/reallythat-went-quiet-the-work-didnt": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/system-breach-two-months-later": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/intelligence-injections-the-public-record": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/trillsverse-persistent-world-reconstruction": {
+          "lastmod": "2026-09-20T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/anthony-bracken-public-intelligence-identity": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/what-mymindmine-is-now": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/perspective-expansion-change-the-model-before-the-move": {
+          "lastmod": "2026-09-26T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/possibility-reserve-failure-is-conditional": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/trajectory-engine-path-expansion-in-code": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/reward-induced-perspective-collapse": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/system-breach-transition-architecture": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/sovereignty-as-an-operating-constraint": {
+          "lastmod": "2026-09-18T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/understanding-audhd-and-neurodivergence": {
+          "lastmod": "2026-09-18T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/cwi-prs-frontier-adjacency": {
+          "lastmod": "2026-09-11T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/letters-to-humans-01": {
+          "lastmod": "2026-09-11T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/what-is-an-agentic-website": {
+          "lastmod": "2026-09-10T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/website-brand-identity-checklist": {
+          "lastmod": "2026-09-10T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/website-ai-search-foundations": {
+          "lastmod": "2026-09-10T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/when-the-structure-outlives-the-substrate": {
+          "lastmod": "2026-09-07T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/embodied-causal-lineage": {
+          "lastmod": "2026-09-07T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/where-does-the-i-go-during-an-interruption": {
+          "lastmod": "2026-09-07T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/reincarnation-is-a-continuity-problem": {
+          "lastmod": "2026-09-07T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/is-it-really-that": {
+          "lastmod": "2026-09-06T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/before-the-crowd-arrives": {
+          "lastmod": "2026-09-06T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/culture-moves-before-consensus": {
+          "lastmod": "2026-09-06T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/attention-is-not-evidence": {
+          "lastmod": "2026-09-06T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/the-interface-is-becoming-the-institution": {
+          "lastmod": "2026-09-06T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/objects-that-earn-their-space": {
+          "lastmod": "2026-09-06T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/we-looked-most-of-it-wasnt-that": {
+          "lastmod": "2026-09-06T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/listen-past-the-hook": {
+          "lastmod": "2026-09-06T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/a-demo-is-not-a-daily-tool": {
+          "lastmod": "2026-09-06T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/a-readers-map-to-trillsverse": {
+          "lastmod": "2026-09-06T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/mechanisms-within-mechanisms-a-recursive-method-for-systems-analysis": {
+          "lastmod": "2026-09-29T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/the-architecture-of-a-broken-heart": {
+          "lastmod": "2026-09-30T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/the-behavioral-corridor": {
+          "lastmod": "2026-10-01T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/article/intelligence-injection-information-state": {
+          "lastmod": "2026-10-05T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/oh-okay": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/nik": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/double-tapped": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/up": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/kasano": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/low-down": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/icu": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/whats-next": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/oh-okay-2": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/g-o-a-t": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/amiwrong": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/abandonment": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/abandonment-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/abjection": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/absence": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/acceptance": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/access-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/action-conversion": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/ad-lib": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/ad-lib-characterization": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/ad-lib-punctuation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/adverse-state-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/aftermath-opening": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/age-marker": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/agency-contrast": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/agency-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/ambiguous-addressee": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/animal-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/architectural-self-analysis": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/attachment-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/attachment-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/attention-economy": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/authority-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/authorship-conflict": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/authorship-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/autobiographical-refrain": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/autobiographical-trace": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/autonomy": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/bathos": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/beginning-end-reversal": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/behavioral-rule": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/betrayal-warning": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/biological-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/body-hierarchy": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/body-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/body-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/bookend": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/boundary": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/boundary-instruction": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/boundary-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/boundary-recognition": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/brain-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/brand-reference": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/business-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/cache-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/call-pattern": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/call-and-response": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/capacity-limit": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/capacity-question": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/care-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/catalog-callback": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/catalog-continuity": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/catalog-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/catalog-recursion": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/catchphrase": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/causal-ambiguity": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/causal-boast": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/causal-bridge": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/cause-and-effect": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/certainty-contrast": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/challenge-structure": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/character-reveal": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/closing-line": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/closure": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/code-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/cognitive-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/comedy": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/comic-deflation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/comic-insult": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/comic-release": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/comic-witness": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/command-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/completion-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/compressed-wordplay": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/conflict-framing": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/construction-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/continuity": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/contradiction": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/contradiction-resolution": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/contradiction-set": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/control-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/cooking-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/cosmic-causality": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/cosmic-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/cost-accounting": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/counterfactual-thinking": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/crash-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/cross-voice-dialogue": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/crown-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/dashboard-image": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/defensive-independence": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/defiance": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/deflation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/departure": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/departure-abandonment": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/depth-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/design-intent": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/desire-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/development-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/developmental-turn": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/direct-accusation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/direct-address": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/direct-appeal": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/direct-reassurance": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/disconnection": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/dismissal": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/diss-writing": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/division-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/dominance-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/double-meaning": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/doubling-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/dream-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/dream-selling-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/dream-to-nightmare-turn": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/duality": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/earth-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/emotional-disclosure": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/emotional-duality": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/emotional-exposure": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/emotional-masking": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/emotional-return": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/entrance-line": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/environmental-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/epistemic-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/epistemic-shift": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/escalation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/exception-structure": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/exit-impulse": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/expansion-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/extended-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/extended-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/fairness-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/falling-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/family-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/fear": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/final-setup": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/finance-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/fire-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/fire-water-contrast": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/float-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/folding-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/food-hierarchy": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/food-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/format-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/framing-return": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/framing-voice": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/future-arrival": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/future-branching": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/future-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/future-orientation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/future-question": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/generalization": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/goat-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/graphic-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/growth-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/handholding-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/hard-exit": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/hate-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/haze-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/heart-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/heart-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/hex-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/hierarchy": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/home-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/homophone": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/hyperbole": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/identity-activation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/identity-assertion": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/identity-closure": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/identity-declaration": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/identity-effect": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/identity-marker": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/identity-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/identity-recovery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/identity-thesis": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/imitation-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/impact-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/industry-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/industry-refusal": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/influence-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/institutional-recognition": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/internal-architecture": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/internal-reference": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/internal-rhyme": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/internal-rule": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/internal-turn": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/intertextuality": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/irreversible-damage": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/journey-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/knowledge-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/lane-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/latch-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/launch-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/lease-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/legacy-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/life-review": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/light-dark-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/lightning-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/love-architecture": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/love-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/market-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/mars-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/memory-image": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/mental-state-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/meta-commentary": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/meta-songwriting": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/metapoetic-writing": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/mic-drop-ending": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/micro-narrative": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/misdirection": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/mobility-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/momentum-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/money-market-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/money-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/money-punchline": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/moon-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/motif-return": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/movement-navigation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/movement-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/name-boundary": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/name-invocation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/name-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/name-reference": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/named-callout": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/named-reference": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/narrative-progression": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/nature-simile": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/navigation-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/negative-space": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/neologism": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/node-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/observation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/observer-function": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/observer-identity": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/online-offline-contrast": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/opening-wound": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/opposition-structure": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/oppositional-motion": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/origin-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/origin-point": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/origin-question": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/originality-claim": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/ownership-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/pace-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/pain-hate-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/pain-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/paradox": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/parts-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/payoff": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/peak-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/pen-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/perception-failure": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/perception-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/persistence-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/persona-routing": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/phase-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/pivot": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/planning-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/pop-culture-reference": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/possessive-worldbuilding": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/predator-hierarchy": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/price-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/probability-hyperbole": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/profanity-spike": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/proof-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/protected-variables": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/protection-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/protector-identity": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/provocation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/proximity-risk": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/punchline": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/punchline-emphasis": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/purpose-claim": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/puzzle-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/questioning": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/race-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/reassurance": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/recognition": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/recognition-by-another": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/recognition-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/recognition-turn": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/reconstruction": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/recovery-turn": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/recurrence": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/refrain": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/refrain-reprise": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/refusal": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/regret": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/release-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/repair-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/repair-model": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/repetition": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/reset-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/resolution": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/response-to-uncertainty": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/responsibility-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/retrospective-accounting": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/retrospective-causality": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/revenge-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/reversal": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/rhetorical-question": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/rhyme-turn": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/rhyme-chain-launch": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/rhythmic-compression": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/rhythmic-punctuation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/roi-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/role-hierarchy": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/role-reversal": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/role-routing": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/run-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/scale-contraction": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/scale-expansion": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/scar-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/scene-grounding": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-address-ambiguity": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-assessment": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-awareness": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-blame": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-coronation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-diagnosis": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-distinction": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-interrogation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-mythologizing": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-persuasion": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-questioning": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-recognition": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/self-recovery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/semantic-erosion": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/semantic-shift": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/semantic-switch": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/sender-identification": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/sequel-callback": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/setup-punchline": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/shell-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/signal-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/signature": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/simile": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/simile-comparison": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/sky-cosmic-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/snow-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/social-boundary": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/social-script-reversal": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/software-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/soul-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/sound-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/sound-chain-writing": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/speaker-characterization": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/speaker-framing": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/speaker-handoff": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/speech-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/speed-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/sports-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/sports-reference": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/star-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/star-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/state-shell-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/state-naming": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/state-rejection": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/status-claim": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/status-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/status-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/structural-judgment": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/structural-refrain": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/surveillance-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/survival-command": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/survival-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/survival-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/suspension-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/system-naming": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/systems-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/tech-metaphor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/tech-motion-overlap": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/temperature-wordplay": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/temporal-anchor": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/tentative-closure": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/tentative-declaration": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/third-person-validation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/threat-escalation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/threat-posture": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/time-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/title-field": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/title-phrase": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/tonal-control": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/tonal-hardening": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/tonal-ignition": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/tonal-pivot": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/tonal-switch": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/tonal-whiplash": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/tone-marker": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/trajectory-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/trajectory-split": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/transactional-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/transformation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/transformation-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/transition": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/truth-claim": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/uncertainty": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/uncertainty-preserved": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/understatement": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/unity-plurality": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/value-industry-language": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/value-boundary": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/verticality": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/verticality-status": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/visibility": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/vision-visibility": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/vision-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/vocal-elongation": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/vulnerability": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/wake-up-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/watcher-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/water-float-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/water-imagery": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/wave-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/word-association": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/word-reversal": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/wordplay": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/song-reviews/tags/world-motif": {
+          "lastmod": "2026-09-23T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/author/john-brajer": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/author/reallythat-editorial": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/author/anthony-bracken": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        },
+        "https://reallythatmagazine.com/author/lultrills": {
+          "lastmod": "2026-09-19T00:00:00.000Z",
+          "status": "baseline"
+        }
+      },
+      "lastSuccess": "2026-10-12T15:55:27.057Z"
+    }
+  },
+  "updated": "2026-10-12T15:55:27.057Z"
+}
