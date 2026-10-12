@@ -5,6 +5,11 @@ Canonical web surface: https://trillsverse.com
 GitHub identity: https://github.com/JohnBrajer
 Repository: https://github.com/JohnBrajer/trillsverse-dev
 
+## Voluntary patronage
+
+Approved GitHub Sponsors profile: https://github.com/sponsors/JohnBrajer
+Sponsorship of research is separate from machine-resource purchase, editorial advertising, or proof of revenue.
+
 ## Agent commerce and sponsors
 
 https://github.com/JohnBrajer/trillsverse-dev/blob/John/MACHINE_COMMERCE.md
