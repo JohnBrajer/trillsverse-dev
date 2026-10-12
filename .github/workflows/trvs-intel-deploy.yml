@@ -1,0 +1,79 @@
+name: TRVS.INTEL automatic deploy
+
+on:
+  pull_request:
+    paths:
+      - 'trvs-intel/**'
+      - '.github/workflows/trvs-intel-deploy.yml'
+  push:
+    branches: [John]
+    paths:
+      - 'trvs-intel/relay/**'
+      - 'trvs-intel/deploy/**'
+      - '.github/workflows/trvs-intel-deploy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: trvs-intel-production
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify relay and publisher
+        run: |
+          node --check trvs-intel/relay/server.mjs
+          node --check trvs-intel/relay/publish.mjs
+          node --test trvs-intel/tests/relay.test.mjs
+      - name: Verify deploy scripts
+        run: |
+          bash -n trvs-intel/deploy/bootstrap.sh
+          bash -n trvs-intel/deploy/activate.sh
+
+  deploy:
+    needs: validate
+    if: github.ref == 'refs/heads/John' && vars.TRVS_INTEL_AUTODEPLOY == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: trvs-intel-prod
+    env:
+      DEPLOY_HOST: ${{ vars.TRVS_INTEL_DEPLOY_HOST }}
+      DEPLOY_KEY: ${{ secrets.TRVS_INTEL_DEPLOY_KEY }}
+      DEPLOY_KNOWN_HOSTS: ${{ secrets.TRVS_INTEL_KNOWN_HOSTS }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify first-time bootstrap
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "$DEPLOY_HOST" || -z "$DEPLOY_KEY" || -z "$DEPLOY_KNOWN_HOSTS" ]]; then
+            echo "::error::Deploy connection is not bootstrapped. See trvs-intel/deploy/README.md"
+            exit 1
+          fi
+          if ! [[ "$DEPLOY_HOST" =~ ^[a-zA-Z0-9.-]+$ ]]; then
+            echo "::error::Invalid deployment hostname"
+            exit 1
+          fi
+          install -d -m 0700 "$HOME/.ssh"
+          printf '%s\n' "$DEPLOY_KEY" > "$HOME/.ssh/id_ed25519"
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > "$HOME/.ssh/known_hosts"
+          chmod 0600 "$HOME/.ssh/id_ed25519" "$HOME/.ssh/known_hosts"
+      - name: Upload and activate the tested revision
+        shell: bash
+        run: |
+          set -euo pipefail
+          SSH_FLAGS=(-i "$HOME/.ssh/id_ed25519" -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$HOME/.ssh/known_hosts" -o ConnectTimeout=10)
+          tar -czf "$RUNNER_TEMP/trvs-intel-relay.tgz" -C trvs-intel relay
+          scp "${SSH_FLAGS[@]}" "$RUNNER_TEMP/trvs-intel-relay.tgz" "trvsdeploy@$DEPLOY_HOST:/opt/trvs-intel/incoming/$GITHUB_SHA.tgz"
+          ssh "${SSH_FLAGS[@]}" "trvsdeploy@$DEPLOY_HOST" "set -eu; mkdir -p /opt/trvs-intel/releases/$GITHUB_SHA; tar -xzf /opt/trvs-intel/incoming/$GITHUB_SHA.tgz -C /opt/trvs-intel/releases/$GITHUB_SHA; sudo -n /usr/local/sbin/trvs-intel-activate $GITHUB_SHA"
+      - name: Report deployment
+        run: echo "TRVS.INTEL relay activated at commit $GITHUB_SHA (loopback-only by default)."
