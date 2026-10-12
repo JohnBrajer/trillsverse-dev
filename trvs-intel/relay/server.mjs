@@ -99,6 +99,13 @@ export async function createRelayServer({dataPath,token}){
           if((await evidence.stat()).size===0)await evidence.writeFile(tail);
           await evidence.sync();
         }finally{await evidence.close()}
+        // On POSIX systems, file sync alone does not durably record a new directory entry.
+        // Keep the torn-tail discoverable after a crash before truncating the journal.
+        // Windows directory handles do not support the same fsync contract in Node.
+        if(process.platform!=='win32'){
+          const directory=await open(dirname(quarantine),'r');
+          try{await directory.sync()}finally{await directory.close()}
+        }
         const file=await open(dataPath,'r+');
         try{await file.truncate(boundary);await file.sync()}finally{await file.close()}
       }else{
