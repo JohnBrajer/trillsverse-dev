@@ -1,6 +1,10 @@
 name: TRVS.INTEL automatic deploy
 
 on:
+  pull_request:
+    paths:
+      - 'trvs-intel/**'
+      - '.github/workflows/trvs-intel-deploy.yml'
   push:
     branches: [John]
     paths:
