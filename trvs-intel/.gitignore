@@ -1,0 +1,4 @@
+data/
+capsule.json
+*.local.json
+.env

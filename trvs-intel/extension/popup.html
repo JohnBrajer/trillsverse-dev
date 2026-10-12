@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TRVS.INTEL</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}
+body{background:#131a16;color:#e8f2e8;margin:0;padding:18px;width:370px;font:13px/1.5 system-ui,sans-serif}
+header{font-weight:800;letter-spacing:.14em;margin-bottom:10px}header strong{color:#c7f199}
+small,p{color:#a7b8a8}h1{font-size:16px;margin:8px 0;overflow-wrap:anywhere}
+section{border-top:1px solid #334139;padding:11px 0}
+label{display:block;margin:8px 0;font-size:12px}input,select,textarea{display:block;width:100%;border-radius:6px;border:1px solid #566955;background:#233027;color:#e9f2e9;padding:9px;font:inherit}
+textarea{height:90px;resize:vertical}#source{overflow-wrap:anywhere;font-size:11px}
+button{width:100%;padding:11px;border:0;border-radius:7px;color:#102017;background:#c7f199;font-weight:800;cursor:pointer}
+#status{min-height:2em;color:#c7f199;margin-top:9px}a{color:#c7f199}
+</style></head><body>
+<header>TRVS<strong>.INTEL</strong> / 004</header>
+<small>CONCEPT RELAY · MANUAL PUBLICATION ONLY</small>
+<h1 id="title">Loading current page…</h1>
+<p id="source"></p>
+<section><label>Definition structure
+<select id="definition"><option value="undetermined">Undetermined</option><option value="formal">Formal</option><option value="natural">Natural</option><option value="mixed">Mixed</option></select></label>
+<label>Referent type
+<select id="referent"><option value="undetermined">Undetermined</option><option value="concrete">Concrete</option><option value="abstract">Abstract</option><option value="mixed">Mixed</option></select></label>
+</section>
+<section><label>Research question<input type="text" id="question" maxlength="400" value="Which claims are observed and which are inferred?"></label>
+<label>Parent relay ID (optional; verified by relay on publication)<input type="text" id="parent" placeholder="sha256:…" maxlength="71"></label></section>
+<p>Review the page title and URL. Copying generates JSON locally; it does not publish anything. Do not export private page URLs.</p>
+<button id="copy" disabled>Copy capsule JSON</button>
+<div id="status" role="status" aria-live="polite"></div>
+<script src="popup.js"></script></body></html>
