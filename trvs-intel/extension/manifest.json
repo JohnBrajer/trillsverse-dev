@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "TRVS.INTEL · Concept Relay",
+  "version": "0.4.0",
+  "description": "On-demand, local-only classification and source-linked capsule export. No automatic sharing.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "TRVS.INTEL",
+    "default_popup": "popup.html"
+  }
+}
