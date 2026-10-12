@@ -1,0 +1,93 @@
+name: TRVS.INTEL owned-site discovery pulse
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  push:
+    branches: [John]
+    paths:
+      - 'trvs-intel/discovery/**'
+      - '.github/workflows/trvs-intel-discovery.yml'
+  pull_request:
+    paths:
+      - 'trvs-intel/discovery/**'
+      - 'trvs-intel/tests/discovery.test.mjs'
+      - '.github/workflows/trvs-intel-discovery.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: trvs-intel-discovery
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test discovery code
+        run: |
+          node --check trvs-intel/discovery/pulse.mjs
+          node --test trvs-intel/tests/discovery.test.mjs
+  pulse:
+    if: github.event_name != 'pull_request'
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      TRVS_INDEXNOW_TRILLSVERSE_KEY: ${{ secrets.TRVS_INDEXNOW_TRILLSVERSE_KEY }}
+      TRVS_INDEXNOW_LULTRILLS_KEY: ${{ secrets.TRVS_INDEXNOW_LULTRILLS_KEY }}
+      TRVS_INDEXNOW_MYMINDMINE_KEY: ${{ secrets.TRVS_INDEXNOW_MYMINDMINE_KEY }}
+      TRVS_INDEXNOW_REALLYTHAT_KEY: ${{ secrets.TRVS_INDEXNOW_REALLYTHAT_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Restore durable snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads origin discovery-state >/dev/null; then
+            git fetch --depth 1 origin discovery-state
+            git show FETCH_HEAD:trvs-intel/discovery/state.json > "$RUNNER_TEMP/state-old.json" || true
+            git show FETCH_HEAD:trvs-intel/discovery/receipts.jsonl > "$RUNNER_TEMP/receipts-old.jsonl" || true
+          fi
+      - name: Discover owned publication changes and request notifications
+        env:
+          TRVS_PULSE_STATE: ${{ runner.temp }}/state-old.json
+          TRVS_PULSE_OUT: ${{ runner.temp }}/state-next.json
+          TRVS_PULSE_RECEIPTS: ${{ runner.temp }}/receipts-new.jsonl
+          TRVS_PULSE_RESULT: ${{ runner.temp }}/result.json
+        run: node trvs-intel/discovery/pulse.mjs
+      - name: Save state and bounded public receipt view
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads origin discovery-state >/dev/null; then
+            git fetch --depth 1 origin discovery-state
+            git checkout -B discovery-state FETCH_HEAD
+          else
+            git checkout -b discovery-state
+          fi
+          mkdir -p trvs-intel/discovery
+          cp "$RUNNER_TEMP/state-next.json" trvs-intel/discovery/state.json
+          { cat "$RUNNER_TEMP/receipts-old.jsonl" "$RUNNER_TEMP/receipts-new.jsonl" 2>/dev/null || true; } | tail -n 5000 > trvs-intel/discovery/receipts.jsonl
+          git config user.name 'trvs-intel-discovery[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add trvs-intel/discovery/state.json trvs-intel/discovery/receipts.jsonl
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore(discovery): preserve verification receipts [skip ci]'
+            git push origin HEAD:discovery-state
+          fi
+      - name: Flag total crawl outage after recording failures
+        shell: bash
+        run: |
+          if node -e 'process.exit(JSON.parse(require("fs").readFileSync(process.argv[1],"utf8")).allFailed ? 0 : 1)' "$RUNNER_TEMP/result.json"; then
+            echo '::error::All owned-site sitemaps failed; failure receipts were recorded'
+            exit 1
+          fi
