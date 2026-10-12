@@ -1,10 +1,10 @@
 # TRVS.INTEL relay prototype v0.4
 
-**Status:** independent, opt-in developer implementation. Does not modify Gate, publish third-party content, broadcast to users, or prove external reach. Node.js 20+; no npm dependencies. Existing v0.3 WebExtension included in `/extension` for the user-operated capture/export side.
+**Status:** independent, opt-in developer implementation. Does not modify Gate, publish third-party content, broadcast to users, or prove external reach. Node.js 20+; no npm dependencies. A small installable WebExtension is included in `/extension` for user-operated capture/export. It emits the compatible v0.3 capsule schema.
 
 ## End-to-end, local development
 
-1. In the extension, inspect a public webpage, correct the concept axes, click **Copy concept capsule**, and save the copied JSON to `capsule.json` on your own device. Review the source title and URL before continuing.
+1. In Chromium, open `chrome://extensions`, enable Developer Mode, select **Load unpacked**, and choose `trvs-intel/extension` (the folder containing `manifest.json`). Open a public HTTPS article, click the extension icon, correct the two concept axes, then click **Copy capsule JSON**. Save the copied JSON to `capsule.json` on your device. Review the source title and URL before continuing.
 2. Start the relay server:
 
    ```bash
@@ -41,7 +41,8 @@ The formal/natural and concrete/abstract values are user-reviewed metadata, not 
 
 ## Versioning
 
-- v0.3: local user-controlled browser concept capture and copying.
+- v0.3: earlier local user-controlled browser concept capture and copying.
+- v0.4 browser client: minimal Chromium popup exporter producing v0.3-compatible capsules without networking.
 - v0.4: local durable relay graph + publisher CLI + HTTP receipt verification. Public deployment unverified and intentionally disabled by default.
 
 `node --test tests/relay.test.mjs`
