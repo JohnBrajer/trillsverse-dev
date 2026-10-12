@@ -35,7 +35,7 @@ The POST accepts the existing **v0.3** capsule schema, validates the canonical o
 
 ### Journal recovery
 
-Startup verifies all newline-terminated records and their hashes. If the final unterminated fragment is malformed JSON, the relay preserves its exact bytes in `<journal>.torn-tail`, syncs that evidence, truncates only the fragment, and replays the committed records. A valid unterminated record is verified and given a newline before new writes. Complete malformed lines and hash mismatches fail closed without changing the journal.
+Startup verifies all newline-terminated records and their hashes. If the final unterminated fragment is malformed JSON, the relay preserves its exact bytes in `<journal>.torn-tail`, syncs that evidence and its containing directory entry on POSIX hosts before truncating only the fragment, and replays the committed records. Windows local testing omits directory-entry sync, so crash-safe preservation of a newly created quarantine filename is not claimed there. A valid unterminated record is verified and given a newline before new writes. Complete malformed lines and hash mismatches fail closed without changing the journal.
 
 An identical existing quarantine can be reused after an interrupted recovery. A different existing quarantine requires operator intervention; archive it securely before retrying, and never silently overwrite recovery evidence. Run only one relay process per journal. This recovery behavior does not make ordinary `appendFile` publication acknowledgments a power-loss durability guarantee; synced commits, storage quotas, and backup/restore validation remain public-release work.
 
