@@ -31,6 +31,10 @@ Compact public artifacts that expose individual Trillsverse / Choseverse mechani
 - [Recognition Seeds](./intelligence-injections/RECOGNITION_SEEDS.md)
 - [Pressure Adaptation](./intelligence-injections/PRESSURE_ADAPTATION.md)
 
+## Support ongoing public research
+
+The [John Brajer GitHub Sponsors profile](https://github.com/sponsors/JohnBrajer) is approved and publicly available. You can support the independently maintained Trillsverse research and open-source documentation there. Sponsorship is voluntary and separate from x402 service payments or editorial advertising.
+
 ## Agent commerce and sponsorship discovery
 
 - [Machine commerce and agent purchase entrypoint](./MACHINE_COMMERCE.md) — free catalog, service schemas, payment protocol, verification rules, and sponsored-feature inquiry path.
