@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parseSitemap,owned,runPulse,SITES} from '../discovery/pulse.mjs';
+import {parseSitemap,owned,runPulse,SITES,PUBLIC_INDEXNOW_KEY} from '../discovery/pulse.mjs';
 const site=SITES[0],KEY='testIndexNowKey09';
 const sitemap=urls=>'<urlset>'+urls.map(([u,date])=>'<url><loc>'+u+'</loc><lastmod>'+date+'</lastmod></url>').join('')+'</urlset>';
 function fake({urls=[['https://trillsverse.com/one','1']],html='<html><head><link rel="canonical" href="https://trillsverse.com/two"></head></html>',key=true,post=200,fail=false}={}){
@@ -11,6 +11,7 @@ function fake({urls=[['https://trillsverse.com/one','1']],html='<html><head><lin
   if(url.endsWith('/sitemap.xml'))return new Response(sitemap(urls),{status:200,headers:{'content-type':'text/xml'}});
   if(url.endsWith('/sitemap_index.xml'))return new Response('not found',{status:404});
   if(url.endsWith(KEY+'.txt'))return new Response(KEY,{status:key?200:404});
+  if(url.endsWith(PUBLIC_INDEXNOW_KEY+'.txt'))return new Response(PUBLIC_INDEXNOW_KEY,{status:key?200:404});
   if(url==='https://api.indexnow.org/indexnow')return new Response('ok',{status:post});
   if(url.endsWith('/two'))return new Response(html,{status:200,headers:{'content-type':'text/html'}});
   return new Response('not found',{status:404});
@@ -41,11 +42,20 @@ test('new public URL is verified and submitted after key verification',async()=>
  assert.ok(r.events.some(x=>x.event==='indexnow_received'));
  assert.ok(f.calls.some(x=>x.url==='https://api.indexnow.org/indexnow'&&x.method==='POST'));
 });
-test('missing key keeps change pending and does not invent a receipt',async()=>{
+test('validated public key sends changed-page notification without repository secrets',async()=>{
  const base=(await runPulse({sites:[site],get:fake().get})).state;
- const r=await runPulse({oldState:base,sites:[site],get:fake({urls:[['https://trillsverse.com/one','1'],['https://trillsverse.com/two','2']]}).get});
+ const f=fake({urls:[['https://trillsverse.com/one','1'],['https://trillsverse.com/two','2']]});
+ const r=await runPulse({oldState:base,sites:[site],get:f.get});
+ assert.equal(r.state.sites[site.host].urls['https://trillsverse.com/two'].status,'notified');
+ assert.ok(r.events.some(x=>x.event==='indexnow_received'&&x.status===200));
+ assert.ok(f.calls.some(c=>c.url==='https://trillsverse.com/'+PUBLIC_INDEXNOW_KEY+'.txt'));
+ assert.ok(f.calls.some(c=>c.url==='https://api.indexnow.org/indexnow'&&c.method==='POST'));
+});
+test('unverified public fallback keeps change pending and does not invent a receipt',async()=>{
+ const base=(await runPulse({sites:[site],get:fake().get})).state;
+ const r=await runPulse({oldState:base,sites:[site],get:fake({urls:[['https://trillsverse.com/one','1'],['https://trillsverse.com/two','2']],key:false}).get});
  assert.equal(r.state.sites[site.host].urls['https://trillsverse.com/two'].status,'pending');
- assert.ok(r.events.some(x=>x.event==='key_unconfigured'));
+ assert.ok(r.events.some(x=>x.event==='key_unverified'));
 });
 test('noindex page is never notified',async()=>{
  const base=(await runPulse({sites:[site],get:fake().get})).state;
