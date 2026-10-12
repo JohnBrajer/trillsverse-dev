@@ -2,3 +2,7 @@
 {"at":"2026-10-12T15:55:27.057Z","host":"lultrills.com","event":"baseline","count":63}
 {"at":"2026-10-12T15:55:27.057Z","host":"mymindmine.com","event":"baseline","count":74}
 {"at":"2026-10-12T15:55:27.057Z","host":"reallythatmagazine.com","event":"baseline","count":493}
+{"at":"2026-10-12T17:24:56.050Z","host":"trillsverse.com","event":"scan_failed","reason":"no_readable_sitemap"}
+{"at":"2026-10-12T17:24:56.050Z","host":"lultrills.com","event":"scan_complete","found":63,"pending":0,"checked":0}
+{"at":"2026-10-12T17:24:56.050Z","host":"mymindmine.com","event":"scan_complete","found":74,"pending":0,"checked":0}
+{"at":"2026-10-12T17:24:56.050Z","host":"reallythatmagazine.com","event":"scan_complete","found":493,"pending":0,"checked":0}
