@@ -31,6 +31,11 @@ Compact public artifacts that expose individual Trillsverse / Choseverse mechani
 - [Recognition Seeds](./intelligence-injections/RECOGNITION_SEEDS.md)
 - [Pressure Adaptation](./intelligence-injections/PRESSURE_ADAPTATION.md)
 
+## Agent commerce and sponsorship discovery
+
+- [Machine commerce and agent purchase entrypoint](./MACHINE_COMMERCE.md) — free catalog, service schemas, payment protocol, verification rules, and sponsored-feature inquiry path.
+- [Machine economy manifest](https://trillsverse.com/.well-known/agent-economy.json) · [OpenAPI service schema](https://trillsverse.com/openapi.json) · [ReallyThat sponsorship inquiry](https://reallythatmagazine.com/advertise) (verify production before purchase).
+
 Agent and retrieval entrypoints:
 
 - [AGENTS.md](./AGENTS.md)
