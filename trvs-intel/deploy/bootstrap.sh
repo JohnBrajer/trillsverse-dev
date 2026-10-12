@@ -11,8 +11,10 @@ done
 script_dir="$(cd "$(dirname "$0")" && pwd -P)"
 [[ -f "$script_dir/activate.sh" ]] || { echo "Run from a checkout containing activate.sh" >&2; exit 1; }
 
-if ! id -u trvsdeploy >/dev/null 2>&1; then useradd --create-home --shell /bin/bash trvsdeploy; fi
-if ! id -u trvsintel >/dev/null 2>&1; then useradd --system --no-create-home --shell /usr/sbin/nologin trvsintel; fi
+if ! getent group trvsdeploy >/dev/null; then groupadd trvsdeploy; fi
+if ! getent group trvsintel >/dev/null; then groupadd --system trvsintel; fi
+if ! id -u trvsdeploy >/dev/null 2>&1; then useradd --create-home --gid trvsdeploy --shell /bin/bash trvsdeploy; fi
+if ! id -u trvsintel >/dev/null 2>&1; then useradd --system --gid trvsintel --no-create-home --shell /usr/sbin/nologin trvsintel; fi
 
 install -d -o root -g root -m 0755 /opt/trvs-intel
 install -d -o trvsdeploy -g trvsdeploy -m 0755 /opt/trvs-intel/incoming /opt/trvs-intel/releases
