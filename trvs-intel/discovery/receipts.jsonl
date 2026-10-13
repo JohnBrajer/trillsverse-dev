@@ -6,3 +6,7 @@
 {"at":"2026-10-12T17:24:56.050Z","host":"lultrills.com","event":"scan_complete","found":63,"pending":0,"checked":0}
 {"at":"2026-10-12T17:24:56.050Z","host":"mymindmine.com","event":"scan_complete","found":74,"pending":0,"checked":0}
 {"at":"2026-10-12T17:24:56.050Z","host":"reallythatmagazine.com","event":"scan_complete","found":493,"pending":0,"checked":0}
+{"at":"2026-10-13T00:43:48.863Z","host":"trillsverse.com","event":"scan_failed","reason":"no_readable_sitemap"}
+{"at":"2026-10-13T00:43:48.863Z","host":"lultrills.com","event":"scan_failed","reason":"no_readable_sitemap"}
+{"at":"2026-10-13T00:43:48.863Z","host":"mymindmine.com","event":"scan_failed","reason":"no_readable_sitemap"}
+{"at":"2026-10-13T00:43:48.863Z","host":"reallythatmagazine.com","event":"scan_failed","reason":"no_readable_sitemap"}
