@@ -28,7 +28,7 @@ The baseline is an exact source-tree export from:
 
 The original source-tree paths and file bytes are copied into the dedicated repository **without rewriting the baseline**. In the new repository, the initial import commit is tagged **v0.1.0** with the public GitHub Release title **“Trilligence Harness — Version 0 (Original Kernel)”**. This preserves the historical Python version number while making the public Version 0 identity explicit. The new Git commit SHA necessarily differs from the upstream monorepo commit because repository history differs; provenance must record the upstream commit and per-file hashes rather than claim identical commits.
 
-The initial tagged import is the canonical frozen snapshot. Post-tag documentation, navigation, adapters, packaging changes, or CI improvements belong on subsequent commits or branches. If repository rules support tag protection and immutable release assets, enable them; in any case record and link both tag and SHA. Git refs alone are not an unconditional immutability guarantee.
+The initial tagged import is the canonical frozen snapshot. Its original README refers to its then-current monorepo location; that historical wording remains unchanged in the tagged source. Accurate standalone-repository navigation, adapters, packaging changes, or CI improvements belong on subsequent commits or branches. If repository rules support tag protection and immutable release assets, enable them; in any case record and link both tag and SHA. Git refs alone are not an unconditional immutability guarantee.
 
 The original monorepo contents and PR #22 remain untouched. The portable reasoning skill and intelligence-injection documents remain canonical research references and are linked by the new repository instead of being silently forked or rewritten.
 
@@ -151,7 +151,7 @@ Version 0 retains its actual limitations (in-memory capability catalog, non-tran
 
 ## 9. Scope exclusions and review boundary
 
-**This specification authorizes no immediate code, repository, release, token, deployment, or infrastructure change.** It records the approved direction and defines future acceptance tests. Creating new public repos, tagging releases, and shipping modules belong to a subsequent, separately reviewed implementation plan.
+**This specification authorizes no creation of the proposed Trilligence repositories, release/tag publication, product-code changes, token issuance, deployment, or infrastructure change.** Only this design document is committed in a separate review branch of the existing research repository. It records the approved direction and defines future acceptance tests. Creating new public repos, tagging releases, and shipping modules belong to a subsequent, separately reviewed implementation plan.
 
 The architectural approach has been selected. The next Superpowers step after John Brajer reviews and approves **this written specification** is a detailed execution plan, starting with Stage 1. The plan must distinguish what connector tooling can actually create from steps requiring the user to authorize or complete account operations.
 
