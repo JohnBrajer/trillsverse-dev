@@ -4,3 +4,7 @@ __all__ = ["Capability", "Harness", "Intent", "Receipt", "Plan"]
 __version__ = "0.1.0"
 from .orchestrator import Agent, RuleBrain, RunReport, Brain
 __all__ += ["Agent", "RuleBrain", "RunReport", "Brain"]
+
+# Optional API transport uses only the standard library; no network until propose().
+from .openai_bridge import OpenAIResponsesBrain
+__all__ += ["OpenAIResponsesBrain"]

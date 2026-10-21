@@ -53,3 +53,9 @@ Verification is defined by supplied verifiers; they are trusted host code but no
 8. Reopening SQLite preserves the chain and receipt records.
 
 The following iterations should use GitHub PR tests, explicit host adapters, and separate integration benchmarks, not assertions based on design documents.
+
+## OpenAI model bridge (v0.1 extension)
+
+`OpenAIResponsesBrain` is an optional outbound HTTP adapter implementing `Brain`. The default package and resident Heart remain model-free. The OpenAI API key is read at request time, never inserted into model input, and no HTTP request occurs until the host invokes `propose`. Requests use `store: false` and strict structured outputs with a JSON-string payload, followed by local structural validation; tool registration and side-effect authorization remain exclusively in trusted host code. The adapter intentionally sends only goal, fact names, capability metadata, and receipt status summaries; hosts must avoid registering confidential strings as facts or tool descriptions. Tests use a mocked transport and do **not** establish successful billing/authentication against a live OpenAI project.
+
+Connection is directional: the harness can call the OpenAI Responses API, not control or inherit an existing ChatGPT session. A future ChatGPT-facing custom app/MCP server requires network hosting, authentication, installation, and consent; nothing here silently grants remote access or makes the assistant a persistent daemon.

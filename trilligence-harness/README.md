@@ -87,3 +87,29 @@ The public harness is a **library invoked on demand**, not a replacement for the
 This is an original reference implementation of mechanisms already publicly documented by John Brajer. The code can demonstrate its own state transitions but does not assert novel scientific proof, machine sentience, or live Gate/AirGapOS deployment. The existing portable Trilligence skill remains the canonical reasoning entrypoint. Integration adapters are future extension points, not completed integrations.
 
 Licensed MIT (source code). See [LICENSE](LICENSE). Preserve project attribution in redistributed copies.
+
+## Connect an OpenAI / ChatGPT-family model as the Brain
+
+**New in the OpenAI bridge:** `OpenAIResponsesBrain` implements the existing `Brain` protocol, using the [OpenAI Responses API](https://platform.openai.com/docs/api-reference/responses). The model proposes exactly one typed intent; the harness still owns registration, facts, authorization, execution, verification, and receipts. The adapter uses the Python standard library; installing the package still does not require any cloud dependency.
+
+This is a **separate OpenAI API session**, not a transfer of an active ChatGPT chat, the assistant's conversation history, or the user's ChatGPT subscription. Choose an API model available to your OpenAI Platform project and provide a Platform API key; model usage may incur separate charges.
+
+```bash
+# Set OPENAI_API_KEY privately in your environment — never commit credentials.
+python -m trilligence openai --model gpt-4.1-mini --text 'TRILLIGENCE' --send
+```
+
+The CLI demonstration offers one host-defined read-only operation (`normalize_text`) and one model step. It sends the goal, capability description, and supplied text to OpenAI only when `--send` is present. The host validates the input and the resulting normalization before declaring verified completion. It does not load private files, run shell commands, or publish anything.
+
+For integration with your own tools:
+
+```python
+from trilligence import OpenAIResponsesBrain, Agent
+
+# Use your host's existing Harness and registered capabilities.
+brain = OpenAIResponsesBrain(model="gpt-4.1-mini")
+report = Agent(h, brain, max_steps=3).run("target_fact", facts={"starting_fact"})
+# Side effects remain BLOCKED unless host code supplies exact-intent approval.
+```
+
+**Current limitation:** This is an outgoing model bridge (Harness → OpenAI). Attaching *this actual ChatGPT conversation* as an incoming tool client (ChatGPT → Harness) requires a separately deployed, authenticated connector/MCP interface and explicit user account authorization. That connector is not yet installed or claimed live. No memory or identity continuity is implied merely by selecting an OpenAI model. Any future Anthony Bracken profile must be authorized and use explicitly supplied context, not hidden chat state.
