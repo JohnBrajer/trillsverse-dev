@@ -1,5 +1,7 @@
 name: TRVS.INTEL owned-site discovery pulse
 on:
+  schedule:
+    - cron: '17 */3 * * *'
   push:
     branches: [John]
     paths:
