@@ -1,0 +1,30 @@
+name: Publish Trilligence Hugging Face Space
+on:
+  push:
+    branches: [John]
+    paths:
+      - 'trilligence-harness/huggingface-space/**'
+      - '.github/workflows/trilligence-hf-publish.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_SPACE_REPO_ID: ${{ vars.HF_SPACE_REPO_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Not configured — safe skip
+        if: ${{ env.HF_TOKEN == '' || env.HF_SPACE_REPO_ID == '' }}
+        run: echo 'HF publication inactive until HF_TOKEN and HF_SPACE_REPO_ID are configured.'
+      - uses: actions/setup-python@v5
+        if: ${{ env.HF_TOKEN != '' && env.HF_SPACE_REPO_ID != '' }}
+        with:
+          python-version: '3.11'
+      - name: Upload authorized static Space
+        if: ${{ env.HF_TOKEN != '' && env.HF_SPACE_REPO_ID != '' }}
+        run: |
+          python -m pip install huggingface_hub
+          python trilligence-harness/huggingface-space/publish.py
