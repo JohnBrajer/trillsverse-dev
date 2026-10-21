@@ -340,7 +340,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-21T11:50:12.642Z"
+      "lastSuccess": "2026-10-21T17:13:32.357Z"
     },
     "lultrills.com": {
       "urls": {
@@ -683,7 +683,7 @@
           "notifiedAt": "2026-10-21T11:50:12.642Z"
         }
       },
-      "lastSuccess": "2026-10-21T11:50:12.642Z"
+      "lastSuccess": "2026-10-21T17:13:32.357Z"
     },
     "mymindmine.com": {
       "urls": {
@@ -919,7 +919,9 @@
         },
         "https://www.mymindmine.com/psychology/decision-making": {
           "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-21T17:13:32.357Z",
+          "notifiedAt": "2026-10-21T17:13:32.357Z"
         },
         "https://www.mymindmine.com/knowledge/decision-making": {
           "lastmod": "2026-10-18T22:11:50.139Z",
@@ -927,7 +929,9 @@
         },
         "https://www.mymindmine.com/psychology/confirmation-bias": {
           "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-21T17:13:32.357Z",
+          "notifiedAt": "2026-10-21T17:13:32.357Z"
         },
         "https://www.mymindmine.com/knowledge/confirmation-bias": {
           "lastmod": "2026-10-18T22:11:50.139Z",
@@ -935,7 +939,9 @@
         },
         "https://www.mymindmine.com/psychology/self-regulation": {
           "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-21T17:13:32.357Z",
+          "notifiedAt": "2026-10-21T17:13:32.357Z"
         },
         "https://www.mymindmine.com/knowledge/self-regulation": {
           "lastmod": "2026-10-18T22:11:50.139Z",
@@ -1014,7 +1020,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-21T11:50:12.642Z"
+      "lastSuccess": "2026-10-21T17:13:32.357Z"
     },
     "reallythatmagazine.com": {
       "urls": {
@@ -2997,8 +3003,8 @@
           "notifiedAt": "2026-10-21T05:22:13.595Z"
         }
       },
-      "lastSuccess": "2026-10-21T11:50:12.642Z"
+      "lastSuccess": "2026-10-21T17:13:32.357Z"
     }
   },
-  "updated": "2026-10-21T11:50:12.642Z"
+  "updated": "2026-10-21T17:13:32.357Z"
 }
