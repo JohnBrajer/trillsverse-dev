@@ -80,7 +80,7 @@ The public harness is a **library invoked on demand**, not a replacement for the
 ## Publishing
 
 - **GitHub:** Source here, under `trilligence-harness/` in the Trillsverse public research repository.
-- **Hugging Face:** `huggingface-space/` is a zero-compute **static Space** package with an offline architecture visual; it does **not** run this Python harness in a hosted process. Publish separately when a write-authorized Hugging Face account is connected. An executable Gradio demo can follow after a hosting choice is made.
+- **Hugging Face:** `huggingface-space/` is a zero-compute **static Space** package with an offline architecture visual; it does **not** run this Python harness in a hosted process. The accompanying GitHub Actions publish workflow auto-creates/updates the static Space after merge when the repository has a write-authorized `HF_TOKEN` secret and `HF_SPACE_REPO_ID` variable (format `owner/space-name`). Without those credentials it exits cleanly and publishes nothing. An executable Gradio demo can follow after a hosting choice is made.
 
 ## Scope and provenance
 

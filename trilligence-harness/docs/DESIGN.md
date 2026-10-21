@@ -33,6 +33,10 @@ Perception/input -> Heart: journal pulse -> Soul: capability registry
 
 Execution receipts use `BLOCKED`, `DORMANT`, `FAILED`, `FAILED_VERIFICATION`, `EXECUTED_UNVERIFIED`, or `VERIFIED`.
 
+## Publication boundary
+
+A separate path-scoped GitHub Actions workflow prepares the Hugging Face static Space. It requires an explicit `HF_TOKEN` secret and `HF_SPACE_REPO_ID` repo variable; missing configuration means a no-op. It does not access private Trillsverse production surfaces.
+
 ## Boundaries and known shortcomings
 
 Verification is defined by supplied verifiers; they are trusted host code but not a universal guarantee of real-world success. SQLite records are locally hash-chained but do not prevent whole-file replacement, and handlers are non-transactional. The registry is in-memory per process; receipts are persisted. Concurrency/process leasing, secrets, multi-tenant isolation, OAuth, remote acknowledgement, permission revocation, external truth observation, actual model routing, production OMIP/Gate adapters, and AirGapOS integration remain outside v0.1.
