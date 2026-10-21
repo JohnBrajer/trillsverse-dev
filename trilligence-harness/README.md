@@ -38,7 +38,7 @@ with Harness("trilligence.sqlite") as h:
 
 ## Running an agent loop
 
-The `Brain` protocol accepts any local or remote planner that proposes structured `Intent` objects. The included `RuleBrain` is a deterministic no-model demo; it chooses paths from registered tools and stops on blocked, failed, or unverified outcomes. Neither it nor a model can authorize side effects.
+The `Brain` protocol accepts any local or remote planner that proposes structured `Intent` objects. The included `RuleBrain` is a deterministic no-model demo; it chooses paths from registered tools and stops on blocked, failed, or unverified outcomes. Neither it nor a model can authorize side effects. The optional `Agent.run(authorize=trusted_callback)` evaluates the exact proposed intent for each mutation; without it, all mutations are blocked.
 
 ```python
 from trilligence import Agent, RuleBrain

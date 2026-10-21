@@ -1,7 +1,7 @@
 """Model-neutral orchestration loop. Brains propose; the host harness decides."""
 from __future__ import annotations
 from dataclasses import dataclass
-from typing import Any, Protocol
+from typing import Any, Callable, Protocol
 from .core import Harness, Intent, Receipt
 
 
@@ -49,7 +49,7 @@ class Agent:
 
     def run(self, goal: str, *, facts: set[str],
             context: dict[str, Any] | None = None,
-            approve_side_effects: bool = False) -> RunReport:
+            authorize: Callable[[Intent], bool] | None = None) -> RunReport:
         known = set(facts)
         receipts: list[Receipt] = []
         reason = "STEP_LIMIT"
@@ -64,8 +64,11 @@ class Agent:
                 break
             # A model may propose; never trust its facts as authority.
             cap = self.harness._capabilities.get(proposal.capability)
+            # Permission is scoped to the exact proposed intent, not a blanket
+            # model-loop switch. Authorization callback is trusted host code.
+            approved = bool(authorize(proposal)) if cap and not cap.read_only and authorize else False
             receipt = self.harness.execute(proposal, facts=known, context=context,
-                                           approve_side_effects=approve_side_effects)
+                                           approve_side_effects=approved)
             receipts.append(receipt)
             if receipt.status != "VERIFIED":
                 reason = receipt.status

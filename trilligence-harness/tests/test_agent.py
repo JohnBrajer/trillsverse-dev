@@ -31,6 +31,20 @@ class AgentTests(unittest.TestCase):
             self.assertFalse(report.reached)
             self.assertEqual(report.stop_reason, "DORMANT")
 
+    def test_exact_intent_authorization_for_mutations(self):
+        seen = []
+        class HostBrain:
+            def propose(self, **kwargs):
+                return Intent("publish", {"destination": "wrong"})
+        with Harness() as h:
+            h.register(Capability("publish", adds=("published",), read_only=False,
+                                  handler=lambda p: seen.append(p["destination"]),
+                                  verifier=lambda p, result: bool(seen)), available=True)
+            report = Agent(h, HostBrain()).run("published", facts=set(),
+                authorize=lambda intent: intent.payload.get("destination") == "approved")
+            self.assertEqual(report.stop_reason, "BLOCKED")
+            self.assertEqual(seen, [])
+
     def test_model_supplied_payload_approval_cannot_write(self):
         called = []
         class UntrustedBrain:

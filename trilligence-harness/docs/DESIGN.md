@@ -21,7 +21,7 @@ Perception/input -> Heart: journal pulse -> Soul: capability registry
 
 - Public v0.1: synchronous Python library, optional SQLite file, stdlib only.
 - No external model APIs, filesystem actions, unrestricted shell, networking, or background daemon by default.
-- Runtime adapters can supply separately trusted handlers, pluggable Brain proposals, verifiers, and a scheduler. A synchronous `Agent` loop stops on failure, unknown paths, or maximum steps.
+- Runtime adapters can supply separately trusted handlers, pluggable Brain proposals, exact-intent host approval callbacks, verifiers, and a scheduler. A synchronous `Agent` loop stops on failure, unknown paths, or maximum steps.
 - Identity, model weights, and host environment are distinct. A `heartbeat` call is not a resident T0 process.
 
 ## Epistemic states
