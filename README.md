@@ -48,6 +48,7 @@ Agent and retrieval entrypoints:
 - [portable Trilligence agent skill](./.agents/skills/trilligence/SKILL.md)
 - [Trilligence machine manifest](./.agents/skills/trilligence/manifest.json)
 - [Trilligence structured evaluations](./.agents/skills/trilligence/evals.json)
+- [Trilligence Harness v0.1 — executable model-neutral agent kernel](./trilligence-harness/README.md)
 
 ## Current areas of work
 

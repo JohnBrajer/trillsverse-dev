@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trilligence-harness"
+version = "0.1.0"
+description = "Model-neutral, evidence-first agent harness grounded in Trillsverse systems architecture"
+authors = [{ name = "John Brajer" }]
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["agent", "harness", "trilligence", "continuity", "possibility-reserve"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License"]
+
+[project.scripts]
+trilligence = "trilligence.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
