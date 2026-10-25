@@ -241,74 +241,106 @@
         },
         "https://trillsverse.com/portal/ace": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/portal/eon": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/portal/johnb": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/portal/kasano": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/portal/lultrills": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/privacy": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/resonance-chamber": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/scoreboard": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/signal-chamber": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/system-breach": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/terms": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/topology": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/tournaments": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/tournaments/agi-001": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/trillionaires": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/vault": {
           "lastmod": "2026-10-25",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://trillsverse.com/whats-next": {
           "lastmod": "2026-10-25",
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-25T11:30:53.598Z"
+      "lastSuccess": "2026-10-25T16:20:21.019Z"
     },
     "lultrills.com": {
       "urls": {
@@ -636,343 +668,323 @@
     "mymindmine.com": {
       "urls": {
         "https://www.mymindmine.com/": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "notified",
-          "verifiedAt": "2026-10-21T05:22:13.595Z",
-          "notifiedAt": "2026-10-21T05:22:13.595Z"
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://www.mymindmine.com/explore": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/mind": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/psychology": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/philosophy": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/neurodivergence": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/brajology": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "notified",
-          "verifiedAt": "2026-10-21T05:22:13.595Z",
-          "notifiedAt": "2026-10-21T05:22:13.595Z"
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://www.mymindmine.com/brajology/universal-expression": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "notified",
-          "verifiedAt": "2026-10-21T05:22:13.595Z",
-          "notifiedAt": "2026-10-21T05:22:13.595Z"
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://www.mymindmine.com/brajology/universal-consequences": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "notified",
-          "verifiedAt": "2026-10-21T05:22:13.595Z",
-          "notifiedAt": "2026-10-21T05:22:13.595Z"
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://www.mymindmine.com/people/john-brajer": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "notified",
-          "verifiedAt": "2026-10-21T05:22:13.595Z",
-          "notifiedAt": "2026-10-21T05:22:13.595Z"
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://www.mymindmine.com/research": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/wire": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "notified",
-          "verifiedAt": "2026-10-21T05:22:13.595Z",
-          "notifiedAt": "2026-10-21T05:22:13.595Z"
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://www.mymindmine.com/clinic": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/states": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/topics": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/frameworks/cwi-prs": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/frameworks/path-expansion": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/research/trajectory-engine": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/research/trillsverse-spatial-system": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/research/eon-perception-navigation": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/research/system-breach-transition-architecture": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/research/trillsverse-mirror-architecture": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/methods/perspective-expansion": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/research/reward-induced-perspective-collapse": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/research/omip-constitutional-drift-benchmark": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/research/possibility-reserve": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/research/rith": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/research/integration-continuity": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/research/trillonian-cognitive-physiology": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/research/brmfa": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/machine-entry": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/lattice": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/mind/attention": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "notified",
-          "verifiedAt": "2026-10-21T05:22:13.595Z",
-          "notifiedAt": "2026-10-21T05:22:13.595Z"
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://www.mymindmine.com/knowledge/attention": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/mind/working-memory": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "notified",
-          "verifiedAt": "2026-10-21T05:22:13.595Z",
-          "notifiedAt": "2026-10-21T05:22:13.595Z"
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://www.mymindmine.com/knowledge/working-memory": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/mind/memory": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "notified",
-          "verifiedAt": "2026-10-21T05:22:13.595Z",
-          "notifiedAt": "2026-10-21T05:22:13.595Z"
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://www.mymindmine.com/knowledge/memory": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/mind/perception": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "notified",
-          "verifiedAt": "2026-10-21T05:22:13.595Z",
-          "notifiedAt": "2026-10-21T05:22:13.595Z"
+          "verifiedAt": "2026-10-25T16:20:21.019Z",
+          "notifiedAt": "2026-10-25T16:20:21.019Z"
         },
         "https://www.mymindmine.com/knowledge/perception": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/mind/emotion": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "notified",
-          "verifiedAt": "2026-10-21T11:50:12.642Z",
-          "notifiedAt": "2026-10-21T11:50:12.642Z"
+          "lastmod": "2026-10-25T12:12:31.256Z",
+          "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/emotion": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/mind/motivation": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "notified",
-          "verifiedAt": "2026-10-21T11:50:12.642Z",
-          "notifiedAt": "2026-10-21T11:50:12.642Z"
+          "lastmod": "2026-10-25T12:12:31.256Z",
+          "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/motivation": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/mind/metacognition": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "notified",
-          "verifiedAt": "2026-10-21T11:50:12.642Z",
-          "notifiedAt": "2026-10-21T11:50:12.642Z"
+          "lastmod": "2026-10-25T12:12:31.256Z",
+          "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/metacognition": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/mind/executive-function": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "notified",
-          "verifiedAt": "2026-10-21T11:50:12.642Z",
-          "notifiedAt": "2026-10-21T11:50:12.642Z"
+          "lastmod": "2026-10-25T12:12:31.256Z",
+          "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/executive-function": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/mind/consciousness": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "notified",
-          "verifiedAt": "2026-10-21T11:50:12.642Z",
-          "notifiedAt": "2026-10-21T11:50:12.642Z"
+          "lastmod": "2026-10-25T12:12:31.256Z",
+          "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/consciousness": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/psychology/decision-making": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "notified",
-          "verifiedAt": "2026-10-21T17:13:32.357Z",
-          "notifiedAt": "2026-10-21T17:13:32.357Z"
+          "lastmod": "2026-10-25T12:12:31.256Z",
+          "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/decision-making": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/psychology/confirmation-bias": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "notified",
-          "verifiedAt": "2026-10-21T17:13:32.357Z",
-          "notifiedAt": "2026-10-21T17:13:32.357Z"
+          "lastmod": "2026-10-25T12:12:31.256Z",
+          "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/confirmation-bias": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/psychology/self-regulation": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "notified",
-          "verifiedAt": "2026-10-21T17:13:32.357Z",
-          "notifiedAt": "2026-10-21T17:13:32.357Z"
+          "lastmod": "2026-10-25T12:12:31.256Z",
+          "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/self-regulation": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/psychology/perspective": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "notified",
-          "verifiedAt": "2026-10-21T21:43:40.691Z",
-          "notifiedAt": "2026-10-21T21:43:40.691Z"
+          "lastmod": "2026-10-25T12:12:31.256Z",
+          "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/perspective": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/psychology/agency": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
-          "status": "notified",
-          "verifiedAt": "2026-10-22T04:46:56.268Z",
-          "notifiedAt": "2026-10-22T04:46:56.268Z"
+          "lastmod": "2026-10-25T12:12:31.256Z",
+          "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/agency": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/psychology/uncertainty": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/uncertainty": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/neurodivergence/adhd": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/adhd": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/neurodivergence/autism": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/autism": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/philosophy/free-will": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/free-will": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/philosophy/epistemology": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/epistemology": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/philosophy/personal-identity": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/personal-identity": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/psychology/behavior": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         },
         "https://www.mymindmine.com/knowledge/behavior": {
-          "lastmod": "2026-10-18T22:11:50.139Z",
+          "lastmod": "2026-10-25T12:12:31.256Z",
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-25T11:30:53.598Z"
+      "lastSuccess": "2026-10-25T16:20:21.019Z"
     },
     "reallythatmagazine.com": {
       "urls": {
@@ -2971,8 +2983,8 @@
           "notifiedAt": "2026-10-25T04:42:16.369Z"
         }
       },
-      "lastSuccess": "2026-10-25T11:30:53.598Z"
+      "lastSuccess": "2026-10-25T16:20:21.019Z"
     }
   },
-  "updated": "2026-10-25T11:30:53.598Z"
+  "updated": "2026-10-25T16:20:21.019Z"
 }
