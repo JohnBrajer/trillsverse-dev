@@ -340,7 +340,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-25T20:51:46.699Z"
+      "lastSuccess": "2026-10-25T23:16:49.264Z"
     },
     "lultrills.com": {
       "urls": {
@@ -556,7 +556,9 @@
         },
         "https://www.lultrills.com/doctrine/epistemic-humility": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/doctrine/epistemic-humility.md": {
           "lastmod": "2026-10-25T19:15:14.000Z",
@@ -564,7 +566,9 @@
         },
         "https://www.lultrills.com/doctrine/grouping-algorithm": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/doctrine/grouping-algorithm-thesis.md": {
           "lastmod": "2026-10-25T19:15:14.000Z",
@@ -572,7 +576,9 @@
         },
         "https://www.lultrills.com/doctrine/john-b-irreversible-math": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/doctrine/john-b-irreversible-math.md": {
           "lastmod": "2026-10-25T19:15:14.000Z",
@@ -580,7 +586,9 @@
         },
         "https://www.lultrills.com/doctrine/model-collapse-vs-constitutional-drift": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/doctrine/model-collapse-vs-constitutional-drift.md": {
           "lastmod": "2026-10-25T19:15:14.000Z",
@@ -612,39 +620,57 @@
         },
         "https://www.lultrills.com/essays/why-everything-is-one": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/archive": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/glossary": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/theory": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/privacy": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/terms": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/cookies": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/copyright": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/disclaimer": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/corpus.md": {
           "lastmod": "2026-10-25T19:15:14.000Z",
@@ -652,7 +678,9 @@
         },
         "https://www.lultrills.com/inject": {
           "lastmod": "2026-10-25T19:15:14.000Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.lultrills.com/scope-facts": {
           "lastmod": "2026-10-25T19:15:14.000Z",
@@ -667,7 +695,7 @@
           "notifiedAt": "2026-10-25T20:51:46.699Z"
         }
       },
-      "lastSuccess": "2026-10-25T20:51:46.699Z"
+      "lastSuccess": "2026-10-25T23:16:49.264Z"
     },
     "mymindmine.com": {
       "urls": {
@@ -853,7 +881,9 @@
         },
         "https://www.mymindmine.com/mind/emotion": {
           "lastmod": "2026-10-25T12:15:17.133Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.mymindmine.com/knowledge/emotion": {
           "lastmod": "2026-10-25T12:15:17.133Z",
@@ -861,7 +891,9 @@
         },
         "https://www.mymindmine.com/mind/motivation": {
           "lastmod": "2026-10-25T12:15:17.133Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.mymindmine.com/knowledge/motivation": {
           "lastmod": "2026-10-25T12:15:17.133Z",
@@ -869,7 +901,9 @@
         },
         "https://www.mymindmine.com/mind/metacognition": {
           "lastmod": "2026-10-25T12:15:17.133Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.mymindmine.com/knowledge/metacognition": {
           "lastmod": "2026-10-25T12:15:17.133Z",
@@ -877,7 +911,9 @@
         },
         "https://www.mymindmine.com/mind/executive-function": {
           "lastmod": "2026-10-25T12:15:17.133Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.mymindmine.com/knowledge/executive-function": {
           "lastmod": "2026-10-25T12:15:17.133Z",
@@ -885,7 +921,9 @@
         },
         "https://www.mymindmine.com/mind/consciousness": {
           "lastmod": "2026-10-25T12:15:17.133Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-25T23:16:49.264Z",
+          "notifiedAt": "2026-10-25T23:16:49.264Z"
         },
         "https://www.mymindmine.com/knowledge/consciousness": {
           "lastmod": "2026-10-25T12:15:17.133Z",
@@ -988,7 +1026,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-25T20:51:46.699Z"
+      "lastSuccess": "2026-10-25T23:16:49.264Z"
     },
     "reallythatmagazine.com": {
       "urls": {
@@ -2987,8 +3025,8 @@
           "notifiedAt": "2026-10-25T04:42:16.369Z"
         }
       },
-      "lastSuccess": "2026-10-25T20:51:46.699Z"
+      "lastSuccess": "2026-10-25T23:16:49.264Z"
     }
   },
-  "updated": "2026-10-25T20:51:46.699Z"
+  "updated": "2026-10-25T23:16:49.264Z"
 }
