@@ -340,7 +340,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-25T23:16:49.264Z"
+      "lastSuccess": "2026-10-26T04:48:17.838Z"
     },
     "lultrills.com": {
       "urls": {
@@ -695,7 +695,7 @@
           "notifiedAt": "2026-10-25T20:51:46.699Z"
         }
       },
-      "lastSuccess": "2026-10-25T23:16:49.264Z"
+      "lastSuccess": "2026-10-26T04:48:17.838Z"
     },
     "mymindmine.com": {
       "urls": {
@@ -931,7 +931,9 @@
         },
         "https://www.mymindmine.com/psychology/decision-making": {
           "lastmod": "2026-10-25T12:15:17.133Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-26T04:48:17.838Z",
+          "notifiedAt": "2026-10-26T04:48:17.838Z"
         },
         "https://www.mymindmine.com/knowledge/decision-making": {
           "lastmod": "2026-10-25T12:15:17.133Z",
@@ -939,7 +941,9 @@
         },
         "https://www.mymindmine.com/psychology/confirmation-bias": {
           "lastmod": "2026-10-25T12:15:17.133Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-26T04:48:17.838Z",
+          "notifiedAt": "2026-10-26T04:48:17.838Z"
         },
         "https://www.mymindmine.com/knowledge/confirmation-bias": {
           "lastmod": "2026-10-25T12:15:17.133Z",
@@ -947,7 +951,9 @@
         },
         "https://www.mymindmine.com/psychology/self-regulation": {
           "lastmod": "2026-10-25T12:15:17.133Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-26T04:48:17.838Z",
+          "notifiedAt": "2026-10-26T04:48:17.838Z"
         },
         "https://www.mymindmine.com/knowledge/self-regulation": {
           "lastmod": "2026-10-25T12:15:17.133Z",
@@ -1026,7 +1032,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-25T23:16:49.264Z"
+      "lastSuccess": "2026-10-26T04:48:17.838Z"
     },
     "reallythatmagazine.com": {
       "urls": {
@@ -3023,10 +3029,16 @@
           "status": "notified",
           "verifiedAt": "2026-10-25T04:42:16.369Z",
           "notifiedAt": "2026-10-25T04:42:16.369Z"
+        },
+        "https://reallythatmagazine.com/article/chrisean-rock-blueface-when-relationship-conflict-becomes-content": {
+          "lastmod": "2026-10-25T00:00:00.000Z",
+          "status": "notified",
+          "verifiedAt": "2026-10-26T04:48:17.838Z",
+          "notifiedAt": "2026-10-26T04:48:17.838Z"
         }
       },
-      "lastSuccess": "2026-10-25T23:16:49.264Z"
+      "lastSuccess": "2026-10-26T04:48:17.838Z"
     }
   },
-  "updated": "2026-10-25T23:16:49.264Z"
+  "updated": "2026-10-26T04:48:17.838Z"
 }
