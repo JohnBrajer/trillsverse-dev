@@ -340,7 +340,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-26T13:04:01.235Z"
+      "lastSuccess": "2026-10-26T20:29:43.240Z"
     },
     "lultrills.com": {
       "urls": {
@@ -695,7 +695,7 @@
           "notifiedAt": "2026-10-25T20:51:46.699Z"
         }
       },
-      "lastSuccess": "2026-10-26T13:04:01.235Z"
+      "lastSuccess": "2026-10-26T20:29:43.240Z"
     },
     "mymindmine.com": {
       "urls": {
@@ -881,7 +881,9 @@
         },
         "https://www.mymindmine.com/mind/emotion": {
           "lastmod": "2026-10-26T10:51:21.551Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-26T20:29:43.240Z",
+          "notifiedAt": "2026-10-26T20:29:43.240Z"
         },
         "https://www.mymindmine.com/knowledge/emotion": {
           "lastmod": "2026-10-26T10:51:21.551Z",
@@ -889,7 +891,9 @@
         },
         "https://www.mymindmine.com/mind/motivation": {
           "lastmod": "2026-10-26T10:51:21.551Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-26T20:29:43.240Z",
+          "notifiedAt": "2026-10-26T20:29:43.240Z"
         },
         "https://www.mymindmine.com/knowledge/motivation": {
           "lastmod": "2026-10-26T10:51:21.551Z",
@@ -897,7 +901,9 @@
         },
         "https://www.mymindmine.com/mind/metacognition": {
           "lastmod": "2026-10-26T10:51:21.551Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-26T20:29:43.240Z",
+          "notifiedAt": "2026-10-26T20:29:43.240Z"
         },
         "https://www.mymindmine.com/knowledge/metacognition": {
           "lastmod": "2026-10-26T10:51:21.551Z",
@@ -905,7 +911,9 @@
         },
         "https://www.mymindmine.com/mind/executive-function": {
           "lastmod": "2026-10-26T10:51:21.551Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-26T20:29:43.240Z",
+          "notifiedAt": "2026-10-26T20:29:43.240Z"
         },
         "https://www.mymindmine.com/knowledge/executive-function": {
           "lastmod": "2026-10-26T10:51:21.551Z",
@@ -913,7 +921,9 @@
         },
         "https://www.mymindmine.com/mind/consciousness": {
           "lastmod": "2026-10-26T10:51:21.551Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-26T20:29:43.240Z",
+          "notifiedAt": "2026-10-26T20:29:43.240Z"
         },
         "https://www.mymindmine.com/knowledge/consciousness": {
           "lastmod": "2026-10-26T10:51:21.551Z",
@@ -1016,7 +1026,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-26T13:04:01.235Z"
+      "lastSuccess": "2026-10-26T20:29:43.240Z"
     },
     "reallythatmagazine.com": {
       "urls": {
@@ -3021,8 +3031,8 @@
           "notifiedAt": "2026-10-26T04:48:17.838Z"
         }
       },
-      "lastSuccess": "2026-10-26T13:04:01.235Z"
+      "lastSuccess": "2026-10-26T20:29:43.240Z"
     }
   },
-  "updated": "2026-10-26T13:04:01.235Z"
+  "updated": "2026-10-26T20:29:43.240Z"
 }
