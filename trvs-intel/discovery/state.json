@@ -241,74 +241,106 @@
         },
         "https://trillsverse.com/portal/ace": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/portal/eon": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/portal/johnb": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/portal/kasano": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/portal/lultrills": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/privacy": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/resonance-chamber": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/scoreboard": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/signal-chamber": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/system-breach": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/terms": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/topology": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/tournaments": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/tournaments/agi-001": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/trillionaires": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/vault": {
           "lastmod": "2026-10-26",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://trillsverse.com/whats-next": {
           "lastmod": "2026-10-26",
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-27T00:26:09.398Z"
+      "lastSuccess": "2026-10-27T09:00:52.159Z"
     },
     "lultrills.com": {
       "urls": {
@@ -663,7 +695,7 @@
           "notifiedAt": "2026-10-25T20:51:46.699Z"
         }
       },
-      "lastSuccess": "2026-10-27T00:26:09.398Z"
+      "lastSuccess": "2026-10-27T09:00:52.159Z"
     },
     "mymindmine.com": {
       "urls": {
@@ -929,7 +961,9 @@
         },
         "https://www.mymindmine.com/psychology/perspective": {
           "lastmod": "2026-10-26T10:51:21.551Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-27T09:00:52.159Z",
+          "notifiedAt": "2026-10-27T09:00:52.159Z"
         },
         "https://www.mymindmine.com/knowledge/perspective": {
           "lastmod": "2026-10-26T10:51:21.551Z",
@@ -1000,7 +1034,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-27T00:26:09.398Z"
+      "lastSuccess": "2026-10-27T09:00:52.159Z"
     },
     "reallythatmagazine.com": {
       "urls": {
@@ -3005,8 +3039,8 @@
           "notifiedAt": "2026-10-26T04:48:17.838Z"
         }
       },
-      "lastSuccess": "2026-10-27T00:26:09.398Z"
+      "lastSuccess": "2026-10-27T09:00:52.159Z"
     }
   },
-  "updated": "2026-10-27T00:26:09.398Z"
+  "updated": "2026-10-27T09:00:52.159Z"
 }
