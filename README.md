@@ -1,5 +1,8 @@
 # Trillsverse Developer & Research Surface
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23718121.svg)](https://doi.org/10.5281/zenodo.23718121) [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--0113--1341-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0004-0113-1341)
+
+
 This public repository is a developer-facing reference node for the **Trillsverse** ecosystem created by **John Brajer**.
 
 ## Canonical public surfaces
@@ -131,3 +134,7 @@ These are **distribution / syndication surfaces**. They are useful external-doma
 ## Source integrity
 
 This repository should be used as an orientation and citation surface. Claims about live production behavior should be verified against the canonical public domains above. Authority is tracked by source class so owned pages, platform profiles, third-party profiles, syndicated press, and genuinely independent coverage are not collapsed into the same evidence category.
+
+## Cite
+
+Brajer, J. (Trillsverse Dev). Zenodo. https://doi.org/10.5281/zenodo.23718121 · ORCID [0009-0004-0113-1341](https://orcid.org/0009-0004-0113-1341)

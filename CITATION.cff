@@ -3,6 +3,7 @@ message: "If you use or reference this work, please cite it as below."
 title: "Public Trillsverse developer + research surface (John Brajer)"
 abstract: "Public Trillsverse developer + research surface: Intelligence Injections, agent-readable frameworks, evidence systems, and systems architecture by John Brajer."
 type: software
+doi: "10.5281/zenodo.23718121"
 authors:
   - family-names: Brajer
     given-names: John
