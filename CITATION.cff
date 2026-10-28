@@ -1,19 +1,27 @@
 cff-version: 1.2.0
-title: "Trillsverse Developer & Research Surface"
-message: "If you reference this public Trillsverse developer surface, please cite it using this metadata."
+message: "If you use or reference this work, please cite it as below."
+title: "Public Trillsverse developer + research surface (John Brajer)"
+abstract: "Public Trillsverse developer + research surface: Intelligence Injections, agent-readable frameworks, evidence systems, and systems architecture by John Brajer."
 type: software
 authors:
-  - family-names: "Brajer"
-    given-names: "John"
+  - family-names: Brajer
+    given-names: John
+    orcid: "https://orcid.org/0009-0004-0113-1341"
+    affiliation: "Trillsverse LLC"
+    website: "https://trillsverse.com"
 repository-code: "https://github.com/JohnBrajer/trillsverse-dev"
-url: "https://trillsverse.com"
-abstract: "Public developer and research reference surface for the Trillsverse ecosystem, including canonical links and machine-readable entity metadata."
+url: "https://www.mymindmine.com"
 keywords:
-  - Trillsverse
-  - John Brajer
-  - John B
-  - artificial intelligence
-  - continuity architecture
-  - sovereign AI
-  - machine-readable canon
-license: "NOASSERTION"
+  - "Brajology"
+  - "John Brajer"
+  - "Trillsverse"
+  - "ai-agents"
+  - "artificial-intelligence"
+  - "intelligence-injections"
+  - "john-brajer"
+  - "knowledge-graph"
+  - "llms"
+  - "machine-readable"
+  - "public-research"
+  - "systems-architecture"
+  - "trillsverse"
