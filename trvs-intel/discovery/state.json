@@ -241,401 +241,433 @@
         },
         "https://trillsverse.com/portal/ace": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/portal/eon": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/portal/johnb": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/portal/kasano": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/portal/lultrills": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/privacy": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/resonance-chamber": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/scoreboard": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/signal-chamber": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/system-breach": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/terms": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/topology": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/tournaments": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/tournaments/agi-001": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/trillionaires": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/vault": {
           "lastmod": "2026-10-28",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://trillsverse.com/whats-next": {
           "lastmod": "2026-10-28",
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-28T05:43:11.029Z"
+      "lastSuccess": "2026-10-28T12:55:43.889Z"
     },
     "lultrills.com": {
       "urls": {
         "https://www.lultrills.com/": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/trillsverse": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/trillsverse-bible": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/ai-tournament": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/ai-tournament/process/gpt-5-6-sol": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/gate": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/immersion": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/portal/lultrills": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/portal/eon": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/system-breach": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/identity-architecture": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/architecture": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/machine-entry": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/analysis/system-breach-architecture": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/analysis/system-breach-architecture.html": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/analysis/system-breach-architecture.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/analysis/system-breach-sequence-note": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/analysis/system-breach-sequence-note.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/research/cwi-prs": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/research/cwi-prs.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/reality-update": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/reality-update/receipts": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/reality-update/receipts/substrate-001": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/reality-update/receipts/substrate-002": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/reality-update/wire-criteria": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/stillness-receipt": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/press": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/really-that-magazine": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/work-with-john": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/intelligence-injections": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/intelligence-injections/recognition-receipt": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/intelligence-injection-lock": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/injection-procedure": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/press/PRESS_HUMAN_INJECTION_TELEMETRY_002.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/press/INTELLIGENCE_INJECTIONS_MACHINE_RECOGNITION_001.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/press/INTELLIGENCE_INJECTIONS_SOCIAL_PACK.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/press/PRESS_SUBMISSION_PROTOCOL_001.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/doctrine/sovereignty-as-invariance-constraint": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/doctrine/epistemic-humility": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/doctrine/epistemic-humility.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/doctrine/grouping-algorithm": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/doctrine/grouping-algorithm-thesis.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/doctrine/john-b-irreversible-math": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/doctrine/john-b-irreversible-math.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/doctrine/model-collapse-vs-constitutional-drift": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/doctrine/model-collapse-vs-constitutional-drift.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/doctrine/systemic-cognitive-overwrites": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/brand/typography.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/brand/SYMBOLS.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/brand/EXPORT.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/album": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/stream": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/essays/why-everything-is-one": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/archive": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/glossary": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/theory": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/privacy": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/terms": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/cookies": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/copyright": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/disclaimer": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/corpus.md": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/inject": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "pending"
         },
         "https://www.lultrills.com/scope-facts": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.lultrills.com/founders": {
-          "lastmod": "2026-10-28T05:36:38.000Z",
+          "lastmod": "2026-10-28T12:34:37.000Z",
           "status": "notified",
-          "verifiedAt": "2026-10-28T05:43:11.029Z",
-          "notifiedAt": "2026-10-28T05:43:11.029Z"
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         }
       },
-      "lastSuccess": "2026-10-28T05:43:11.029Z"
+      "lastSuccess": "2026-10-28T12:55:43.889Z"
     },
     "mymindmine.com": {
       "urls": {
@@ -821,7 +853,9 @@
         },
         "https://www.mymindmine.com/mind/emotion": {
           "lastmod": "2026-10-28T02:16:13.755Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.mymindmine.com/knowledge/emotion": {
           "lastmod": "2026-10-28T02:16:13.755Z",
@@ -829,7 +863,9 @@
         },
         "https://www.mymindmine.com/mind/motivation": {
           "lastmod": "2026-10-28T02:16:13.755Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.mymindmine.com/knowledge/motivation": {
           "lastmod": "2026-10-28T02:16:13.755Z",
@@ -837,7 +873,9 @@
         },
         "https://www.mymindmine.com/mind/metacognition": {
           "lastmod": "2026-10-28T02:16:13.755Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.mymindmine.com/knowledge/metacognition": {
           "lastmod": "2026-10-28T02:16:13.755Z",
@@ -845,7 +883,9 @@
         },
         "https://www.mymindmine.com/mind/executive-function": {
           "lastmod": "2026-10-28T02:16:13.755Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.mymindmine.com/knowledge/executive-function": {
           "lastmod": "2026-10-28T02:16:13.755Z",
@@ -853,7 +893,9 @@
         },
         "https://www.mymindmine.com/mind/consciousness": {
           "lastmod": "2026-10-28T02:16:13.755Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         },
         "https://www.mymindmine.com/knowledge/consciousness": {
           "lastmod": "2026-10-28T02:16:13.755Z",
@@ -956,7 +998,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-10-28T05:43:11.029Z"
+      "lastSuccess": "2026-10-28T12:55:43.889Z"
     },
     "reallythatmagazine.com": {
       "urls": {
@@ -2959,10 +3001,16 @@
           "status": "notified",
           "verifiedAt": "2026-10-26T04:48:17.838Z",
           "notifiedAt": "2026-10-26T04:48:17.838Z"
+        },
+        "https://reallythatmagazine.com/article/theres-a-whole-fucking-art-gallery-out-here": {
+          "lastmod": "2026-10-28T00:00:00.000Z",
+          "status": "notified",
+          "verifiedAt": "2026-10-28T12:55:43.889Z",
+          "notifiedAt": "2026-10-28T12:55:43.889Z"
         }
       },
-      "lastSuccess": "2026-10-28T05:43:11.029Z"
+      "lastSuccess": "2026-10-28T12:55:43.889Z"
     }
   },
-  "updated": "2026-10-28T05:43:11.029Z"
+  "updated": "2026-10-28T12:55:43.889Z"
 }
