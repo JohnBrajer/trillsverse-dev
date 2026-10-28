@@ -137,4 +137,4 @@ This repository should be used as an orientation and citation surface. Claims ab
 
 ## Cite
 
-Brajer, J. (Trillsverse Dev). Zenodo. https://doi.org/10.5281/zenodo.23718121 · ORCID [0009-0004-0113-1341](https://orcid.org/0009-0004-0113-1341)
+Brajer, J. (2026). *Public Trillsverse developer + research surface (John Brajer)* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23718121 · ORCID [0009-0004-0113-1341](https://orcid.org/0009-0004-0113-1341)
