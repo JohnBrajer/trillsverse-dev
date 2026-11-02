@@ -1010,7 +1010,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-11-02T11:08:45.715Z"
+      "lastSuccess": "2026-11-02T21:43:06.376Z"
     },
     "reallythatmagazine.com": {
       "urls": {
@@ -3159,8 +3159,8 @@
           "notifiedAt": "2026-11-01T06:06:07.086Z"
         }
       },
-      "lastSuccess": "2026-11-02T11:08:45.715Z"
+      "lastSuccess": "2026-11-02T21:43:06.376Z"
     }
   },
-  "updated": "2026-11-02T11:08:45.715Z"
+  "updated": "2026-11-02T21:43:06.376Z"
 }
