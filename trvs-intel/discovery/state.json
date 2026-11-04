@@ -243,74 +243,106 @@
         },
         "https://trillsverse.com/portal/ace": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/portal/eon": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/portal/johnb": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/portal/kasano": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/portal/lultrills": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/privacy": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/resonance-chamber": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/scoreboard": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/signal-chamber": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/system-breach": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/terms": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/topology": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/tournaments": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/tournaments/agi-001": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/trillionaires": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/vault": {
           "lastmod": "2026-11-04",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://trillsverse.com/whats-next": {
           "lastmod": "2026-11-04",
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-11-04T06:23:31.561Z"
+      "lastSuccess": "2026-11-04T17:15:30.498Z"
     },
     "lultrills.com": {
       "urls": {
@@ -526,7 +558,9 @@
         },
         "https://www.lultrills.com/doctrine/epistemic-humility": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/doctrine/epistemic-humility.md": {
           "lastmod": "2026-10-25T19:16:19.875Z",
@@ -534,7 +568,9 @@
         },
         "https://www.lultrills.com/doctrine/grouping-algorithm": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/doctrine/grouping-algorithm-thesis.md": {
           "lastmod": "2026-10-25T19:16:19.875Z",
@@ -542,7 +578,9 @@
         },
         "https://www.lultrills.com/doctrine/john-b-irreversible-math": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/doctrine/john-b-irreversible-math.md": {
           "lastmod": "2026-10-25T19:16:19.875Z",
@@ -550,7 +588,9 @@
         },
         "https://www.lultrills.com/doctrine/model-collapse-vs-constitutional-drift": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/doctrine/model-collapse-vs-constitutional-drift.md": {
           "lastmod": "2026-10-25T19:16:19.875Z",
@@ -582,39 +622,57 @@
         },
         "https://www.lultrills.com/essays/why-everything-is-one": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/archive": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/glossary": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/theory": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/privacy": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/terms": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/cookies": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/copyright": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/disclaimer": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/corpus.md": {
           "lastmod": "2026-10-25T19:16:19.875Z",
@@ -622,7 +680,9 @@
         },
         "https://www.lultrills.com/inject": {
           "lastmod": "2026-10-25T19:16:19.875Z",
-          "status": "pending"
+          "status": "notified",
+          "verifiedAt": "2026-11-04T17:15:30.498Z",
+          "notifiedAt": "2026-11-04T17:15:30.498Z"
         },
         "https://www.lultrills.com/scope-facts": {
           "lastmod": "2026-10-25T19:16:19.875Z",
@@ -641,7 +701,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-11-04T06:23:31.561Z"
+      "lastSuccess": "2026-11-04T17:15:30.498Z"
     },
     "mymindmine.com": {
       "urls": {
@@ -982,7 +1042,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-11-04T06:23:31.561Z"
+      "lastSuccess": "2026-11-04T17:15:30.498Z"
     },
     "reallythatmagazine.com": {
       "urls": {
@@ -3131,8 +3191,8 @@
           "notifiedAt": "2026-11-01T06:06:07.086Z"
         }
       },
-      "lastSuccess": "2026-11-04T06:23:31.561Z"
+      "lastSuccess": "2026-11-04T17:15:30.498Z"
     }
   },
-  "updated": "2026-11-04T06:23:31.561Z"
+  "updated": "2026-11-04T17:15:30.498Z"
 }
