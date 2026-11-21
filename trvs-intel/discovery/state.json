@@ -342,7 +342,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-11-21T02:15:30.124Z"
+      "lastSuccess": "2026-11-21T11:02:02.530Z"
     },
     "lultrills.com": {
       "urls": {
@@ -701,7 +701,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-11-21T02:15:30.124Z"
+      "lastSuccess": "2026-11-21T11:02:02.530Z"
     },
     "mymindmine.com": {
       "urls": {
@@ -1042,7 +1042,7 @@
           "status": "pending"
         }
       },
-      "lastSuccess": "2026-11-21T02:15:30.124Z"
+      "lastSuccess": "2026-11-21T11:02:02.530Z"
     },
     "reallythatmagazine.com": {
       "urls": {
@@ -3191,8 +3191,8 @@
           "notifiedAt": "2026-11-01T06:06:07.086Z"
         }
       },
-      "lastSuccess": "2026-11-21T02:15:30.124Z"
+      "lastSuccess": "2026-11-21T11:02:02.530Z"
     }
   },
-  "updated": "2026-11-21T02:15:30.124Z"
+  "updated": "2026-11-21T11:02:02.530Z"
 }
